@@ -8,7 +8,7 @@ import {
 } from "reactstrap";
 import "../index.css";
 import logo from "../assets/img/brand/logo.png";
-import  {BarChart} from "./Components/Graphics"
+import  {BarChart1, BarChart2} from "./Components/Graphics"
 
 // import Comercial from "./Areas/Comercial";
 // import Implementacion from "./Areas/Implementacion";
@@ -292,7 +292,7 @@ class Index extends Component {
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Resumen Atención</span></h2>
                         
-                        <BarChart/>
+                        <BarChart1/>
                       </Col>
                       <Col xs="12">
                         <ul className="text-justify">
@@ -427,7 +427,7 @@ class Index extends Component {
                     <Row>
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Resumen Ventas nuevas</span></h2>
-                        <h2>Grafica 2</h2>
+                        <BarChart2/>
                       </Col>
                       <Col xs="12">
                         <ul class="text-justify">
