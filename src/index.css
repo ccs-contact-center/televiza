@@ -34,28 +34,13 @@ h3 {
 }
 
 li {
-  list-style: none;
   font-family: "Raleway", sans-serif;
   color: rgba(255, 255, 255, 0.7);
   text-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
   font-size: 1.1rem;
+  text-align: justify;
 }
-li:before {
-  font-family: "Raleway", sans-serif;
-  color: rgba(255, 255, 255, 0.7);
-  content: "";
-  display: inline-block;
-  height: 50px;
-  width: 50px;
-  background-size: 50px;
-  background-image: url(assets/img/check.gif);
-  background-repeat: no-repeat;
-  margin-right: 6px;
-  background-position: center center;
-  vertical-align: middle;
-  filter: invert(100%) sepia(0%) saturate(1%) hue-rotate(23deg) brightness(104%)
-    contrast(101%) opacity(70%);
-}
+
 
 .contentCheck{
   height: 200px;
