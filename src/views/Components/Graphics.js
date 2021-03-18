@@ -50,19 +50,22 @@ const optionsBar = {
 
 class BarChart extends Component {
   static defaultProps = {
-    data: [0, 0, 0]
+    data: [194, 199, 301, 93, 69, 36]
   };
 
   getData(dataProp) {
     var data = {
-      labels: ["2018", "2019", "2020"],
+      labels: ["Sep-20", "Oct-20", "Nov-20", "Dic-20", "Ene-21", "Feb-21"],
       datasets: [
         {
-          label: "",
+          label: "Conversión",
           backgroundColor: [
-            "rgba(192,3,39,0.6)",
             "rgba(192,3,39,0.7)",
-            "rgba(50,50,50,0.8)"
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)"
           ],
           data: dataProp
         }
@@ -79,6 +82,7 @@ class BarChart extends Component {
             <div className="chart-wrapper">
               <Bar
                 width={400}
+                height={150}
                 data={
                   isVisible ? () => this.getData(this.props.data) : [0, 0, 0]
                 }
@@ -146,4 +150,4 @@ class BarChartDoble extends Component {
     );
   }
 }
-export { BarChart, BarChartDoble };
+ export { BarChart, BarChartDoble };
