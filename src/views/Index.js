@@ -8,6 +8,7 @@ import {
 } from "reactstrap";
 import "../index.css";
 import logo from "../assets/img/brand/logo.png";
+import  {BarChart} from "./Components/Graphics"
 
 // import Comercial from "./Areas/Comercial";
 // import Implementacion from "./Areas/Implementacion";
@@ -290,7 +291,8 @@ class Index extends Component {
 
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Resumen Atención</span></h2>
-                        <h2>Grafica 1</h2>
+                        
+                        <BarChart/>
                       </Col>
                       <Col xs="12">
                         <ul className="text-justify">
