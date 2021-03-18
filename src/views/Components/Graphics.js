@@ -48,7 +48,7 @@ const optionsBar = {
   }
 };
 
-class BarChart extends Component {
+class BarChart1 extends Component {
   static defaultProps = {
     data: [194, 199, 301, 93, 69, 36]
   };
@@ -84,7 +84,55 @@ class BarChart extends Component {
                 width={400}
                 height={150}
                 data={
-                  isVisible ? () => this.getData(this.props.data) : [0, 0, 0]
+                  isVisible ? () => this.getData(this.props.data) : []
+                }
+                options={optionsBar}
+              />
+            </div>
+          );
+        }}
+      </VisibilitySensor>
+    );
+  }
+}
+
+class BarChart2 extends Component {
+  static defaultProps = {
+    data: [39, 35, 38, 52, 89, 85]
+  };
+
+  getData(dataProp) {
+    var data = {
+      labels: ["Sep-20", "Oct-20", "Nov-20", "Dic-20", "Ene-21", "Feb-21"],
+      datasets: [
+        {
+          label: "Conversión venta nueva",
+          backgroundColor: [
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)"
+          ],
+          data: dataProp
+        }
+      ]
+    };
+    return data;
+  }
+
+  render() {
+    return (
+      <VisibilitySensor>
+        {({ isVisible }) => {
+          return (
+            <div className="chart-wrapper">
+              <Bar
+                width={400}
+                height={150}
+                data={
+                  isVisible ? () => this.getData(this.props.data) : []
                 }
                 options={optionsBar}
               />
@@ -150,4 +198,4 @@ class BarChartDoble extends Component {
     );
   }
 }
- export { BarChart, BarChartDoble };
+ export { BarChart1, BarChart2, BarChartDoble };
