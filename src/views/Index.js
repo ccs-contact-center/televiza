@@ -8,7 +8,7 @@ import {
 } from "reactstrap";
 import "../index.css";
 import logo from "../assets/img/brand/logo.png";
-import  {BarChart1, BarChart2} from "./Components/Graphics"
+import { BarChart1, BarChart2, BarChart3, BarChart4, BarChart5, BarChart6, BarChart7, BarChart8, BarChart9 } from "./Components/Graphics"
 
 // import Comercial from "./Areas/Comercial";
 // import Implementacion from "./Areas/Implementacion";
@@ -291,8 +291,8 @@ class Index extends Component {
 
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Resumen Atención</span></h2>
-                        
-                        <BarChart1/>
+
+                        <BarChart1 />
                       </Col>
                       <Col xs="12">
                         <ul className="text-justify">
@@ -427,7 +427,7 @@ class Index extends Component {
                     <Row>
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Resumen Ventas nuevas</span></h2>
-                        <BarChart2/>
+                        <BarChart2 />
                       </Col>
                       <Col xs="12">
                         <ul class="text-justify">
@@ -446,8 +446,12 @@ class Index extends Component {
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Generales</span></h2>
                       </Col>
-                      <Col xs="12"><h1>Grafica 3</h1></Col>
-                      <Col xs="12"><h1>Grafica 4</h1></Col>
+                      <Col xs="6">
+                        <BarChart3 />
+                      </Col>
+                      <Col xs="6">
+                        <BarChart4 />
+                      </Col>
                       <Col xs="12">
                         <p>ATC: las llamadas se incrementaron ya que al mencionar que no hay sistema, los usuarios llamaban en repetidas ocasiones.
                         Clientes Nuevos: incremento de llamadas por promos y menciones y/o spots</p>
@@ -648,8 +652,8 @@ class Index extends Component {
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Tipificación</span></h2>
                       </Col>
-                      <Col xs="6"><p>Grafica 5</p></Col>
-                      <Col xs="6"><p>Grafica 6</p></Col>
+                      <Col xs="6"><BarChart5/></Col>
+                      <Col xs="6"><BarChart6/></Col>
                     </Row>
                   </Container>
                 </div>
@@ -661,7 +665,7 @@ class Index extends Component {
                         <h2 className="border border-bottom border-danger"><span>Capacitación</span></h2>
                       </Col>
                       <Col xs="12">
-                        <p>Grafica 7</p>
+                      <BarChart7/>
                       </Col>
                     </Row>
                   </Container>
@@ -708,8 +712,8 @@ class Index extends Component {
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Calidad</span></h2>
                       </Col>
-                      <Col xs="12"><p>grafica 8</p></Col>
-                      <Col xs="12"><p>grafica 9</p></Col>
+                      <Col xs="6"><BarChart8/></Col>
+                      <Col xs="6"><BarChart9/></Col>
                     </Row>
                   </Container>
                 </div>
@@ -752,11 +756,11 @@ class Index extends Component {
                             </tr>
                           </tbody>
                         </table>
-                        <p><b>Con un promedio ABC de:</b></p>
+                        <p className="text-left"><b>Con un promedio ABC de:</b></p>
                         <ul>
                           <li>93.02%</li>
                         </ul>
-                        <p><b>Clasificando en nivel:</b></p>
+                        <p className="text-left"><b>Clasificando en nivel:</b></p>
                         <ul>
                           <li>B</li>
                         </ul>
