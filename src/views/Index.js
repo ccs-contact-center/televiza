@@ -72,7 +72,7 @@ class Index extends Component {
                       }}
                     />
                     <ReactFitText>
-                      <h1 className="transparent">Resultados</h1>
+                      <h1 className="transparent">RESULTADOS</h1>
                     </ReactFitText>
                     <ReactFitText>
                       <h1 className="transparent">MENSUAL</h1>
