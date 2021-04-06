@@ -298,18 +298,7 @@ class Index extends Component {
                     </Row>
                   </Container>
                 </div>
-                {/*############################################################# AREAS #############################################################*/}
-
-                {/* <Comercial />
-                <Implementacion />
-                <RRHH />
-                <Capacitacion />
-                <Comunicacion />
-                <Operacion />
-                <TI />
-                <CommandCenter />
-                <Calidad />
-                <Procesos /> */}
+               
               </ReactFullpage.Wrapper>
             );
           }}
