@@ -109,7 +109,6 @@ class Index extends Component {
 
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Resumen Atención</span></h2>
-
                         <BarChart1 />
                       </Col>
                       <Col xs="12">
@@ -223,7 +222,6 @@ class Index extends Component {
                       </Col>
                       <Col xs="12">
                         <Tabla7 />
-
                       </Col>
                     </Row>
                   </Container>
@@ -249,7 +247,6 @@ class Index extends Component {
                       </Col>
                       <Col xs="12">
                         <Tabla8 />
-
                         <p className="text-left"><b>Con un promedio ABC de:</b></p>
                         <ul>
                           <li>93.02%</li>
@@ -271,11 +268,9 @@ class Index extends Component {
                       </Col>
                       <Col xs="6">
                         <Tabla9 />
-
                       </Col>
                       <Col xs="6">
                         <Tabla10 />
-
                       </Col>
                     </Row>
                   </Container>
