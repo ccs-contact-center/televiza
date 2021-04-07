@@ -21,7 +21,7 @@ import {
   Tabla9,
   Tabla10,
 } from "./Components/Tablas";
-
+import 'animate.css';
 
 class Index extends Component {
   render() {
@@ -64,13 +64,13 @@ class Index extends Component {
 
                     <ReactFitText>
 
-                      <h1 className="transparent">RESULTADOS</h1>
+                      <h1 className="transparent animated animate__backInLeft">RESULTADOS</h1>
                     </ReactFitText>
                     <ReactFitText>
-                      <h1 className="transparent">MENSUAL</h1>
+                      <h1 className="transparent animated animate__backInUp">MENSUAL</h1>
                     </ReactFitText>
                     <ReactFitText>
-                      <h1 className="transparent">ENERO</h1>
+                      <h1 className="transparent animated  animate__backInRight">ENERO</h1>
                     </ReactFitText>
                   </div>
                 </div>
@@ -82,7 +82,9 @@ class Index extends Component {
                         <h2 className="border border-bottom border-danger"><span>FEBRERO</span> <span>KPI´S</span></h2>
                       </Col>
                       <Col xs="6">
-                        <Tabla1 />
+                        <div className="animated animate__backInLeft">
+                          <Tabla1 />
+                        </div>
                       </Col>
                       <Col xs="6">
                         <Tabla2 />
@@ -247,14 +249,8 @@ class Index extends Component {
                       </Col>
                       <Col xs="12">
                         <Tabla8 />
-                        <p className="text-left"><b>Con un promedio ABC de:</b></p>
-                        <ul>
-                          <li>93.02%</li>
-                        </ul>
-                        <p className="text-left"><b>Clasificando en nivel:</b></p>
-                        <ul>
-                          <li>B</li>
-                        </ul>
+                        <p className="text-lef"><strong>Con un promedio ABC de:</strong> 93.02%.</p>  
+                        <p className="text-lef"><strong>Clasificando en nivel:</strong> B.</p>
                       </Col>
                     </Row>
                   </Container>
@@ -293,7 +289,7 @@ class Index extends Component {
                     </Row>
                   </Container>
                 </div>
-               
+
               </ReactFullpage.Wrapper>
             );
           }}
