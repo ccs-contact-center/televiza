@@ -181,10 +181,20 @@ class Index extends Component {
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Tipificación</span></h2>
                       </Col>
-                      <Col xs="6">
+                      <Col xs="12">
                         <Tabla5 />
                       </Col>
-                      <Col xs="6">
+                    </Row>
+                  </Container>
+                </div>
+
+                <div className="section">
+                  <Container>
+                    <Row>
+                      <Col xs="12">
+                        <h2 className="border border-bottom border-danger"><span>Tipificación</span></h2>
+                      </Col>
+                      <Col xs="12">
                         <Tabla6 />
                       </Col>
                     </Row>
@@ -197,8 +207,18 @@ class Index extends Component {
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Tipificación</span></h2>
                       </Col>
-                      <Col xs="6"><BarChart5 /></Col>
-                      <Col xs="6"><BarChart6 /></Col>
+                      <Col xs="12"><BarChart5 /></Col>
+                    </Row>
+                  </Container>
+                </div>
+
+                <div className="section">
+                  <Container>
+                    <Row>
+                      <Col xs="12">
+                        <h2 className="border border-bottom border-danger"><span>Tipificación</span></h2>
+                      </Col>
+                      <Col xs="12"><BarChart6 /></Col>
                     </Row>
                   </Container>
                 </div>
