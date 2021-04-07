@@ -287,8 +287,8 @@ class BarChart5 extends Component {
           return (
             <div className="chart-wrapper">
               <Bar
-                width={400}
-                height={350}
+                width={350}
+                height={150}
                 data={
                   isVisible ? () => this.getData(this.props.data) : []
                 }
@@ -346,8 +346,8 @@ class BarChart6 extends Component {
           return (
             <div className="chart-wrapper">
               <Bar
-                width={400}
-                height={350}
+                 width={350}
+                 height={150}
                 data={
                   isVisible ? () => this.getData(this.props.data) : []
                 }
