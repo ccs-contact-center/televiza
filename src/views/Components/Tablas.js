@@ -591,13 +591,13 @@ class Tabla9 extends Component {
                     </thead>
                     <tbody>
                         <tr>
-                            <td style={{ paddingBottom: "5px", paddingTop: "5px" }}>Dinámica de lectura/Durante la retroalimentación se proporciona una mini lectura focalizada a la venta con el fin de desarrollar el vocabulario del agente</td>
+                            <td style={{ paddingBottom: "19px", paddingTop: "19px" }}>Dinámica de lectura/Durante la retroalimentación se proporciona una mini lectura focalizada a la venta con el fin de desarrollar el vocabulario del agente</td>
                         </tr>
                         <tr>
-                            <td>Clinica –Conoce a tu cliente ,con el fin de conocer los tipos de cliente que actualmente trabajamos como poder ofertar y debatir mediante su modo.</td>
+                            <td style={{ paddingBottom: "19px", paddingTop: "19px" }}>Clinica –Conoce a tu cliente ,con el fin de conocer los tipos de cliente que actualmente trabajamos como poder ofertar y debatir mediante su modo.</td>
                         </tr>
                         <tr>
-                            <td>Taller de servicio y trato al cliente,al brindar un servicio de excelencia despejando dudas ofertando adicional y no generar tiempos de espera creamos esa fidelidad con el cliente.</td>
+                            <td style={{ paddingBottom: "19px", paddingTop: "19px" }}>Taller de servicio y trato al cliente,al brindar un servicio de excelencia despejando dudas ofertando adicional y no generar tiempos de espera creamos esa fidelidad con el cliente.</td>
                         </tr>
                     </tbody>
                 </table>
