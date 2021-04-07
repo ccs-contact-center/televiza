@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 import "./App.scss";
 import Loadable from "react-loadable";
+import {Spinner} from "reactstrap"
 const loading = () => (
-  <div className="animated fadeIn pt-3 text-center">Loading...</div>
+  <div className="animated fadeIn pt-3 text-center "><Spinner  color="danger" size="3" /></div>
 );
 
 // Pages
