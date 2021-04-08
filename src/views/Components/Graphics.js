@@ -2,9 +2,13 @@ import React, { Component } from "react";
 import "../../index.css";
 import "react-circular-progressbar/dist/styles.css";
 import VisibilitySensor from "react-visibility-sensor";
-import { Bar } from "react-chartjs-2";
+import { Bar, Pie } from "react-chartjs-2";
 
 const optionsBar = {
+  tooltips: {
+    show:true,
+    enabled: true
+  },
   legend: {
     display: false
   },
@@ -47,6 +51,19 @@ const optionsBar = {
     ]
   }
 };
+
+const optionsPie = {
+  maintainAspectRatio: false,
+  responsive: true,
+  
+  legend: {
+    position: 'left',
+    labels: {
+      boxWidth: 10
+    }
+  }
+}
+
 
 class BarChart1 extends Component {
   static defaultProps = {
@@ -244,34 +261,64 @@ class BarChart4 extends Component {
 }
 
 
-class BarChart5 extends Component {
+
+class PieChart5 extends Component {
   static defaultProps = {
-    data: [78, 19, 19, 176, 25, 35, 986, 22, 97, 689, 101, 912, 598, 84]
+    data: [19, 19, 22, 25, 35, 78, 84, 97, 101, 176, 598, 689, 912, 986,]
   };
 
   getData(dataProp) {
     var data = {
-      labels: ["APLICACIÓN DE PAGO", "CAMBIO DE REVISTA", "CAMBIO O CORRECCIÓN DE DATOS", "CANCELACIONES",
-        "DEVOLUCIÓN", "FACTURACIÓN", "INFORMACIÓN", "INVESTIGACIÓN CORREO", "NO VENTA", "OTROS",
-        "REPOSICIÓN", "SUSCRIPCIONES", "TRANSFERENCIA INTERNA", "VENTA CRUZADA"],
+      labels: [
+        "CAMBIO DE REVISTA",
+        "CAMBIO O CORRECCIÓN DE DATOS",
+        "INVESTIGACIÓN CORREO",
+        "TRANSFERENCIA INTERNA",
+        "DEVOLUCIÓN",
+        "FACTURACIÓN",
+        "APLICACIÓN DE PAGO",
+        "VENTA CRUZADA",
+        "NO VENTA",
+        "REPOSICIÓN",
+        "CANCELACIONES",
+        "OTROS",
+        "SUSCRIPCIONES",
+        "INFORMACIÓN",
+      ],
       datasets: [
         {
           label: "Tipificación",
           backgroundColor: [
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)"
+            "#194350",
+            "#206a5d",
+            "#ce1212",
+            "#798777",
+            "#f05945",
+            "#464f41",
+            "#56776c",
+            "#5b8a72",
+            "#2f5d62",
+            "#364547",
+            "#1e6f5c",
+            "#e84545",
+            "#424642",
+            "#40394a",
+          ],
+          hoverBackgroundColor: [
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
           ],
           data: dataProp
         }
@@ -286,13 +333,12 @@ class BarChart5 extends Component {
         {({ isVisible }) => {
           return (
             <div className="chart-wrapper">
-              <Bar
-                width={350}
-                height={150}
+              <Pie
+                width={300}
                 data={
                   isVisible ? () => this.getData(this.props.data) : []
                 }
-                options={optionsBar}
+                options={optionsPie}
               />
             </div>
           );
@@ -303,34 +349,124 @@ class BarChart5 extends Component {
 }
 
 
-class BarChart6 extends Component {
+
+
+// class BarChart5 extends Component {
+//   static defaultProps = {
+//     data: [78, 19, 19, 176, 25, 35, 986, 22, 97, 689, 101, 912, 598, 84]
+//   };
+
+//   getData(dataProp) {
+//     var data = {
+//       labels: ["APLICACIÓN DE PAGO", "CAMBIO DE REVISTA", "CAMBIO O CORRECCIÓN DE DATOS", "CANCELACIONES",
+//         "DEVOLUCIÓN", "FACTURACIÓN", "INFORMACIÓN", "INVESTIGACIÓN CORREO", "NO VENTA", "OTROS",
+//         "REPOSICIÓN", "SUSCRIPCIONES", "TRANSFERENCIA INTERNA", "VENTA CRUZADA"],
+//       datasets: [
+//         {
+//           label: "Tipificación",
+//           backgroundColor: [
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)"
+//           ],
+//           data: dataProp
+//         }
+//       ]
+//     };
+//     return data;
+//   }
+
+//   render() {
+//     return (
+//       <VisibilitySensor>
+//         {({ isVisible }) => {
+//           return (
+//             <div className="chart-wrapper">
+//               <Bar
+//                 width={350}
+//                 height={150}
+//                 data={
+//                   isVisible ? () => this.getData(this.props.data) : []
+//                 }
+//                 options={optionsBar}
+//               />
+//             </div>
+//           );
+//         }}
+//       </VisibilitySensor>
+//     );
+//   }
+// }
+
+
+class PieChart6 extends Component {
   static defaultProps = {
-    data: [53, 9, 28, 358, 8, 17, 554, 4, 5, 476, 287, 488, 43, 10]
+    data: [4, 5, 8, 9, 10, 17, 28, 43, 53, 287, 358, 476, 488, 554,]
   };
 
   getData(dataProp) {
     var data = {
-      labels: ["APLICACIÓN DE PAGO", "CAMBIO DE REVISTA", "CAMBIO O CORRECCIÓN DE DATOS", "CANCELACIONES",
-        "DEVOLUCIÓN", "FACTURACIÓN", "INFORMACIÓN", "INVESTIGACIÓN CORREO", "NO VENTA", "OTROS",
-        "REPOSICIÓN", "SUSCRIPCIONES", "TRANSFERENCIA INTERNA", "VENTA CRUZADA"],
+      labels: [
+        "INVESTIGACIÓN CORREO",
+        "NO VENTA",
+        "DEVOLUCIÓN",
+        "CAMBIO DE REVISTA",
+        "VENTA CRUZADA",
+        "FACTURACIÓN",
+        "CAMBIO O CORRECCIÓN DE DATOS",
+        "TRANSFERENCIA INTERNA",
+        "APLICACIÓN DE PAGO",
+        "REPOSICIÓN",
+        "CANCELACIONES",
+        "OTROS",
+        "SUSCRIPCIONES",
+        "INFORMACIÓN",
+      ],
       datasets: [
         {
           label: "Tipificación",
           backgroundColor: [
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)"
+            "#194350",
+            "#206a5d",
+            "#ce1212",
+            "#798777",
+            "#f05945",
+            "#464f41",
+            "#56776c",
+            "#5b8a72",
+            "#2f5d62",
+            "#364547",
+            "#1e6f5c",
+            "#e84545",
+            "#424642",
+            "#40394a",
+          ],
+          hoverBackgroundColor: [
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
           ],
           data: dataProp
         }
@@ -345,13 +481,12 @@ class BarChart6 extends Component {
         {({ isVisible }) => {
           return (
             <div className="chart-wrapper">
-              <Bar
-                 width={350}
-                 height={150}
+              <Pie
+                width={300}
                 data={
                   isVisible ? () => this.getData(this.props.data) : []
                 }
-                options={optionsBar}
+                options={optionsPie}
               />
             </div>
           );
@@ -360,6 +495,65 @@ class BarChart6 extends Component {
     );
   }
 }
+
+
+// class BarChart6 extends Component {
+//   static defaultProps = {
+//     data: [53, 9, 28, 358, 8, 17, 554, 4, 5, 476, 287, 488, 43, 10]
+//   };
+
+//   getData(dataProp) {
+//     var data = {
+//       labels: ["APLICACIÓN DE PAGO", "CAMBIO DE REVISTA", "CAMBIO O CORRECCIÓN DE DATOS", "CANCELACIONES",
+//         "DEVOLUCIÓN", "FACTURACIÓN", "INFORMACIÓN", "INVESTIGACIÓN CORREO", "NO VENTA", "OTROS",
+//         "REPOSICIÓN", "SUSCRIPCIONES", "TRANSFERENCIA INTERNA", "VENTA CRUZADA"],
+//       datasets: [
+//         {
+//           label: "Tipificación",
+//           backgroundColor: [
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)",
+//             "rgba(192,3,39,0.7)"
+//           ],
+//           data: dataProp
+//         }
+//       ]
+//     };
+//     return data;
+//   }
+
+//   render() {
+//     return (
+//       <VisibilitySensor>
+//         {({ isVisible }) => {
+//           return (
+//             <div className="chart-wrapper">
+//               <Bar
+//                 width={350}
+//                 height={150}
+//                 data={
+//                   isVisible ? () => this.getData(this.props.data) : []
+//                 }
+//                 options={optionsBar}
+//               />
+//             </div>
+//           );
+//         }}
+//       </VisibilitySensor>
+//     );
+//   }
+// }
 
 class BarChart7 extends Component {
   static defaultProps = {
@@ -458,7 +652,7 @@ class BarChart8 extends Component {
 
 class BarChart9 extends Component {
   static defaultProps = {
-    data: [25, 75, 0, 50,42,8]
+    data: [25, 75, 0, 50, 42, 8]
   };
 
   getData(dataProp) {
@@ -615,4 +809,4 @@ class BarChartDoble extends Component {
 //     );
 //   }
 // }
-export { BarChart1, BarChart2, BarChart3, BarChart4, BarChart5, BarChart6, BarChart7, BarChart8, BarChart9, BarChartDoble };
+export { BarChart1, BarChart2, BarChart3, BarChart4, PieChart5, PieChart6, BarChart7, BarChart8, BarChart9, BarChartDoble };
