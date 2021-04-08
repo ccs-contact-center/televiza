@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import pc from "../../assets/img/pc.png";
+import {  UncontrolledTooltip } from "reactstrap"
 
 class Tabla1 extends Component {
     render() {
@@ -515,22 +517,30 @@ class Tabla7 extends Component {
                     <thead>
                         <tr>
                             <th scope="col" className="bg-danger align-middle">PROMEDIO DNC</th>
-                            <th scope="col" className="align-middle text-center">97.00</th>
+                            <th scope="col" className="align-middle text-center text-white">97.00</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row" rowspan="4" className="bg-danger align-middle text-center">CURSOS</th>
-                            <td className="align-middle text-center">Tipificación</td>
-                        </tr>
-                        <tr>
-                            <td className="align-middle text-center">Políticas</td>
-                        </tr>
-                        <tr>
-                            <td className="align-middle text-center">Captura</td>
-                        </tr>
-                        <tr>
-                            <td className="align-middle text-center">Autopautaje</td>
+                            <th scope="row" className="bg-danger align-middle text-center">CURSOS</th>
+                            <td className="align-middle text-center">
+                                <img
+                                    src={pc}
+                                    width={400}
+                                    alt="pc.png"
+                                    className="img-fluid"
+                                    style={{
+                                        filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
+                                    }}
+                                    href="#" id="UncontrolledTooltipExample"
+                                />
+                                <UncontrolledTooltip placement="right" target="UncontrolledTooltipExample">
+                                    <span><p>Captura</p></span>
+                                    <span><p>Autopautaje</p></span>
+                                    <span className="align-text-top"><p>Tipificación</p></span>
+                                    <span className="align-text-bottom"><p>Políticas</p></span>
+                                </UncontrolledTooltip>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
