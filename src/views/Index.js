@@ -8,14 +8,16 @@ import {
 } from "reactstrap";
 import "../index.css";
 import logo from "../assets/img/brand/logo.png";
-import { BarChart1, BarChart2, BarChart3, BarChart4, BarChart5, BarChart6, BarChart7, BarChart8, BarChart9 } from "./Components/Graphics"
+import { 
+  BarChart1, BarChart2, BarChart3, BarChart4, PieChart5, PieChart6, BarChart7, BarChart8, BarChart9 
+} from "./Components/Graphics"
 import {
   Tabla1,
   Tabla2,
   Tabla3,
   Tabla4,
-  Tabla5,
-  Tabla6,
+  // Tabla5,
+  // Tabla6,
   Tabla7,
   Tabla8,
   Tabla9,
@@ -83,7 +85,7 @@ class Index extends Component {
                       </Col>
                       <Col xs="6">
                         <div className="animated animate__backInLeft">
-                          <Tabla1 />
+                          < Tabla1 />
                         </div>
                       </Col>
                       <Col xs="6">
@@ -175,31 +177,33 @@ class Index extends Component {
                   </Container>
                 </div>
 
-                <div className="section">
+                {/* <div className="section">
                   <Container>
                     <Row>
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Tipificación</span></h2>
                       </Col>
                       <Col xs="12">
+                        <p>se va</p>
                         <Tabla5 />
                       </Col>
                     </Row>
                   </Container>
-                </div>
+                </div> */}
 
-                <div className="section">
+                {/* <div className="section">
                   <Container>
                     <Row>
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Tipificación</span></h2>
                       </Col>
                       <Col xs="12">
+                        <p>se va</p>
                         <Tabla6 />
                       </Col>
                     </Row>
                   </Container>
-                </div>
+                </div> */}
 
                 <div className="section">
                   <Container>
@@ -207,7 +211,7 @@ class Index extends Component {
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Tipificación</span></h2>
                       </Col>
-                      <Col xs="12"><BarChart5 /></Col>
+                      <Col xs="12"><PieChart5 /></Col>
                     </Row>
                   </Container>
                 </div>
@@ -218,7 +222,7 @@ class Index extends Component {
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Tipificación</span></h2>
                       </Col>
-                      <Col xs="12"><BarChart6 /></Col>
+                      <Col xs="12"><PieChart6 /></Col>
                     </Row>
                   </Container>
                 </div>
@@ -230,6 +234,7 @@ class Index extends Component {
                         <h2 className="border border-bottom border-danger"><span>Capacitación</span></h2>
                       </Col>
                       <Col xs="12">
+                        <p>barras y puntos con %</p>
                         <BarChart7 />
                       </Col>
                     </Row>
@@ -268,8 +273,10 @@ class Index extends Component {
                         <h2 className="border border-bottom border-danger"><span>Calidad</span></h2>
                       </Col>
                       <Col xs="12">
+
                         <Tabla8 />
-                        <p className="text-lef"><strong>Con un promedio ABC de:</strong> 93.02%.</p>  
+
+                        <p className="text-lef"><strong>Con un promedio ABC de:</strong> 93.02%.</p>
                         <p className="text-lef"><strong>Clasificando en nivel:</strong> B.</p>
                       </Col>
                     </Row>
