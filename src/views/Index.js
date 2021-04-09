@@ -9,8 +9,9 @@ import {
 import "../index.css";
 import logo from "../assets/img/brand/logo.png";
 import { 
-  BarChart1, BarChart2, BarChart3, BarChart4, PieChart5, PieChart6, BarChart7, BarChart8, BarChart9 
-} from "./Components/Graphics"
+  BarChart1, BarChart2, BarChart3, BarChart4, PieChart5, PieChart6,  BarChart8, BarChart9 
+} from "./Components/Graphics";
+import MixChar7 from "./Components/MixChart"
 import {
   Tabla1,
   Tabla2,
@@ -85,7 +86,8 @@ class Index extends Component {
                       </Col>
                       <Col xs="6">
                         <div className="animated animate__backInLeft">
-                          < Tabla1 />
+                           < Tabla1 /> 
+                           
                         </div>
                       </Col>
                       <Col xs="6">
@@ -234,8 +236,8 @@ class Index extends Component {
                         <h2 className="border border-bottom border-danger"><span>Capacitación</span></h2>
                       </Col>
                       <Col xs="12">
-                        <p>barras y puntos con %</p>
-                        <BarChart7 />
+                        
+                        <MixChar7/>
                       </Col>
                     </Row>
                   </Container>
