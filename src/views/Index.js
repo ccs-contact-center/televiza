@@ -211,7 +211,7 @@ class Index extends Component {
                   <Container>
                     <Row>
                       <Col xs="12">
-                        <h2 className="border border-bottom border-danger"><span>Tipificación</span></h2>
+                        <h2 className="border border-bottom border-danger"><span>Tipificación In</span></h2>
                       </Col>
                       <Col xs="12"><PieChart5 /></Col>
                     </Row>
@@ -222,7 +222,7 @@ class Index extends Component {
                   <Container>
                     <Row>
                       <Col xs="12">
-                        <h2 className="border border-bottom border-danger"><span>Tipificación</span></h2>
+                        <h2 className="border border-bottom border-danger"><span>Tipificación Out</span></h2>
                       </Col>
                       <Col xs="12"><PieChart6 /></Col>
                     </Row>
