@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import pc from "../../assets/img/pc.png";
-import {  UncontrolledTooltip } from "reactstrap"
+import { UncontrolledTooltip } from "reactstrap"
 
 class Tabla1 extends Component {
     render() {
@@ -92,6 +92,100 @@ class Tabla2 extends Component {
         )
     }
 }
+
+
+class TablaK1 extends Component {
+    render() {
+        return (
+            <div>
+                <table className="table table-bordered" >
+                    <thead>
+                        <tr className="bg-danger">
+                            <th scope="col">Niveles de Servicio</th>
+                            <th scope="col">Atención a Clientes </th>
+                            <th scope="col">MARZO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" className="bg-danger">SVL</th>
+                            <td>35.00%</td>
+                            <td>50.00%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">ABA</th>
+                            <td>&#60; 5%</td>
+                            <td>16%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">AHT</th>
+                            <td>00:05:30</td>
+                            <td className="text-danger"><b>00:06:29</b></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">ASA</th>
+                            <td>&#60; 00:00:20</td>
+                            <td>&#60; 00:01:23</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">Productividad / conversión</th>
+                            <td>50% </td>
+                            <td>48% </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        );
+    }
+
+}
+
+class TablaK2 extends Component {
+    render() {
+        return (
+            <div>
+                <table className="table table-bordered" >
+                    <thead>
+                        <tr className="bg-danger">
+                            <th scope="col">Niveles de Servicio</th>
+                            <th scope="col">Ventas </th>
+                            <th scope="col">MARZO</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" className="bg-danger">SVL</th>
+                            <td>95.00%</td>
+                            <td class="text-danger"><b>61%</b></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">ABA</th>
+                            <td>&#60;5%</td>
+                            <td>23%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">AHT</th>
+                            <td>00:04:30</td>
+                            <td>00:06:54</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">ASA</th>
+                            <td>&#60; 00:00:20</td>
+                            <td>&#60; 00:01:15</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">Productividad / conversión</th>
+                            <td>90% </td>
+                            <td class="text-danger"><b>101.00%</b></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
+    }
+}
+
+
 
 class Tabla3 extends Component {
     render() {
@@ -205,6 +299,129 @@ class Tabla3 extends Component {
     }
 }
 
+class TablaI3 extends Component {
+    render() {
+        return (
+            <table className="table table-bordered">
+                <thead>
+                    <tr className="bg-danger">
+                        <th scope="col">INDICADORES ATENCION</th>
+                        <th scope="col">sep-20</th>
+                        <th scope="col">oct-20</th>
+                        <th scope="col">nov-20 </th>
+                        <th scope="col">dic-20</th>
+                        <th scope="col">ene-21 </th>
+                        <th scope="col">feb-21</th>
+                        <th scope="col">mar-21</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Llamadas Recibidas Atencion</th>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,880</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,456</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,761</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>3,269 </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>2,255</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>4,035</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>3,385</td>
+                    </tr>
+                    <tr>
+                        <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Llamadas atendidas</th>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,853</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,444</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,739</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>3,016</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,956</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>3,841</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>2,854</td>
+                    </tr>
+                    <tr>
+                        <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Llamadas atendidas de venta</th>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>202 </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>187</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>146 </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>249</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,051</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>755</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>578</td>
+                    </tr>
+                    <tr>
+                        <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Llamada abandonadas</th>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>27</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>12</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>22</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>253</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>299</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>194</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>531</td>
+                    </tr>
+                    <tr>
+                        <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Nivel de Servicio</th>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>94%</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>91%</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>96%</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>87%</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>100%</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>74%</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>55%</td>
+                    </tr>
+                    <tr>
+                        <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">% de Abandono ATN </th>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1.4% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>0.8% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1.2% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>8.0% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>13.00% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>5.0% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>16.00%</td>
+                    </tr>
+                    <tr>
+                        <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">AHT</th>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:05:39</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:06:21</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:06:49</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:06:07</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:06:14</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:04:04</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:06:29</td>
+                    </tr>
+                    <tr>
+                        <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Nivel de Atención </th>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>99% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>99% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>99% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>92% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>87% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>95% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>84% </td>
+                    </tr>
+                    <tr>
+                        <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Ventas</th>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>392</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>372</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>439</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1382</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>727</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>272</td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>279</td>
+                    </tr>
+                    <tr>
+                        <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>Conversión</th>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>194% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>199% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>301% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>93% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>69% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>36% </td>
+                        <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>48% </td>
+                    </tr>
+                </tbody>
+            </table>
+        )
+    }
+}
+
 class Tabla4 extends Component {
     render() {
         return (
@@ -311,6 +528,134 @@ class Tabla4 extends Component {
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>52% </td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>89% </td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>85% </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
+    }
+}
+
+class TablaRVN4 extends Component {
+    render() {
+        return (
+            <div>
+
+
+
+                <table className="table table-bordered">
+                    <thead>
+                        <tr className="bg-danger">
+                            <th scope="col">INDICADORES VENTA NUEVA</th>
+                            <th scope="col">sep-20</th>
+                            <th scope="col">oct-20</th>
+                            <th scope="col">nov-20 </th>
+                            <th scope="col">dic-20</th>
+                            <th scope="col">ene-21 </th>
+                            <th scope="col">feb-21</th>
+                            <th scope="col">mar-21</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Llamadas Recibidas VENTA NUEVA</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,092</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,033</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,864</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>5,156 </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>2,947</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>4,110</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>6,118</td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Llamadas atendidas</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,039</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,025</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,791</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>4,319</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>2,407</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>3,691</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>4,709</td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Llamadas con peticion de venta</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>344 </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>370</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>646 </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,185</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>684</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>807</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1871</td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Llamada abandonadas</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>53</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>8</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>73</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>837</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>540</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>419</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1409</td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Nivel de Servicio</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>94%%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>96%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>94%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>78%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>100%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>76%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>61%</td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">% de Abandono venta nueva </th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>5% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>4% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>16% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>18% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>10% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>23% </td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">AHT</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:05:33</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:06:06</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:04:07</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:04:34</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:05:34</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:04:06</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:06:54</td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Nivel de Atención </th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>95% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>99% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>96% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>84% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>82% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>90% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>77% </td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Ventas</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>135</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>129</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>243</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>620</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>611</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>688</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1890</td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Conversión</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>39% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>35% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>38% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>52% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>89% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>85% </td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>101%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -647,8 +992,1003 @@ class Tabla10 extends Component {
                     </tbody>
                 </table>
             </div>
+
+            
         )
     }
 }
 
-export { Tabla1, Tabla2, Tabla3, Tabla4, Tabla5, Tabla6, Tabla7, Tabla8, Tabla9, Tabla10, };
+class TablaTipi1 extends Component {
+    render() {
+        return (
+            <div>
+                <table className="table table-responsive table-bordered " >
+                    <thead>
+                        <tr className="bg-danger">
+                            <th scope="col" className="align-middle">FECHA</th>
+                            <th scope="col" className="align-middle">Aplicación de pago </th>
+                            <th scope="col" className="align-middle">Cambio de revista</th>
+                            <th scope="col" className="align-middle">Cambio o corrección de datos</th>
+                            <th scope="col" className="align-middle">Cancelaciones</th>
+                            <th scope="col" className="align-middle">Devolución</th>
+                            <th scope="col" className="align-middle">Facturación</th>
+                            <th scope="col" className="align-middle">Información</th>
+                            <th scope="col" className="align-middle">Investigación correo</th>
+                            <th scope="col" className="align-middle">No relacionadas</th>
+                            <th scope="col" className="align-middle">No venta</th>
+                            <th scope="col" className="align-middle">Renovación</th>
+                            <th scope="col" className="align-middle">Renovación con revista adicional</th>
+                            <th scope="col" className="align-middle">Reposición</th>
+                            <th scope="col" className="align-middle">Suscripción nueva</th>
+                            <th scope="col" className="align-middle">Suscripción nueva con rev adicional</th>
+                            <th scope="col" className="align-middle">Transferencia interna</th>
+                            <th scope="col" className="bg-danger align-middle">TOTAL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" className="bg-danger">lunes 1 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">12</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">205</td>
+                            <td></td>
+                            <td className="align-middle">9</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">24</td>
+                            <td className="align-middle">5</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">15</td>
+                            <td className="align-middle">274</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">martes 2 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">8</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">181</td>
+                            <td></td>
+                            <td className="align-middle">6</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">19</td>
+                            <td className="align-middle">7</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">7</td>
+                            <td className="align-middle">234</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">miércoles 3 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">10</td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">225</td>
+                            <td></td>
+                            <td className="align-middle">8</td>
+                            <td className="align-middle">2</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">13</td>
+                            <td className="align-middle">10</td>
+                            <td className="align-middle">5</td>
+                            <td className="align-middle">11</td>
+                            <td className="align-middle">286</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">jueves 4 de marzo</th>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td></td>
+                            <td className="align-middle">7</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">181</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">17</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">16</td>
+                            <td className="align-middle">12</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">8</td>
+                            <td className="align-middle">246</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">sábado 6 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">38</td>
+                            <td></td>
+                            <td className="align-middle">4</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">4</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">51</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">domingo 7 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">lunes 8 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">4</td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">188</td>
+                            <td></td>
+                            <td className="align-middle">12</td>
+                            <td className="align-middle">2</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">13</td>
+                            <td className="align-middle">7</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">17</td>
+                            <td className="align-middle">248</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">martes 9 de marzo</th>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">9</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">58</td>
+                            <td></td>
+                            <td className="align-middle">6</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">28</td>
+                            <td className="align-middle">17</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">123</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">miercoles 9 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">12</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">48</td>
+                            <td></td>
+                            <td className="align-middle">9</td>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">19</td>
+                            <td className="align-middle">13</td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">109</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">jueves 11 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">5</td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">63</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">6</td>
+                            <td className="align-middle">5</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">17</td>
+                            <td className="align-middle">20</td>
+                            <td className="align-middle">5</td>
+                            <td></td>
+                            <td className="align-middle">127</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">viernes 12 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">8</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">54</td>
+                            <td></td>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">20</td>
+                            <td className="align-middle">10</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">102</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">sábado 13 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">5</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">21</td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">31</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">domingo 14 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">lunes 15 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">61</td>
+                            <td></td>
+                            <td className="align-middle">5</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">70</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">martes 16 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">6</td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">148</td>
+                            <td></td>
+                            <td className="align-middle">6</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">9</td>
+                            <td className="align-middle">6</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td className="align-middle">177</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">miercoles 17 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">5</td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">76</td>
+                            <td></td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">16</td>
+                            <td className="align-middle">12</td>
+                            <td className="align-middle">4</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">122</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">jueves 18 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">57</td>
+                            <td></td>
+                            <td className="align-middle">14</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">11</td>
+                            <td className="align-middle">15</td>
+                            <td className="align-middle">2</td>
+                            <td></td>
+                            <td className="align-middle">103</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">viernes 19 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">11</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">54</td>
+                            <td></td>
+                            <td className="align-middle">9</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">9</td>
+                            <td className="align-middle">7</td>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td className="align-middle">94</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">sábado 20 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">14</td>
+                            <td></td>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">18</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">domingo 21 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">lunes 22 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">9</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">69</td>
+                            <td></td>
+                            <td className="align-middle">18</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">16</td>
+                            <td className="align-middle">13</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">129</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">martes 23 de marzo</th>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">4</td>
+                            <td className="align-middle">7</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td className="align-middle">49</td>
+                            <td></td>
+                            <td className="align-middle">7</td>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">14</td>
+                            <td className="align-middle">13</td>
+                            <td className="align-middle">2</td>
+                            <td></td>
+                            <td className="align-middle">102</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">miercoles 24 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">10</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">47</td>
+                            <td></td>
+                            <td className="align-middle">4</td>
+                            <td className="align-middle">2</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">14</td>
+                            <td className="align-middle">11</td>
+                            <td className="align-middle">2</td>
+                            <td></td>
+                            <td className="align-middle">92</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">jueves 25 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">12</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">62</td>
+                            <td></td>
+                            <td className="align-middle">12</td>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">16</td>
+                            <td className="align-middle">11</td>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td className="align-middle">124</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">viernes 26 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">8</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td className="align-middle">50</td>
+                            <td></td>
+                            <td className="align-middle">8</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">13</td>
+                            <td className="align-middle">11</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">94</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">sábado 27 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">4</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">22</td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td className="align-middle">34</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">domingo 20 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">lunes 29 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">5</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">58</td>
+                            <td></td>
+                            <td className="align-middle">7</td>
+                            <td className="align-middle">7</td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">12</td>
+                            <td className="align-middle">10</td>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td className="align-middle">108</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">martes 30 de marzo</th>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td className="align-middle">9</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">57</td>
+                            <td></td>
+                            <td className="align-middle">15</td>
+                            <td className="align-middle">5</td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">9</td>
+                            <td className="align-middle">8</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">106</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">miercoles 31 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">9</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">34</td>
+                            <td></td>
+                            <td className="align-middle">7</td>
+                            <td className="align-middle">9</td>
+                            <td></td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">17</td>
+                            <td className="align-middle">19</td>
+                            <td className="align-middle">5</td>
+                            <td></td>
+                            <td className="align-middle">104</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">TOTAL</th>
+                            <td></td>
+                            <td className="align-middle">6</td>
+                            <td className="align-middle">28</td>
+                            <td className="align-middle">189</td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">10</td>
+                            <td className="align-middle">2,276</td>
+                            <td className="align-middle">4</td>
+                            <td className="align-middle">212</td>
+                            <td className="align-middle">46</td>
+                            <td></td>
+                            <td className="align-middle">18</td>
+                            <td className="align-middle">347</td>
+                            <td className="align-middle">255</td>
+                            <td className="align-middle">54</td>
+                            <td className="align-middle">72 </td>
+                            <td className="align-middle text-danger" style={{ fontSize: "20px", }}><strong>3,520</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        );
+    }
+}
+
+
+class TablaTipi2 extends Component {
+    render() {
+        return (
+            <div>
+                <table className="table table-bordered" >
+                    <thead>
+                        <tr className="bg-danger">
+                            <th scope="col" className="align-middle">FECHA</th>
+                            <th scope="col" className="align-middle">Atención a Clientes</th>
+                            <th scope="col" className="align-middle">No relacionadas</th>
+                            <th scope="col" className="align-middle">No Venta</th>
+                            <th scope="col" className="align-middle">Suscripción nueva con rev adicional</th>
+                            <th scope="col" className="align-middle">Transferencia interna</th>
+                            <th scope="col" className="align-middle">Suscripción nueva</th>
+                            <th scope="col" className="bg-danger align-middle">TOTAL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" className="bg-danger">lunes 1 de marzo</th>
+                            <td>6</td>
+                            <td>46</td>
+                            <td>36</td>
+                            <td>5</td>
+                            <td>136</td>
+                            <td>23</td>
+                            <td>252</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">martes 2 de marzo</th>
+                            <td>22</td>
+                            <td>28</td>
+                            <td>23</td>
+                            <td>10</td>
+                            <td>129</td>
+                            <td>53</td>
+                            <td>265</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">miércoles 3 de marzo</th>
+                            <td>9</td>
+                            <td>22</td>
+                            <td>18</td>
+                            <td>9</td>
+                            <td>140</td>
+                            <td>41</td>
+                            <td>239</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">jueves 4 de marzo</th>
+                            <td>5</td>
+                            <td>24</td>
+                            <td>11</td>
+                            <td>6</td>
+                            <td>132</td>
+                            <td>49</td>
+                            <td>227</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">viernes 5 de marzo</th>
+                            <td>7</td>
+                            <td>27</td>
+                            <td>4</td>
+                            <td>8</td>
+                            <td>123</td>
+                            <td>55</td>
+                            <td>224</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">sábado 6 de marzo</th>
+                            <td>2</td>
+                            <td>9</td>
+                            <td>11</td>
+                            <td></td>
+                            <td>31</td>
+                            <td>27</td>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">domingo 7 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">lunes 8 de marzo</th>
+                            <td>5</td>
+                            <td>19</td>
+                            <td>16</td>
+                            <td>10</td>
+                            <td>124</td>
+                            <td>47</td>
+                            <td>221</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">martes 9 de marzo</th>
+                            <td>9</td>
+                            <td>2</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>40</td>
+                            <td>50</td>
+                            <td>116</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">miércoles 10 de marzo</th>
+                            <td>13</td>
+                            <td>10</td>
+                            <td>9</td>
+                            <td>7</td>
+                            <td></td>
+                            <td>66</td>
+                            <td>105</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">jueves 11 de marzo</th>
+                            <td>14</td>
+                            <td>17</td>
+                            <td>8</td>
+                            <td>9</td>
+                            <td>2</td>
+                            <td>75</td>
+                            <td>125</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">viernes 12 de marzo</th>
+                            <td>22</td>
+                            <td>12</td>
+                            <td>7</td>
+                            <td>6</td>
+                            <td></td>
+                            <td>60</td>
+                            <td>107</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">sábado 13 de marzo</th>
+                            <td></td>
+                            <td>4</td>
+                            <td>7</td>
+                            <td>6</td>
+                            <td></td>
+                            <td>10</td>
+                            <td>27</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">domingo 14 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">lunes 15 de marzo</th>
+                            <td>1</td>
+                            <td>1</td>
+                            <td>9</td>
+                            <td>3</td>
+                            <td>1</td>
+                            <td>32</td>
+                            <td>47</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">martes 16 de marzo</th>
+                            <td>19</td>
+                            <td>8</td>
+                            <td>18</td>
+                            <td>11</td>
+                            <td>2</td>
+                            <td>56</td>
+                            <td>114</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">miércoles 17 de marzo</th>
+                            <td>10</td>
+                            <td>14</td>
+                            <td>6</td>
+                            <td>8</td>
+                            <td></td>
+                            <td>63</td>
+                            <td>101</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">jueves 18 de marzo</th>
+                            <td>3</td>
+                            <td>7</td>
+                            <td>8</td>
+                            <td>10</td>
+                            <td>1</td>
+                            <td>61</td>
+                            <td>90</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">viernes 19 de marzo</th>
+                            <td>7</td>
+                            <td>7</td>
+                            <td>9</td>
+                            <td>11</td>
+                            <td>1</td>
+                            <td>47</td>
+                            <td>82</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">sábado 20 de marzo</th>
+                            <td>5</td>
+                            <td></td>
+                            <td>3</td>
+                            <td></td>
+                            <td></td>
+                            <td>16</td>
+                            <td>24</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">domingo 21 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">lunes 22 de marzo</th>
+                            <td>16</td>
+                            <td>17</td>
+                            <td>9</td>
+                            <td>15</td>
+                            <td></td>
+                            <td>73</td>
+                            <td>130</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">martes 23 de marzo</th>
+                            <td>14</td>
+                            <td>18</td>
+                            <td>9</td>
+                            <td>8</td>
+                            <td></td>
+                            <td>75</td>
+                            <td>124</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">miércoles 24 de marzo</th>
+                            <td>15</td>
+                            <td>20</td>
+                            <td>8</td>
+                            <td>7</td>
+                            <td></td>
+                            <td>66</td>
+                            <td>116</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">jueves 25 de marzo</th>
+                            <td>19</td>
+                            <td>18</td>
+                            <td>13</td>
+                            <td>9</td>
+                            <td></td>
+                            <td>57</td>
+                            <td>116</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">viernes 26 de marzo</th>
+                            <td>10</td>
+                            <td>11</td>
+                            <td>7</td>
+                            <td>5</td>
+                            <td></td>
+                            <td>62</td>
+                            <td>95</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">sábado 27 de marzo</th>
+                            <td>2</td>
+                            <td>5</td>
+                            <td>5</td>
+                            <td>10</td>
+                            <td></td>
+                            <td>20</td>
+                            <td>42</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">domingo 28 de marzo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">lunes 29 de marzo</th>
+                            <td>19</td>
+                            <td>9</td>
+                            <td>14</td>
+                            <td>10</td>
+                            <td></td>
+                            <td>78</td>
+                            <td>130</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">martes 30 de marzo</th>
+                            <td>16</td>
+                            <td>13</td>
+                            <td>12</td>
+                            <td>8</td>
+                            <td></td>
+                            <td>79</td>
+                            <td>128</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">TOTAL</th>
+                            <td>280</td>
+                            <td>371</td>
+                            <td>292</td>
+                            <td>274</td>
+                            <td>862</td>
+                            <td>1,341</td>
+                            <td className="align-middle text-danger" style={{ fontSize: "20px", }}><strong>3,420</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
+    }
+}
+
+export { 
+    Tabla1, Tabla2, TablaK1, TablaK2, Tabla3, TablaI3, Tabla4, TablaRVN4, Tabla5, Tabla6, Tabla7, Tabla8, Tabla9,
+     Tabla10, TablaTipi1, TablaTipi2 };
