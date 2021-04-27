@@ -934,6 +934,51 @@ class Tabla8 extends Component {
     }
 }
 
+class TablaCalidad8 extends Component {
+    render() {
+        return (
+            <div>
+                <table className="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col" className="bg-danger">Calidad ABC</th>
+                            <th scope="col" className="bg-danger">Enero-21</th>
+                            <th scope="col" className="bg-danger">Febrero-21</th>
+                            <th scope="col" className="bg-danger">Marzo-21</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" className="bg-danger">A</th>
+                            <td>58%</td>
+                            <td>54%</td>
+                            <td>29%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">B</th>
+                            <td>42%</td>
+                            <td>38%</td>
+                            <td>71%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">C</th>
+                            <td>0%</td>
+                            <td>8%</td>
+                            <td>0%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">Total</th>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
+    }
+}
+
 class Tabla9 extends Component {
     render() {
         return (
@@ -1990,5 +2035,5 @@ class TablaTipi2 extends Component {
 }
 
 export { 
-    Tabla1, Tabla2, TablaK1, TablaK2, Tabla3, TablaI3, Tabla4, TablaRVN4, Tabla5, Tabla6, Tabla7, Tabla8, Tabla9,
+    Tabla1, Tabla2, TablaK1, TablaK2, Tabla3, TablaI3, Tabla4, TablaRVN4, Tabla5, Tabla6, Tabla7, Tabla8, TablaCalidad8, Tabla9,
      Tabla10, TablaTipi1, TablaTipi2 };
