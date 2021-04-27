@@ -689,20 +689,77 @@ class BarChart8 extends Component {
 
 
 class BarChart9 extends Component {
-  static defaultProps = {
-    data: [25, 75, 0, 50, 42, 8]
-  };
-
   getData(dataProp) {
     var data = {
-      labels: [" ", " Enero", " ", " ", "Febrero", " ",],
+      labels: ["Enero", "Febrero"],
       datasets: [
         {
-          label: "ABC",
+          label: "",
+          backgroundColor: [
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+          ],
+          data: [25, 50]
+        },
+
+        {
+          label: "",
           backgroundColor: [
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
+          ],
+          data: [75 , 42]
+        },
+        {
+          label: "",
+          backgroundColor: [
+            "rgba(192,3,39,0.7)", 
+            "rgba(192,3,39,0.7)", 
+          ],
+          data: [null, 8]
+        },
+      ]
+    };
+    return data;
+  }
+
+  render() {
+    return (
+      <VisibilitySensor>
+        {({ isVisible }) => {
+          return (
+            <div className="chart-wrapper">
+              <Bar
+                 width={400}
+                 height={350}
+                data={
+                  isVisible ? () => this.getData(this.props.data) : []
+                }
+                options={optionsBar}
+              />
+            </div>
+          );
+        }}
+      </VisibilitySensor>
+    );
+  }
+}
+
+
+
+class BarChartMar9 extends Component {
+  static defaultProps = {
+    data: [94.29, 93.02, 91.09]
+  };
+
+  getData(dataProp) {
+    var data = {
+      labels: [" Enero", "Febrero", "Marzo ",],
+      datasets: [
+        {
+          label: "QA Anual           ",
+          backgroundColor: [
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
@@ -722,7 +779,6 @@ class BarChart9 extends Component {
             <div className="chart-wrapper">
               <Bar
                 width={400}
-                height={350}
                 data={
                   isVisible ? () => this.getData(this.props.data) : []
                 }
@@ -738,33 +794,39 @@ class BarChart9 extends Component {
 
 
 class BarChartDoble extends Component {
-  static defaultProps = {
-    data1: [0, 0, 0],
-    data2: [0, 0, 0]
-  };
+  
 
   getData(dataProp) {
     var data = {
-      labels: ["2018", "2019", "2020"],
+      labels: ["Enero", "Febrero", "Marzo"],
       datasets: [
         {
           label: "",
           backgroundColor: [
-            "rgba(192,3,39,0.6)",
             "rgba(192,3,39,0.7)",
-            "rgba(50,50,50,0.8)"
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
           ],
-          data: dataProp[0]
+          data: [58, 54, 29]
         },
 
         {
           label: "",
           backgroundColor: [
-            "rgba(192,3,39,0.6)",
             "rgba(192,3,39,0.7)",
-            "rgba(50,50,50,0.8)"
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
           ],
-          data: dataProp[1]
+          data: [42, 38, 8]
+        },
+        {
+          label: "",
+          backgroundColor: [
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+          ],
+          data: [0, 8, 0]
         }
       ]
     };
@@ -778,9 +840,10 @@ class BarChartDoble extends Component {
           return (
             <div className="chart-wrapper">
               <Bar
-                width={400}
+                width={1000}
+               height={280}
                 data={
-                  isVisible ? () => this.getData(this.props.data) : [0, 0, 0]
+                  isVisible ? () => this.getData(this.props.data) : []
                 }
                 options={optionsBar}
               />
@@ -847,4 +910,6 @@ class BarChartDoble extends Component {
 //     );
 //   }
 // }
-export { BarChart1, BarChart2, BarChart3, BarChart4, PieChart5, PieChart6, BarChart7, BarChart8, BarChart9, BarChartDoble };
+export { BarChart1, BarChart2, BarChart3, BarChart4, PieChart5, PieChart6, BarChart7, BarChart8, 
+   BarChart9, BarChartMar9,
+  BarChartDoble };
