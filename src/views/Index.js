@@ -9,7 +9,7 @@ import {
 import "../index.css";
 import logo from "../assets/img/brand/logo.png";
 import {
-  BarChart1, BarChart2, BarChart3, BarChart4, PieChart5, PieChart6, BarChart8, BarChart9
+  BarChart1, BarChart2, BarChart3, BarChart4, PieChart5, PieChart6, 
 } from "./Components/Graphics";
 import MixChar7 from "./Components/MixChart"
 import {
@@ -20,13 +20,13 @@ import {
   // Tabla5,
   // Tabla6,
   Tabla7,
-  Tabla8,
+  //Tabla8,
   Tabla9,
   Tabla10,
   TablaTipi1,
   TablaTipi2,
 } from "./Components/Tablas";
-import {Kpis, IndicadoresAtencion, ResumenVentasNuevas} from "./Components/TablasUpDate"
+import { Kpis, IndicadoresAtencion, ResumenVentasNuevas, CalidadMarzo1, CalidadMarzo2 } from "./Components/TablasUpDate"
 import { MapInteractionCSS } from 'react-map-interaction';
 import 'animate.css';
 
@@ -57,6 +57,7 @@ class Index extends Component {
             "kpis",
             "IndicadoresAtencion",
             "ResumenVentasNuevas",
+            "CalidadMarzo1",
           ]}
           verticalCentered={false}
           render={({ state, fullpageApi }) => {
@@ -107,12 +108,9 @@ class Index extends Component {
                   <IndicadoresAtencion />
                 </div>
 
-                
-
                 <div className="section">
                   <Container>
                     <Row>
-
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Resumen Atención</span></h2>
                         <BarChart1 />
@@ -287,32 +285,11 @@ class Index extends Component {
                 </div>
 
                 <div className="section">
-                  <Container>
-                    <Row>
-                      <Col xs="12">
-                        <h2 className="border border-bottom border-danger"><span>Calidad</span></h2>
-                      </Col>
-                      <Col xs="6"><BarChart8 /></Col>
-                      <Col xs="6"><BarChart9 /></Col>
-                    </Row>
-                  </Container>
+                  <CalidadMarzo1 />
                 </div>
 
                 <div className="section">
-                  <Container>
-                    <Row>
-                      <Col xs="12">
-                        <h2 className="border border-bottom border-danger"><span>Calidad</span></h2>
-                      </Col>
-                      <Col xs="12">
-
-                        <Tabla8 />
-
-                        <p className="text-lef"><strong>Con un promedio ABC de:</strong> 93.02%.</p>
-                        <p className="text-lef"><strong>Clasificando en nivel:</strong> B.</p>
-                      </Col>
-                    </Row>
-                  </Container>
+                  <CalidadMarzo2 />
                 </div>
 
                 <div className="section">
