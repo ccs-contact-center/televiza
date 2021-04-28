@@ -20,6 +20,7 @@ import {
   // Tabla5,
   // Tabla6,
   Tabla7,
+  Tabla7a,
   //Tabla8,
   Tabla9,
   Tabla10,
@@ -279,6 +280,19 @@ class Index extends Component {
                       </Col>
                       <Col xs="12">
                         <Tabla7 />
+                      </Col>
+                    </Row>
+                  </Container>
+                </div>
+
+                <div className="section">
+                  <Container>
+                    <Row>
+                      <Col xs="12">
+                        <h2 className="border border-bottom border-danger"><span>Capacitación</span></h2>
+                      </Col>
+                      <Col xs="12">
+                        <Tabla7a />
                       </Col>
                     </Row>
                   </Container>
