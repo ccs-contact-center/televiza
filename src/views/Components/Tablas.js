@@ -877,15 +877,107 @@ class Tabla7 extends Component {
                                     style={{
                                         filter: "drop-shadow(2px 4px 6px rgba(0,0,0,0.5))"
                                     }}
-                                    href="#" id="UncontrolledTooltipExample"
+                                    href="#" id="tooltip1"
                                 />
-                                <UncontrolledTooltip placement="right" target="UncontrolledTooltipExample">
-                                    <span><p>Captura</p></span>
-                                    <span><p>Autopautaje</p></span>
-                                    <span className="align-text-top"><p>Tipificación</p></span>
-                                    <span className="align-text-bottom"><p>Políticas</p></span>
+                                <UncontrolledTooltip placement="right" target="tooltip1" >
+                                    <span><p className="text-left">-Captura</p></span>
+                                    <span><p className="text-left">-Autopautaje</p></span>
+                                    <span ><p className="text-left">-Tipificación</p></span>
+                                    <span ><p className="text-left">-Políticas</p></span>
+                                </UncontrolledTooltip>
+                                <UncontrolledTooltip placement="left" target="tooltip1" >
+                                    <span><p className="text-left">-Procesos de capura</p></span>
+                                    <span><p className="text-left">-Gestión de venta</p></span>
+                                    <span ><p className="text-left"> -Sondeo y apego a proceso</p></span>
+                                    <span ><p className="text-left">-Uso de tecnicismo</p></span>
+                                    <span><p className="text-left">-Etiqueta telefonica</p></span>
                                 </UncontrolledTooltip>
                             </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
+    }
+}
+
+class Tabla7a extends Component {
+    render() {
+        return (
+            <div>
+                <table className="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col" className="bg-danger align-middle"> NOMBRE</th>
+                            <th scope="col" className="bg-danger align-middle"> NOMBRE</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                JOSE EDUARDO CRUZ GARCIA
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">90</td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                LUIS DANIEL  MALDONADO  GALVAN
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">90</td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                ALEJANDRA IRAIS  MONROY JUAREZ
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">100</td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                MARIANA  FLORES  HERNANDEZ
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">90</td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                NANCY IBETH  PEÑA  ROMERO
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">85</td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                PATRICIA  JIMENEZ  JUAREZ
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">100</td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                LAURA GISELLE ROBLES  MEJIA
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">90</td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                TERESA  TOVAR TREJO
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">90</td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                MARIA DEL ROSARIO LESLIE TAGLE CISNEROS
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">85</td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                MARIA DE LA LUZ ESTRADA  AGUILAR
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">85</td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                LAURA JUNUEL SALDAÑA RIVERO
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">90</td>
                         </tr>
                     </tbody>
                 </table>
@@ -1038,7 +1130,7 @@ class Tabla10 extends Component {
                 </table>
             </div>
 
-            
+
         )
     }
 }
@@ -2034,6 +2126,7 @@ class TablaTipi2 extends Component {
     }
 }
 
-export { 
-    Tabla1, Tabla2, TablaK1, TablaK2, Tabla3, TablaI3, Tabla4, TablaRVN4, Tabla5, Tabla6, Tabla7, Tabla8, TablaCalidad8, Tabla9,
-     Tabla10, TablaTipi1, TablaTipi2 };
+export {
+    Tabla1, Tabla2, TablaK1, TablaK2, Tabla3, TablaI3, Tabla4, TablaRVN4, Tabla5, Tabla6, Tabla7, Tabla7a, Tabla8,
+    TablaCalidad8, Tabla9, Tabla10, TablaTipi1, TablaTipi2
+};
