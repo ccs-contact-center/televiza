@@ -16,10 +16,10 @@ import {
     TablaI3,
     TablaI4,
     Tabla4, TablaRVN4,TablaRVN5,
-    TablaCalidad8,
+    TablaCalidad8,   TablaCalidad9,
     Tabla8,
 } from "./Tablas";
-import { BarChart8, BarChart9,BarChartMar9, BarChartDoble } from "./Graphics";
+import { BarChart8, BarChart9,BarChartMar9, BarChartMar10, BarChartDoble } from "./Graphics";
 import React, { Component } from "react";
 
 
@@ -192,6 +192,16 @@ class CalidadMarzo1 extends Component {
                         </Row>
                     </Container>
                 </div>
+                <div className="slide">
+                    <Container>
+                        <Row>
+                            <Col xs="12">
+                                <h2 className="border border-bottom border-danger"><span>Calidad</span></h2>
+                                <TablaCalidad9 />
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
             </div>
         )
     }
@@ -263,6 +273,27 @@ class CalidadMarzo2 extends Component {
                                      una venta cruzada aprovechando en contacto.<br />
                                      Taller de Voz y vocabulario para erradicar las multillas y extranjerismos para
                                      poder tener una conversación profesional con el cliente.
+                                </p>
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
+                <div className="slide">
+                    <Container>
+                        <Row>
+                            <Col xs="12">
+                                <h2 className="border border-bottom border-danger"><span>Calidad</span></h2>
+                                <BarChartMar10 />
+                            </Col>
+                            <Col xs="12">
+                                <p className="text-justify">
+                                    Las principales Áreas de oportunidad detectadas son:<br />
+                                    <strong>Manejo de objeciones</strong>: Agente no debate las objeciones que
+                                    presenta el cliente.
+                                    <br />
+                                    <strong>Tipificación correcta</strong>: Agente tipifica la llamada de manera
+                                    incorrecta seleccionando una opción distinta a lo sucedido en la interacción.
+
                                 </p>
                             </Col>
                         </Row>
