@@ -9,7 +9,7 @@ import {
 import "../index.css";
 import logo from "../assets/img/brand/logo.png";
 import {
-  BarChart1, BarChart2, BarChart3, BarChart4, PieChart5, PieChart6, 
+  BarChart1, BarChart2, BarChart3, BarChart4, PieChart5, PieChart6,
 } from "./Components/Graphics";
 import MixChar7 from "./Components/MixChart"
 import {
@@ -21,6 +21,8 @@ import {
   // Tabla6,
   Tabla7,
   Tabla7a,
+  Tabla7a1,
+  Tabla7a2,
   //Tabla8,
   Tabla9,
   Tabla10,
@@ -30,6 +32,7 @@ import {
 import { Kpis, IndicadoresAtencion, ResumenVentasNuevas, CalidadMarzo1, CalidadMarzo2 } from "./Components/TablasUpDate"
 import { MapInteractionCSS } from 'react-map-interaction';
 import 'animate.css';
+
 
 class Index extends Component {
   constructor(props) {
@@ -100,7 +103,7 @@ class Index extends Component {
                     </ReactFitText>
                   </div>
                 </div>
-
+               
                 <div className="section">
                   <Kpis />
                 </div>
@@ -228,13 +231,15 @@ class Index extends Component {
                     </Row>
                   </Container>
                   <div style={{ width: "95%", height: "80%" }}>
+                 
+
                     <MapInteractionCSS
                       value={this.state.value}
                       onChange={(value) => this.setState({ value })}
                       class="centrado-fila"
                     >
                       <TablaTipi1 />
-                    </MapInteractionCSS>
+                    </MapInteractionCSS> 
                   </div>
                 </div>
 
@@ -299,12 +304,41 @@ class Index extends Component {
                 </div>
 
                 <div className="section">
+                <Container>
+                    <Row>
+                      <Col xs="12">
+                        <h2 className="border border-bottom border-danger"><span>Capacitación</span></h2>
+                      </Col>
+                      <Col xs="12">
+                      <Tabla7a1 />
+                      </Col>
+                    </Row>
+                  </Container>
+                 
+                </div>
+                <div className="section">
+                <Container>
+                    <Row>
+                      <Col xs="12">
+                        <h2 className="border border-bottom border-danger"><span>Capacitación</span></h2>
+                      </Col>
+                      <Col xs="12">
+                      <Tabla7a2 />
+                      </Col>
+                    </Row>
+                  </Container>
+                 
+                </div>
+
+                <div className="section">
                   <CalidadMarzo1 />
                 </div>
 
                 <div className="section">
                   <CalidadMarzo2 />
                 </div>
+
+
 
                 <div className="section">
                   <Container>
