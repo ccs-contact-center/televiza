@@ -904,6 +904,70 @@ class BarChartDoble extends Component {
 }
 
 
+
+class BarChartDoble2 extends Component {
+  
+
+  getData(dataProp) {
+    var data = {
+      labels: [ "Febrero", "Marzo", "Abril",],
+      datasets: [
+        {
+          label: "",
+          backgroundColor: [
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+          ],
+          data: [54, 29, 58]
+        },
+
+        {
+          label: "",
+          backgroundColor: [
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+          ],
+          data: [38, 71, 20]
+        },
+        {
+          label: "",
+          backgroundColor: [
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+          ],
+          data: [8, 0, 20]
+        }
+      ]
+    };
+    return data;
+  }
+
+  render() {
+    return (
+      <VisibilitySensor>
+        {({ isVisible }) => {
+          return (
+            <div className="chart-wrapper">
+              <Bar
+                width={1000}
+               height={280}
+                data={
+                  isVisible ? () => this.getData(this.props.data) : []
+                }
+                options={optionsBar}
+              />
+            </div>
+          );
+        }}
+      </VisibilitySensor>
+    );
+  }
+}
+
+
 // class BarChartDoble extends Component {
 //   static defaultProps = {
 //     data1: [0, 0, 0],
@@ -960,4 +1024,4 @@ class BarChartDoble extends Component {
 // }
 export { BarChart1, BarChart2, BarChart3, BarChart4, PieChart5, PieChart6, BarChart7, BarChart8, 
    BarChart9, BarChartMar9,  BarChartMar10,
-  BarChartDoble };
+  BarChartDoble, BarChartDoble2 };
