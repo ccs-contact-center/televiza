@@ -237,7 +237,7 @@ class TablaK4 extends Component {
             <div>
                 <table classname="table table-bordered">
                     <thead>
-                        <tr scope="row" className="bg-danger">
+                        <tr  className="bg-danger">
                             <th scope="col" >Niveles de Servicio</th>
                             <th scope="col" classname="bg-">Ventas</th>
                             <th scope="col" classname="bg-">ABRIL</th>
@@ -507,6 +507,141 @@ class TablaI3 extends Component {
                     </tr>
                 </tbody>
             </table>
+        )
+    }
+}
+
+class TablaI4 extends Component {
+    render() {
+        return (
+            <table classname="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col" classname="bg-danger">INDICADORES ATENCION</th>
+                            <th scope="col" classname="bg-danger">sep-20</th>
+                            <th scope="col" classname="bg-danger">oct-20</th>
+                            <th scope="col" classname="bg-danger">nov-20</th>
+                            <th scope="col" classname="bg-danger">dic-20</th>
+                            <th scope="col" classname="bg-danger">ene-21</th>
+                            <th scope="col" classname="bg-danger">feb-21</th>
+                            <th scope="col" classname="bg-danger">mar-21</th>
+                            <th scope="col" classname="bg-danger">abr-21</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" classname="bg-danger">Llamadas Recibidas Atencion</th>
+                            <td>1,880</td>
+                            <td>1,456</td>
+                            <td>1,761</td>
+                            <td>3,269</td>
+                            <td>2,255</td>
+                            <td>4,035</td>
+                            <td>3,385</td>
+                            <td>1,924</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" classname="bg-danger">Llamadas atendidas</th>
+                            <td>1,853</td>
+                            <td>1,444</td>
+                            <td>1,739</td>
+                            <td>3,016</td>
+                            <td>1,956</td>
+                            <td>3,841</td>
+                            <td>2,854</td>
+                            <td>1,492</td>
+                        </tr>
+                         <tr>
+                            <th scope="row" classname="bg-danger">Llamadas atendidas de venta</th>
+                            <td>202</td>
+                            <td>187</td>
+                            <td>146</td>
+                            <td>249</td>
+                            <td>1,051</td>
+                            <td>755</td>
+                            <td>578</td>
+                            <td>428</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" classname="bg-danger">Llamada abandonadas</th>
+                            <td>27</td>
+                            <td>12</td>
+                            <td>22</td>
+                            <td>253</td>
+                            <td>299</td>
+                            <td>194</td>
+                            <td>531</td>
+                            <td>432</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" classname="bg-danger">Nivel de Servicio</th>
+                            <td>94%</td>
+                            <td>91%</td>
+                            <td>96%</td>
+                            <td>87%</td>
+                            <td>100%</td>
+                            <td>74%</td>
+                            <td>55%</td>
+                            <td>65%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" classname="bg-danger">% de Abandono ATN</th>
+                            <td>1.40%</td>
+                            <td>0.80%</td>
+                            <td>1.20%</td>
+                            <td>8.00%</td>
+                            <td>13.00%</td>
+                            <td>5.00%</td>
+                            <td>16.00%</td>
+                            <td>22.00%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" classname="bg-danger">AHT</th>
+                            <td>00:05:39</td>
+                            <td>00:06:21</td>
+                            <td>00:06:49</td>
+                            <td>00:06:07</td>
+                            <td>00:06:14</td>
+                            <td>00:04:04</td>
+                            <td>00:06:29</td>
+                            <td>00:08:33</td>
+                        </tr>
+                         <tr>
+                            <th scope="row" classname="bg-danger">Nivel de Atención</th>
+                            <td>99%</td>
+                            <td>99%</td>
+                            <td>99%</td>
+                            <td>92%</td>
+                            <td>87%</td>
+                            <td>95%</td>
+                            <td>84%</td>
+                            <td>78%</td>
+                        </tr>
+                         <tr>
+                            <th scope="row" classname="bg-danger">Ventas</th>
+                            <td>392</td>
+                            <td>372</td>
+                            <td>439</td>
+                            <td>1382</td>
+                            <td>727</td>
+                            <td>272</td>
+                            <td>279</td>
+                            <td>212</td>
+                        </tr>
+                         <tr>
+                            <th scope="row" classname="bg-danger">Conversión</th>
+                            <td>194%</td>
+                            <td>199%</td>
+                            <td>301%</td>
+                            <td>93%</td>
+                            <td>69%</td>
+                            <td>36%</td>
+                            <td>48%</td>
+                            <td>50%</td>
+                        </tr>
+                       
+                    </tbody>
+                </table>
         )
     }
 }
@@ -2526,7 +2661,8 @@ class TablaTipi2 extends Component {
 }
 
 export {
-    Tabla1, Tabla2, TablaK1, TablaK2, TablaK3, TablaK4, Tabla3, TablaI3, Tabla4, TablaRVN4, Tabla5, Tabla6, Tabla7, Tabla7a, Tabla7a1,
+    Tabla1, Tabla2, TablaK1, TablaK2, TablaK3, TablaK4, Tabla3, TablaI3, TablaI4,
+     Tabla4, TablaRVN4, Tabla5, Tabla6, Tabla7, Tabla7a, Tabla7a1,
     Tabla7a2, Tabla8,
     TablaCalidad8, Tabla9, Tabla10, TablaTipi1, TablaTipi2
 };
