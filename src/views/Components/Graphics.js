@@ -794,6 +794,53 @@ class BarChartMar9 extends Component {
 }
 
 
+
+class BarChartMar10 extends Component {
+  static defaultProps = {
+    data: [93, 91.1, 93.1]
+  };
+
+  getData(dataProp) {
+    var data = {
+      labels: [ "Febrero", "Marzo ", " Febrero",],
+      datasets: [
+        {
+          label: "QA Anual           ",
+          backgroundColor: [
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+          ],
+          data: dataProp
+        }
+      ]
+    };
+    return data;
+  }
+
+  render() {
+    return (
+      <VisibilitySensor>
+        {({ isVisible }) => {
+          return (
+            <div className="chart-wrapper">
+              <Bar
+                width={400}
+                data={
+                  isVisible ? () => this.getData(this.props.data) : []
+                }
+                options={optionsBar}
+              />
+            </div>
+          );
+        }}
+      </VisibilitySensor>
+    );
+  }
+}
+
+
+
 class BarChartDoble extends Component {
   
 
@@ -912,5 +959,5 @@ class BarChartDoble extends Component {
 //   }
 // }
 export { BarChart1, BarChart2, BarChart3, BarChart4, PieChart5, PieChart6, BarChart7, BarChart8, 
-   BarChart9, BarChartMar9,
+   BarChart9, BarChartMar9,  BarChartMar10,
   BarChartDoble };
