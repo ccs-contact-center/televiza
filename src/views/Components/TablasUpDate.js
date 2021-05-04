@@ -14,6 +14,7 @@ import {
     TablaK4,
     Tabla3,
     TablaI3,
+    TablaI4,
     Tabla4, TablaRVN4,
     TablaCalidad8,
     Tabla8,
@@ -105,6 +106,16 @@ class IndicadoresAtencion extends Component {
                             <Col xs="12">
                                 <h2 className="border border-bottom border-danger"><span>Resumen Atención</span></h2>
                                 <TablaI3 />
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
+                <div className="slide">
+                    <Container>
+                        <Row>
+                            <Col xs="12">
+                                <h2 className="border border-bottom border-danger"><span>Resumen Atención</span></h2>
+                                <TablaI4 />
                             </Col>
                         </Row>
                     </Container>
