@@ -15,7 +15,7 @@ import {
     Tabla3,
     TablaI3,
     TablaI4,
-    Tabla4, TablaRVN4,
+    Tabla4, TablaRVN4,TablaRVN5,
     TablaCalidad8,
     Tabla8,
 } from "./Tablas";
@@ -114,7 +114,7 @@ class IndicadoresAtencion extends Component {
                     <Container>
                         <Row>
                             <Col xs="12">
-                                <h2 className="border border-bottom border-danger"><span>Resumen Atención</span></h2>
+                                <h2 className="border border-bottom border-danger centrado-fila"><span>Resumen Atención</span></h2>
                                 <TablaI4 />
                             </Col>
                         </Row>
@@ -145,6 +145,16 @@ class ResumenVentasNuevas extends Component {
                             <Col xs="12">
                                 <h2 className="border border-bottom border-danger"><span>Resumen Ventas nuevas</span></h2>
                                 <TablaRVN4 />
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
+                <div className="slide">
+                    <Container>
+                        <Row>
+                            <Col xs="12">
+                                <h2 className="border border-bottom border-danger"><span>Resumen Ventas nuevas</span></h2>
+                                <TablaRVN5 />
                             </Col>
                         </Row>
                     </Container>
