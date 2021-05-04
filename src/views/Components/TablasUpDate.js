@@ -10,6 +10,8 @@ import {
     Tabla2,
     TablaK1,
     TablaK2,
+    TablaK3,
+    TablaK4,
     Tabla3,
     TablaI3,
     Tabla4, TablaRVN4,
@@ -56,6 +58,24 @@ class Kpis extends Component {
                             </Col>
                             <Col xs="6">
                                 <TablaK2 />
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
+                <div className="slide">
+                    <Container>
+                        <Row>
+                            <Col xs="12">
+                                <h2 className="border border-bottom border-danger"><span>ABRIL</span> <span>KPI´S</span></h2>
+                            </Col>
+                            <Col xs="6">
+                                <div className="animated animate__backInLeft">
+                                   < TablaK3 />
+
+                                </div>
+                            </Col>
+                            <Col xs="6">
+                                <TablaK4 />
                             </Col>
                         </Row>
                     </Container>
