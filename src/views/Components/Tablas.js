@@ -896,128 +896,128 @@ class TablaRVN5 extends Component {
             <div>
                 <table classname="table table-bordered">
                     <thead>
-                        <tr>
-                            <th scope="col" classname="bg-danger">INDICADORES VENTA NUEVA</th>
-                            <th scope="col" classname="bg-danger">sep-20</th>
-                            <th scope="col" classname="bg-danger">oct-20</th>
-                            <th scope="col" classname="bg-danger">nov-20</th>
-                            <th scope="col" classname="bg-danger">dic-20</th>
-                            <th scope="col" classname="bg-danger">ene-21</th>
-                            <th scope="col" classname="bg-danger">feb-21</th>
-                            <th scope="col" classname="bg-danger">mar-21</th>
-                            <th scope="col" classname="bg-danger">abr-21</th>
+                        <tr className="bg-danger">
+                            <th scope="col" classname="bg-">INDICADORES VENTA NUEVA</th>
+                            <th scope="col" classname="bg-">sep-20</th>
+                            <th scope="col" classname="bg-">oct-20</th>
+                            <th scope="col" classname="bg-">nov-20</th>
+                            <th scope="col" classname="bg-">dic-20</th>
+                            <th scope="col" classname="bg-">ene-21</th>
+                            <th scope="col" classname="bg-">feb-21</th>
+                            <th scope="col" classname="bg-">mar-21</th>
+                            <th scope="col" classname="bg-">abr-21</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row" classname="bg-danger">Llamadas Recibidas Atencion VENTA NUEVA</th>
-                            <td>1,092</td>
-                            <td>1,033</td>
-                            <td>1,864</td>
-                            <td>5,156</td>
-                            <td>2,947</td>
-                            <td>4,110</td>
-                            <td>6,118</td>
-                            <td>4,152</td>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Llamadas Recibidas Atencion VENTA NUEVA</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,092</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,033</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,864</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>5,156</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>2,947</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>4,110</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>6,118</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>4,152</td>
                         </tr>
                         <tr>
-                            <th scope="row" classname="bg-danger">Llamadas atendidas</th>
-                            <td>1,039</td>
-                            <td>1,025</td>
-                            <td>1,791</td>
-                            <td>4,319</td>
-                            <td>2,407</td>
-                            <td>3,691</td>
-                            <td>4,709</td>
-                            <td>3,288</td>
+                            <th scope="row" className="bg-danger">Llamadas atendidas</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,039</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,025</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,791</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>4,319</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>2,407</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>3,691</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>4,709</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>3,288</td>
                         </tr>
                          <tr>
-                            <th scope="row" classname="bg-danger">Llamadas con peticion de venta</th>
-                            <td>344</td>
-                            <td>370</td>
-                            <td>646</td>
-                            <td>1,185</td>
-                            <td>684</td>
-                            <td>807</td>
-                            <td>1871</td>
-                            <td>1071</td>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Llamadas con peticion de venta</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>344</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>370</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>646</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,185</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>684</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>807</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1871</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1071</td>
                         </tr>
                         <tr>
-                            <th scope="row" classname="bg-danger">Llamada abandonadas</th>
-                            <td>53</td>
-                            <td>8</td>
-                            <td>73</td>
-                            <td>837</td>
-                            <td>540</td>
-                            <td>419</td>
-                            <td>1409</td>
-                            <td>864</td>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Llamada abandonadas</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>53</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>8</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>73</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>837</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>540</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>419</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1409</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>864</td>
                         </tr>
                         <tr>
-                            <th scope="row" classname="bg-danger">Nivel de Servicio</th>
-                            <td>94%</td>
-                            <td>96%</td>
-                            <td>94%</td>
-                            <td>78%</td>
-                            <td>100%</td>
-                            <td>76%</td>
-                            <td>61%</td>
-                            <td>70%</td>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Nivel de Servicio</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>94%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>96%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>94%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>78%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>100%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>76%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>61%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>70%</td>
                         </tr>
                         <tr>
-                            <th scope="row" classname="bg-danger">% de Abandono venta nueva</th>
-                            <td>5%</td>
-                            <td>1%</td>
-                            <td>4%</td>
-                            <td>16%</td>
-                            <td>18%</td>
-                            <td>10%</td>
-                            <td>20%</td>
-                            <td>21%</td>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">% de Abandono venta nueva</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>5%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>4%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>16%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>18%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>10%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>20%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>21%</td>
                         </tr>
                         <tr>
-                            <th scope="row" classname="bg-danger">AHT</th>
-                            <td>00:05:33</td>
-                            <td>00:06:06</td>
-                            <td>00:04:07</td>
-                            <td>00:04:34</td>
-                            <td>00:05:34</td>
-                            <td>00:04:06</td>
-                            <td>00:06:54</td>
-                            <td>00:06:47</td>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">AHT</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:05:33</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:06:06</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:04:07</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:04:34</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:05:34</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:04:06</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:06:54</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:06:47</td>
                         </tr>
                          <tr>
-                            <th scope="row" classname="bg-danger">Nivel de Atención</th>
-                            <td>95%</td>
-                            <td>99%</td>
-                            <td>96%</td>
-                            <td>84%</td>
-                            <td>82%</td>
-                            <td>90%</td>
-                            <td>77%</td>
-                            <td>79%</td>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Nivel de Atención</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>95%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>99%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>96%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>84%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>82%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>90%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>77%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>79%</td>
                         </tr>
                          <tr>
-                            <th scope="row" classname="bg-danger">Ventas</th>
-                            <td>135</td>
-                            <td>129</td>
-                            <td>243</td>
-                            <td>620</td>
-                            <td>611</td>
-                            <td>688</td>
-                            <td>1890</td>
-                            <td>12.66</td>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Ventas</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>135</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>129</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>243</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>620</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>611</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>688</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1890</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>12.66</td>
                         </tr>
                          <tr>
-                            <th scope="row" classname="bg-danger">Conversión</th>
-                            <td>39%</td>
-                            <td>35%</td>
-                            <td>38%</td>
-                            <td>52%</td>
-                            <td>89%</td>
-                            <td>85%</td>
-                            <td>101%</td>
-                            <td>118%</td>
+                            <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Conversión</th>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>39%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>35%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>38%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>52%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>89%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>85%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>101%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>118%</td>
                         </tr>
                        
                     </tbody>
