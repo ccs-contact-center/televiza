@@ -909,7 +909,7 @@ class Tabla7a extends Component {
                     <thead>
                         <tr>
                             <th scope="col" className="bg-danger align-middle"> NOMBRE</th>
-                            <th scope="col" className="bg-danger align-middle"> NOMBRE</th>
+                            <th scope="col" className="bg-danger align-middle"> CALIFICACIÓN</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -978,6 +978,386 @@ class Tabla7a extends Component {
                                 LAURA JUNUEL SALDAÑA RIVERO
                             </td>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">90</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
+    }
+}
+
+
+class Tabla7a1 extends Component {
+    render() {
+        return (
+            <div>
+                <table className="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col" className="bg-danger align-middle"> NOMBRE</th>
+                            <th scope="col" className="bg-danger align-middle"> FECHA</th>
+                            <th scope="col" className="bg-danger align-middle"> CURSO</th>
+                            <th scope="col" className="bg-danger align-middle"> CALIFICACIÓN</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                JOSE EDUARDO CRUZ GARCIA
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Proceso de renovación anticipada
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                LUIS DANIEL  MALDONADO  GALVAN
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Proceso de renovación anticipada
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                1.0
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                ALEJANDRA IRAIS  MONROY JUAREZ
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Proceso de renovación anticipada
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                1.0
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                JESUS ADRIAN RODRIGUEZ CASTAÑEDA
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Proceso de renovación anticipada
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                1.0
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                DANIELA CARRASCO SILVA
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Proceso de renovación anticipada
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                1.0
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                MARIA DEL ROSARIO LESLIE TAGLE CISNEROS
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Proceso de renovación anticipada
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                1.0
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                LAURA JUNUEL SALDAÑA RIVERO
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Proceso de renovación anticipada
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                1.0
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                NANCY IBETH  PEÑA  ROMERO
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Proceso de renovación anticipada
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                MARIANA  FLORES  HERNANDEZ
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Proceso de renovación anticipada
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                TERESA  TOVAR TREJO
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Proceso de renovación anticipada
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                1.0
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                PATRICIA  JIMENEZ  JUAREZ
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Proceso de renovación anticipada
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                LAURA GISELLE ROBLES MEJIA
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Proceso de renovación anticipada
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
+    }
+}
+
+
+class Tabla7a2 extends Component {
+    render() {
+        return (
+            <div>
+                <table className="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col" className="bg-danger align-middle"> NOMBRE</th>
+                            <th scope="col" className="bg-danger align-middle"> FECHA</th>
+                            <th scope="col" className="bg-danger align-middle"> CURSO</th>
+                            <th scope="col" className="bg-danger align-middle"> CALIFICACIÓN</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                JOSE EDUARDO CRUZ GARCIA
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Etiqueta telefonica
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                LUIS DANIEL  MALDONADO  GALVAN
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Etiqueta telefonica
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                ALEJANDRA IRAIS  MONROY JUAREZ
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Etiqueta telefonica
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                JESUS ADRIAN RODRIGUEZ CASTAÑEDA
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Etiqueta telefonica
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                DANIELA CARRASCO SILVA
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Etiqueta telefonica
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                MARIA DEL ROSARIO LESLIE TAGLE CISNEROS
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Etiqueta telefonica
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                LAURA JUNUEL SALDAÑA RIVERO
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Etiqueta telefonica
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                NANCY IBETH  PEÑA  ROMERO
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Etiqueta telefonica
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                MARIANA  FLORES  HERNANDEZ
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Etiqueta telefonica
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                TERESA  TOVAR TREJO
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Etiqueta telefonica
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                PATRICIA  JIMENEZ  JUAREZ
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Etiqueta telefonica
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                LAURA GISELLE ROBLES MEJIA
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                01/04/2021
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                Etiqueta telefonica
+                            </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
+                                0.5
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -2127,6 +2507,7 @@ class TablaTipi2 extends Component {
 }
 
 export {
-    Tabla1, Tabla2, TablaK1, TablaK2, Tabla3, TablaI3, Tabla4, TablaRVN4, Tabla5, Tabla6, Tabla7, Tabla7a, Tabla8,
+    Tabla1, Tabla2, TablaK1, TablaK2, Tabla3, TablaI3, Tabla4, TablaRVN4, Tabla5, Tabla6, Tabla7, Tabla7a, Tabla7a1,
+    Tabla7a2, Tabla8,
     TablaCalidad8, Tabla9, Tabla10, TablaTipi1, TablaTipi2
 };
