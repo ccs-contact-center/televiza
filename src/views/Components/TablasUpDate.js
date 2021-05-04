@@ -19,7 +19,7 @@ import {
     TablaCalidad8,   TablaCalidad9,
     Tabla8,
 } from "./Tablas";
-import { BarChart8, BarChart9,BarChartMar9, BarChartMar10, BarChartDoble } from "./Graphics";
+import { BarChart8, BarChart9,BarChartMar9, BarChartMar10, BarChartDoble, BarChartDoble2, } from "./Graphics";
 import React, { Component } from "react";
 
 
@@ -293,6 +293,39 @@ class CalidadMarzo2 extends Component {
                                     <br />
                                     <strong>Tipificación correcta</strong>: Agente tipifica la llamada de manera
                                     incorrecta seleccionando una opción distinta a lo sucedido en la interacción.
+
+                                </p>
+                            </Col>
+                        </Row>
+                    </Container>
+                </div>
+                <div className="slide">
+                    <Container>
+                        <Row>
+                            <Col xs="12">
+                                <h2 className="border border-bottom border-danger"><span>Calidad</span></h2>
+                                <BarChartDoble2 />
+                            </Col>
+                            <Col xs="4" className="text-left">
+                                <p>Con un promedio ABC de:<br />
+                                    <ul>
+                                        <li>93.01%</li>
+                                    </ul>
+                                    Clasificando en nivel:<br />
+                                    <ul>
+                                        <li>B</li>
+                                    </ul>
+                                </p>
+                            </Col>
+                            <Col xs="8" className="text-justify">
+                                <p>
+                                    Acciones:<br />
+                                    Se lleva acabo un reforzamiento sobre la importancia que tiene el tipificar las 
+                                    interacciones de forma correcta, seleccionando la opción que corresponde a cada 
+                                    interacción .<br />
+                                    Clínica enfocada al manejo para debatir las negativas del cliente y poder colocar
+                                     una venta cruzada aprovechando el contacto, reforzando la venta generada con 
+                                     beneficios y no solo haciendo una labor informativa.
 
                                 </p>
                             </Col>
