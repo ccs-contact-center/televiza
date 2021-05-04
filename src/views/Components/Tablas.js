@@ -516,21 +516,21 @@ class TablaI4 extends Component {
         return (
             <table classname="table table-bordered">
                     <thead>
-                        <tr>
-                            <th scope="col" classname="bg-danger">INDICADORES ATENCION</th>
-                            <th scope="col" classname="bg-danger">sep-20</th>
-                            <th scope="col" classname="bg-danger">oct-20</th>
-                            <th scope="col" classname="bg-danger">nov-20</th>
-                            <th scope="col" classname="bg-danger">dic-20</th>
-                            <th scope="col" classname="bg-danger">ene-21</th>
-                            <th scope="col" classname="bg-danger">feb-21</th>
-                            <th scope="col" classname="bg-danger">mar-21</th>
-                            <th scope="col" classname="bg-danger">abr-21</th>
+                        <tr className="bg-danger">
+                            <th scope="col" >INDICADORES ATENCION</th>
+                            <th scope="col" >sep-20</th>
+                            <th scope="col" >oct-20</th>
+                            <th scope="col" >nov-20</th>
+                            <th scope="col" >dic-20</th>
+                            <th scope="col" >ene-21</th>
+                            <th scope="col" >feb-21</th>
+                            <th scope="col" >mar-21</th>
+                            <th scope="col" >abr-21</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row" classname="bg-danger">Llamadas Recibidas Atencion</th>
+                            <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>Llamadas Recibidas Atencion</th>
                             <td>1,880</td>
                             <td>1,456</td>
                             <td>1,761</td>
@@ -541,7 +541,7 @@ class TablaI4 extends Component {
                             <td>1,924</td>
                         </tr>
                         <tr>
-                            <th scope="row" classname="bg-danger">Llamadas atendidas</th>
+                            <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>Llamadas atendidas</th>
                             <td>1,853</td>
                             <td>1,444</td>
                             <td>1,739</td>
@@ -552,7 +552,7 @@ class TablaI4 extends Component {
                             <td>1,492</td>
                         </tr>
                          <tr>
-                            <th scope="row" classname="bg-danger">Llamadas atendidas de venta</th>
+                            <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>Llamadas atendidas de venta</th>
                             <td>202</td>
                             <td>187</td>
                             <td>146</td>
@@ -563,7 +563,7 @@ class TablaI4 extends Component {
                             <td>428</td>
                         </tr>
                         <tr>
-                            <th scope="row" classname="bg-danger">Llamada abandonadas</th>
+                            <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>Llamada abandonadas</th>
                             <td>27</td>
                             <td>12</td>
                             <td>22</td>
@@ -574,7 +574,7 @@ class TablaI4 extends Component {
                             <td>432</td>
                         </tr>
                         <tr>
-                            <th scope="row" classname="bg-danger">Nivel de Servicio</th>
+                            <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>Nivel de Servicio</th>
                             <td>94%</td>
                             <td>91%</td>
                             <td>96%</td>
@@ -585,7 +585,7 @@ class TablaI4 extends Component {
                             <td>65%</td>
                         </tr>
                         <tr>
-                            <th scope="row" classname="bg-danger">% de Abandono ATN</th>
+                            <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>% de Abandono ATN</th>
                             <td>1.40%</td>
                             <td>0.80%</td>
                             <td>1.20%</td>
@@ -596,7 +596,7 @@ class TablaI4 extends Component {
                             <td>22.00%</td>
                         </tr>
                         <tr>
-                            <th scope="row" classname="bg-danger">AHT</th>
+                            <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>AHT</th>
                             <td>00:05:39</td>
                             <td>00:06:21</td>
                             <td>00:06:49</td>
@@ -607,7 +607,7 @@ class TablaI4 extends Component {
                             <td>00:08:33</td>
                         </tr>
                          <tr>
-                            <th scope="row" classname="bg-danger">Nivel de Atención</th>
+                            <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>Nivel de Atención</th>
                             <td>99%</td>
                             <td>99%</td>
                             <td>99%</td>
@@ -618,7 +618,7 @@ class TablaI4 extends Component {
                             <td>78%</td>
                         </tr>
                          <tr>
-                            <th scope="row" classname="bg-danger">Ventas</th>
+                            <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>Ventas</th>
                             <td>392</td>
                             <td>372</td>
                             <td>439</td>
@@ -629,7 +629,7 @@ class TablaI4 extends Component {
                             <td>212</td>
                         </tr>
                          <tr>
-                            <th scope="row" classname="bg-danger">Conversión</th>
+                            <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>Conversión</th>
                             <td>194%</td>
                             <td>199%</td>
                             <td>301%</td>
