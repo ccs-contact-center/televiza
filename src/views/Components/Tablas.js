@@ -186,6 +186,95 @@ class TablaK2 extends Component {
 }
 
 
+class TablaK3 extends Component {
+    render() {
+        return (
+            <div>
+                <table classname="table table-bordered">
+                    <thead>
+                        <tr className="bg-danger">
+                            <th scope="col">Niveles de Servicio</th>
+                            <th scope="col" classname="bg-er">Atención a Clientes</th>
+                            <th scope="col" classname="bg-">ABRIL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" className="bg-danger">SVL</th>
+                            <td>95%</td>
+                            <td>65%	</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">ABA</th>
+                            <td>&lt; 5%</td>
+                            <td>22%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">AHT</th>
+                            <td>00:05:30 a.m.</td>
+                            <td>00:33 a.m.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">ASA</th>
+                            <td>00:00:20 a.m.</td>
+                            <td>01:23 a.m.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">Productividad / conversión</th>
+                            <td>50%</td>
+                            <td>50%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
+    }
+}
+
+class TablaK4 extends Component {
+    render() {
+        return (
+            <div>
+                <table classname="table table-bordered">
+                    <thead>
+                        <tr scope="row" className="bg-danger">
+                            <th scope="col" >Niveles de Servicio</th>
+                            <th scope="col" classname="bg-">Ventas</th>
+                            <th scope="col" classname="bg-">ABRIL</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" className="bg-danger">SVL</th>
+                            <td>95%</td>
+                            <td>70%	</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">ABA</th>
+                            <td>&lt; 5%</td>
+                            <td>2%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">AHT</th>
+                            <td>00:04:30</td>
+                            <td>07:47</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">ASA</th>
+                            <td>00:00:20</td>
+                            <td>01:13</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">Productividad / conversión</th>
+                            <td>50%</td>
+                            <td>50%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
+    }
+}
 
 class Tabla3 extends Component {
     render() {
@@ -997,7 +1086,6 @@ class Tabla7a1 extends Component {
                             <th scope="col" className="bg-danger align-middle"> NOMBRE</th>
                             <th scope="col" className="bg-danger align-middle"> FECHA</th>
                             <th scope="col" className="bg-danger align-middle"> CURSO</th>
-                            <th scope="col" className="bg-danger align-middle"> CALIFICACIÓN</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -1011,9 +1099,6 @@ class Tabla7a1 extends Component {
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Proceso de renovación anticipada
                             </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
-                            </td>
                         </tr>
                         <tr>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
@@ -1024,9 +1109,6 @@ class Tabla7a1 extends Component {
                             </td>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Proceso de renovación anticipada
-                            </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                1.0
                             </td>
                         </tr>
                         <tr>
@@ -1039,9 +1121,6 @@ class Tabla7a1 extends Component {
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Proceso de renovación anticipada
                             </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                1.0
-                            </td>
                         </tr>
                         <tr>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
@@ -1052,9 +1131,6 @@ class Tabla7a1 extends Component {
                             </td>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Proceso de renovación anticipada
-                            </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                1.0
                             </td>
                         </tr>
                         <tr>
@@ -1067,9 +1143,6 @@ class Tabla7a1 extends Component {
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Proceso de renovación anticipada
                             </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                1.0
-                            </td>
                         </tr>
                         <tr>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
@@ -1080,9 +1153,6 @@ class Tabla7a1 extends Component {
                             </td>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Proceso de renovación anticipada
-                            </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                1.0
                             </td>
                         </tr>
                         <tr>
@@ -1095,9 +1165,6 @@ class Tabla7a1 extends Component {
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Proceso de renovación anticipada
                             </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                1.0
-                            </td>
                         </tr>
                         <tr>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
@@ -1108,9 +1175,6 @@ class Tabla7a1 extends Component {
                             </td>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Proceso de renovación anticipada
-                            </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
                             </td>
                         </tr>
                         <tr>
@@ -1123,9 +1187,7 @@ class Tabla7a1 extends Component {
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Proceso de renovación anticipada
                             </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
-                            </td>
+
                         </tr>
                         <tr>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
@@ -1137,9 +1199,7 @@ class Tabla7a1 extends Component {
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Proceso de renovación anticipada
                             </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                1.0
-                            </td>
+
                         </tr>
                         <tr>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
@@ -1151,9 +1211,6 @@ class Tabla7a1 extends Component {
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Proceso de renovación anticipada
                             </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
-                            </td>
                         </tr>
                         <tr>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
@@ -1164,9 +1221,6 @@ class Tabla7a1 extends Component {
                             </td>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Proceso de renovación anticipada
-                            </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
                             </td>
                         </tr>
                     </tbody>
@@ -1187,7 +1241,6 @@ class Tabla7a2 extends Component {
                             <th scope="col" className="bg-danger align-middle"> NOMBRE</th>
                             <th scope="col" className="bg-danger align-middle"> FECHA</th>
                             <th scope="col" className="bg-danger align-middle"> CURSO</th>
-                            <th scope="col" className="bg-danger align-middle"> CALIFICACIÓN</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -1201,9 +1254,6 @@ class Tabla7a2 extends Component {
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Etiqueta telefonica
                             </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
-                            </td>
                         </tr>
                         <tr>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
@@ -1214,9 +1264,6 @@ class Tabla7a2 extends Component {
                             </td>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Etiqueta telefonica
-                            </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
                             </td>
                         </tr>
                         <tr>
@@ -1229,9 +1276,6 @@ class Tabla7a2 extends Component {
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Etiqueta telefonica
                             </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
-                            </td>
                         </tr>
                         <tr>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
@@ -1242,9 +1286,6 @@ class Tabla7a2 extends Component {
                             </td>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Etiqueta telefonica
-                            </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
                             </td>
                         </tr>
                         <tr>
@@ -1257,9 +1298,6 @@ class Tabla7a2 extends Component {
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Etiqueta telefonica
                             </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
-                            </td>
                         </tr>
                         <tr>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
@@ -1270,9 +1308,6 @@ class Tabla7a2 extends Component {
                             </td>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Etiqueta telefonica
-                            </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
                             </td>
                         </tr>
                         <tr>
@@ -1285,9 +1320,6 @@ class Tabla7a2 extends Component {
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Etiqueta telefonica
                             </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
-                            </td>
                         </tr>
                         <tr>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
@@ -1298,9 +1330,6 @@ class Tabla7a2 extends Component {
                             </td>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Etiqueta telefonica
-                            </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
                             </td>
                         </tr>
                         <tr>
@@ -1313,9 +1342,6 @@ class Tabla7a2 extends Component {
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Etiqueta telefonica
                             </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
-                            </td>
                         </tr>
                         <tr>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
@@ -1326,9 +1352,6 @@ class Tabla7a2 extends Component {
                             </td>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Etiqueta telefonica
-                            </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
                             </td>
                         </tr>
                         <tr>
@@ -1341,9 +1364,6 @@ class Tabla7a2 extends Component {
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Etiqueta telefonica
                             </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
-                            </td>
                         </tr>
                         <tr>
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
@@ -1355,9 +1375,6 @@ class Tabla7a2 extends Component {
                             <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
                                 Etiqueta telefonica
                             </td>
-                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }} className="align-middle text-center">
-                                0.5
-                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -1365,6 +1382,8 @@ class Tabla7a2 extends Component {
         )
     }
 }
+
+
 
 class Tabla8 extends Component {
     render() {
@@ -2507,7 +2526,7 @@ class TablaTipi2 extends Component {
 }
 
 export {
-    Tabla1, Tabla2, TablaK1, TablaK2, Tabla3, TablaI3, Tabla4, TablaRVN4, Tabla5, Tabla6, Tabla7, Tabla7a, Tabla7a1,
+    Tabla1, Tabla2, TablaK1, TablaK2, TablaK3, TablaK4, Tabla3, TablaI3, Tabla4, TablaRVN4, Tabla5, Tabla6, Tabla7, Tabla7a, Tabla7a1,
     Tabla7a2, Tabla8,
     TablaCalidad8, Tabla9, Tabla10, TablaTipi1, TablaTipi2
 };
