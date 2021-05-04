@@ -1744,6 +1744,58 @@ class TablaCalidad8 extends Component {
     }
 }
 
+
+
+class TablaCalidad9 extends Component {
+    render() {
+        return (
+            <div>
+                <table className="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col" className="bg-danger">Calidad ABC</th>
+                            <th scope="col" className="bg-danger">Enero-21</th>
+                            <th scope="col" className="bg-danger">Febrero-21</th>
+                            <th scope="col" className="bg-danger">Marzo-21</th>
+                            <th scope="col" className="bg-danger">Abril-21</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" className="bg-danger">A</th>
+                            <td>58%</td>
+                            <td>54%</td>
+                            <td>29%</td>
+                            <td>58%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">B</th>
+                            <td>42%</td>
+                            <td>38%</td>
+                            <td>71%</td>
+                            <td>42%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">C</th>
+                            <td>0%</td>
+                            <td>8%</td>
+                            <td>0%</td>
+                            <td>0%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">Total</th>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                            <td>100%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
+    }
+}
+
 class Tabla9 extends Component {
     render() {
         return (
@@ -2803,5 +2855,5 @@ export {
     Tabla1, Tabla2, TablaK1, TablaK2, TablaK3, TablaK4, Tabla3, TablaI3, TablaI4,
      Tabla4, TablaRVN4, TablaRVN5, Tabla5, Tabla6, Tabla7, Tabla7a, Tabla7a1,
     Tabla7a2, Tabla8,
-    TablaCalidad8, Tabla9, Tabla10, TablaTipi1, TablaTipi2
+    TablaCalidad8, TablaCalidad9, Tabla9, Tabla10, TablaTipi1, TablaTipi2
 };
