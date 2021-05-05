@@ -19,17 +19,19 @@ import {
   //Tabla4,
   // Tabla5,
   // Tabla6,
+  TablaRVN5,
   Tabla7,
   Tabla7a,
   Tabla7a1,
   Tabla7a2,
   //Tabla8,
+  TablaI4,
   Tabla9,
   Tabla10,
   TablaTipi1,
   TablaTipi2,
 } from "./Components/Tablas";
-import { Kpis, IndicadoresAtencion, ResumenVentasNuevas, CalidadMarzo1, CalidadMarzo2 } from "./Components/TablasUpDate"
+import { Kpis,   CalidadMarzo1, CalidadMarzo2 } from "./Components/TablasUpDate"
 import { MapInteractionCSS } from 'react-map-interaction';
 import 'animate.css';
 
@@ -59,8 +61,7 @@ class Index extends Component {
           scrollingSpeed={500} /* Options here */
           anchors={[
             "kpis",
-            "IndicadoresAtencion",
-            "ResumenVentasNuevas",
+            
             "CalidadMarzo1",
           ]}
           verticalCentered={false}
@@ -109,7 +110,14 @@ class Index extends Component {
                 </div>
 
                 <div className="section">
-                  <IndicadoresAtencion />
+                <Container>
+                         <Row>
+                             <Col xs="12">
+                                <h2 className="border border-bottom border-danger centrado-fila"><span>Resumen Atención</span></h2>
+                                <TablaI4 />
+                            </Col>
+                       </Row>
+                     </Container>
                 </div>
 
                 <div className="section">
@@ -131,7 +139,14 @@ class Index extends Component {
                 </div>
 
                 <div className="section">
-                  <ResumenVentasNuevas />
+                <Container>
+                         <Row>
+                             <Col xs="12">
+                                 <h2 className="border border-bottom border-danger"><span>Resumen Ventas nuevas</span></h2>
+                                 <TablaRVN5 />
+                            </Col>
+                        </Row>
+                     </Container>
                 </div>
 
                 <div className="section">
