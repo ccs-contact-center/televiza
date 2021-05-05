@@ -190,7 +190,7 @@ class TablaK3 extends Component {
     render() {
         return (
             <div>
-                <table classname="table table-bordered">
+                <table className="table table-bordered">
                     <thead>
                         <tr className="bg-danger">
                             <th scope="col">Niveles de Servicio</th>
@@ -235,7 +235,7 @@ class TablaK4 extends Component {
     render() {
         return (
             <div>
-                <table classname="table table-bordered">
+                <table className="table table-bordered">
                     <thead>
                         <tr  className="bg-danger">
                             <th scope="col" >Niveles de Servicio</th>
@@ -515,7 +515,7 @@ class TablaI4 extends Component {
     render() {
         return (
             <div className="centrado-fila">
-            <table classname="table table-bordered">
+            <table className="table table-bordered">
                     <thead>
                         <tr className="bg-danger">
                             <th scope="col" >INDICADORES ATENCION</th>
@@ -894,7 +894,7 @@ class TablaRVN5 extends Component {
     render() {
         return (
             <div>
-                <table classname="table table-bordered">
+                <table className="table table-bordered">
                     <thead>
                         <tr className="bg-danger">
                             <th scope="col" classname="bg-">INDICADORES VENTA NUEVA</th>
