@@ -12,10 +12,8 @@ import {
     TablaK2,
     TablaK3,
     TablaK4,
-    Tabla3,
-    TablaI3,
-    TablaI4,
-    Tabla4, TablaRVN4,TablaRVN5,
+    
+  
     TablaCalidad8,   TablaCalidad9,
     Tabla8,
 } from "./Tablas";
@@ -86,83 +84,83 @@ class Kpis extends Component {
     }
 }
 
-class IndicadoresAtencion extends Component {
-    render() {
-        return (
-            <div >
-                <div className="slide">
-                    <Container>
-                        <Row>
-                            <Col xs="12">
-                                <h2 className="border border-bottom border-danger"><span>Resumen Atención</span></h2>
-                                <Tabla3 />
-                            </Col>
-                        </Row>
-                    </Container>
-                </div>
-                <div className="slide">
-                    <Container>
-                        <Row>
-                            <Col xs="12">
-                                <h2 className="border border-bottom border-danger"><span>Resumen Atención</span></h2>
-                                <TablaI3 />
-                            </Col>
-                        </Row>
-                    </Container>
-                </div>
-                <div className="slide">
-                    <Container>
-                        <Row>
-                            <Col xs="12">
-                                <h2 className="border border-bottom border-danger centrado-fila"><span>Resumen Atención</span></h2>
-                                <TablaI4 />
-                            </Col>
-                        </Row>
-                    </Container>
-                </div>
-            </div>
-        )
-    }
-}
+// class IndicadoresAtencion extends Component {
+//     render() {
+//         return (
+//             <div >
+//                 <div className="slide">
+//                     <Container>
+//                         <Row>
+//                             <Col xs="12">
+//                                 <h2 className="border border-bottom border-danger"><span>Resumen Atención</span></h2>
+//                                 <Tabla3 />
+//                             </Col>
+//                         </Row>
+//                     </Container>
+//                 </div>
+//                 <div className="slide">
+//                     <Container>
+//                         <Row>
+//                             <Col xs="12">
+//                                 <h2 className="border border-bottom border-danger"><span>Resumen Atención</span></h2>
+//                                 <TablaI3 />
+//                             </Col>
+//                         </Row>
+//                     </Container>
+//                 </div>
+//                 <div className="slide">
+//                     <Container>
+//                         <Row>
+//                             <Col xs="12">
+//                                 <h2 className="border border-bottom border-danger centrado-fila"><span>Resumen Atención</span></h2>
+//                                 <TablaI4 />
+//                             </Col>
+//                         </Row>
+//                     </Container>
+//                 </div>
+//             </div>
+//         )
+//     }
+// }
 
-class ResumenVentasNuevas extends Component {
-    render() {
-        return (
-            <div >
-                <div className="slide">
-                    <Container>
-                        <Row>
-                            <Col xs="12">
-                                <h2 className="border border-bottom border-danger"><span>Resumen Ventas nuevas</span></h2>
-                                <Tabla4 />
-                            </Col>
-                        </Row>
-                    </Container>
-                </div>
-                <div className="slide">
-                    <Container>
-                        <Row>
-                            <Col xs="12">
-                                <h2 className="border border-bottom border-danger"><span>Resumen Ventas nuevas</span></h2>
-                                <TablaRVN4 />
-                            </Col>
-                        </Row>
-                    </Container>
-                </div>
-                <div className="slide">
-                    <Container>
-                        <Row>
-                            <Col xs="12">
-                                <h2 className="border border-bottom border-danger"><span>Resumen Ventas nuevas</span></h2>
-                                <TablaRVN5 />
-                            </Col>
-                        </Row>
-                    </Container>
-                </div>
-            </div>
-        )
-    }
-}
+// class ResumenVentasNuevas extends Component {
+//     render() {
+//         return (
+//             <div >
+//                 <div className="slide">
+//                     <Container>
+//                         <Row>
+//                             <Col xs="12">
+//                                 <h2 className="border border-bottom border-danger"><span>Resumen Ventas nuevas</span></h2>
+//                                 <Tabla4 />
+//                             </Col>
+//                         </Row>
+//                     </Container>
+//                 </div>
+//                 <div className="slide">
+//                     <Container>
+//                         <Row>
+//                             <Col xs="12">
+//                                 <h2 className="border border-bottom border-danger"><span>Resumen Ventas nuevas</span></h2>
+//                                 <TablaRVN4 />
+//                             </Col>
+//                         </Row>
+//                     </Container>
+//                 </div>
+//                 <div className="slide">
+//                     <Container>
+//                         <Row>
+//                             <Col xs="12">
+//                                 <h2 className="border border-bottom border-danger"><span>Resumen Ventas nuevas</span></h2>
+//                                 <TablaRVN5 />
+//                             </Col>
+//                         </Row>
+//                     </Container>
+//                 </div>
+//             </div>
+//         )
+//     }
+// }
 
 class CalidadMarzo1 extends Component {
     render() {
@@ -337,4 +335,4 @@ class CalidadMarzo2 extends Component {
     }
 }
 
-export { Kpis, IndicadoresAtencion, ResumenVentasNuevas, CalidadMarzo1, CalidadMarzo2 }
+export { Kpis,  CalidadMarzo1, CalidadMarzo2 }
