@@ -36,12 +36,13 @@ import { MapInteractionCSS } from 'react-map-interaction';
 import 'animate.css';
 
 
+
 class Index extends Component {
   constructor(props) {
     super(props);
     this.state = {
       value: {
-        scale: 0.8,
+        scale: 0.65,
         translation: { x: 0, y: 0 }
       },
       value2: {
@@ -246,15 +247,15 @@ class Index extends Component {
                     </Row>
                   </Container>
                   <div style={{ width: "95%", height: "80%" }}>
-                 
-
-                    <MapInteractionCSS
+                  
+                  
+                     <MapInteractionCSS
                       value={this.state.value}
                       onChange={(value) => this.setState({ value })}
-                      class="centrado-fila"
+                      className="centrado-fila"
                     >
                       <TablaTipi1 />
-                    </MapInteractionCSS> 
+                    </MapInteractionCSS>  
                   </div>
                 </div>
 
