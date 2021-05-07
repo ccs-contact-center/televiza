@@ -271,7 +271,7 @@ class Index extends Component {
                   <Container>
                     <Row>
                       <Col xs="12">
-                        <h2 className="border border-bottom border-danger"><span>Tipificación Marzo (Encuesta Televisión)</span></h2>
+                        <h2 className="border border-bottom border-danger"><span>Tipificación Abril (Encuesta Televisión)</span></h2>
                       </Col>
                     </Row>
                   </Container>
