@@ -69,6 +69,56 @@ const optionsBar = {
   }
 };
 
+const optionsBar2 = {
+  tooltips: {
+    show:true,
+    enabled: true,
+    
+  
+  },
+  legend: {
+    display: false
+  },
+  scales: {
+    yAxes: [
+      {
+        min: 0,
+        scaleLabel: {
+          display: true,
+          fontColor: "rgba(255,255,255,0.7)",
+          fontSize: 10
+        },
+        ticks: {
+          min: 0,
+          fontColor: "rgba(255,255,255,0.7)",
+          fontSize: 14
+        },
+        gridLines: {
+          drawBorder: false
+        }
+      }
+    ],
+    xAxes: [
+      {
+        min: 0,
+        scaleLabel: {
+          display: true,
+          fontColor: "rgba(255,255,255,0.7)",
+          fontSize: 10
+        },
+        ticks: {
+          min: 0,
+          fontColor: "rgba(255,255,255,0.7)",
+          fontSize: 14
+        },
+        gridLines: {
+          display: false
+        }
+      }
+    ]
+  }
+};
+
 const optionsPie = {
   maintainAspectRatio: false,
   responsive: true,
@@ -188,7 +238,7 @@ class BarChart2 extends Component {
                 data={
                   isVisible ? () => this.getData(this.props.data) : []
                 }
-                options={optionsBar}
+                options={optionsBar2}
               />
             </div>
           );
