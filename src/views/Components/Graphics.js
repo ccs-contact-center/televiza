@@ -154,22 +154,20 @@ class BarChart1 extends Component {
 
 class BarChart2 extends Component {
   static defaultProps = {
-    data: [39, 35, 38, 52, 89, 85]
+    data: [1338, 960, 2169, 1478, ]
   };
 
   getData(dataProp) {
     var data = {
-      labels: ["Sep-20", "Oct-20", "Nov-20", "Dic-20", "Ene-21", "Feb-21"],
+      labels: ["Ene-21","Feb-21","Mar-21","Abr-21"],
       datasets: [
         {
-          label: "Conversión venta nueva",
+          label: "Ventas",
           backgroundColor: [
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)"
           ],
           data: dataProp
         }
@@ -204,22 +202,20 @@ class BarChart2 extends Component {
 
 class BarChart3 extends Component {
   static defaultProps = {
-    data: [1880, 1456, 1761, 3269, 2255, 4035]
+    data: [69, 36, 48,50]
   };
 
   getData(dataProp) {
     var data = {
-      labels: ["Sep-20", "Oct-20", "Nov-20", "Dic-20", "Ene-21", "Feb-21"],
+      labels: ["Ene-21","Feb-21","Mar-21","Abr-21"],
       datasets: [
         {
-          label: "Conversión venta nueva",
+          label: "Conversión",
           backgroundColor: [
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)"
           ],
           data: dataProp
         }
@@ -253,22 +249,20 @@ class BarChart3 extends Component {
 
 class BarChart4 extends Component {
   static defaultProps = {
-    data: [527, 501, 682, 727, 927, 960]
+    data: [89,85,101,118]
   };
 
   getData(dataProp) {
     var data = {
-      labels: ["Sep-20", "Oct-20", "Nov-20", "Dic-20", "Ene-21", "Feb-21"],
+      labels: ["Ene-21","Feb-21","Mar-21","Abr-21"],
       datasets: [
         {
-          label: "Conversión venta nueva",
+          label: "Conversión",
           backgroundColor: [
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)",
-            "rgba(192,3,39,0.7)"
           ],
           data: dataProp
         }
