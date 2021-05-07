@@ -2535,7 +2535,7 @@ class TablaTipi2 extends Component {
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row" className="bg-danger">lunes 1 de marzo</th>
+                            <th scope="row" className="bg-danger">lunes 1 de Abril</th>
                             <td>6</td>
                             <td>46</td>
                             <td>36</td>
@@ -2545,7 +2545,7 @@ class TablaTipi2 extends Component {
                             <td>252</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">martes 2 de marzo</th>
+                            <th scope="row" className="bg-danger">martes 2 de Abril</th>
                             <td>22</td>
                             <td>28</td>
                             <td>23</td>
@@ -2555,7 +2555,7 @@ class TablaTipi2 extends Component {
                             <td>265</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">miércoles 3 de marzo</th>
+                            <th scope="row" className="bg-danger">miércoles 3 de Abril</th>
                             <td>9</td>
                             <td>22</td>
                             <td>18</td>
@@ -2565,7 +2565,7 @@ class TablaTipi2 extends Component {
                             <td>239</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">jueves 4 de marzo</th>
+                            <th scope="row" className="bg-danger">jueves 4 de Abril</th>
                             <td>5</td>
                             <td>24</td>
                             <td>11</td>
@@ -2575,7 +2575,7 @@ class TablaTipi2 extends Component {
                             <td>227</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">viernes 5 de marzo</th>
+                            <th scope="row" className="bg-danger">viernes 5 de Abril</th>
                             <td>7</td>
                             <td>27</td>
                             <td>4</td>
@@ -2585,7 +2585,7 @@ class TablaTipi2 extends Component {
                             <td>224</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">sábado 6 de marzo</th>
+                            <th scope="row" className="bg-danger">sábado 6 de Abril</th>
                             <td>2</td>
                             <td>9</td>
                             <td>11</td>
@@ -2595,7 +2595,7 @@ class TablaTipi2 extends Component {
                             <td>80</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">domingo 7 de marzo</th>
+                            <th scope="row" className="bg-danger">domingo 7 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -2605,7 +2605,7 @@ class TablaTipi2 extends Component {
                             <td>0</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">lunes 8 de marzo</th>
+                            <th scope="row" className="bg-danger">lunes 8 de Abril</th>
                             <td>5</td>
                             <td>19</td>
                             <td>16</td>
@@ -2615,7 +2615,7 @@ class TablaTipi2 extends Component {
                             <td>221</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">martes 9 de marzo</th>
+                            <th scope="row" className="bg-danger">martes 9 de Abril</th>
                             <td>9</td>
                             <td>2</td>
                             <td>7</td>
@@ -2625,7 +2625,7 @@ class TablaTipi2 extends Component {
                             <td>116</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">miércoles 10 de marzo</th>
+                            <th scope="row" className="bg-danger">miércoles 10 de Abril</th>
                             <td>13</td>
                             <td>10</td>
                             <td>9</td>
@@ -2635,7 +2635,7 @@ class TablaTipi2 extends Component {
                             <td>105</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">jueves 11 de marzo</th>
+                            <th scope="row" className="bg-danger">jueves 11 de Abril</th>
                             <td>14</td>
                             <td>17</td>
                             <td>8</td>
@@ -2645,7 +2645,7 @@ class TablaTipi2 extends Component {
                             <td>125</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">viernes 12 de marzo</th>
+                            <th scope="row" className="bg-danger">viernes 12 de Abril</th>
                             <td>22</td>
                             <td>12</td>
                             <td>7</td>
@@ -2655,7 +2655,7 @@ class TablaTipi2 extends Component {
                             <td>107</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">sábado 13 de marzo</th>
+                            <th scope="row" className="bg-danger">sábado 13 de Abril</th>
                             <td></td>
                             <td>4</td>
                             <td>7</td>
@@ -2665,7 +2665,7 @@ class TablaTipi2 extends Component {
                             <td>27</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">domingo 14 de marzo</th>
+                            <th scope="row" className="bg-danger">domingo 14 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -2675,7 +2675,7 @@ class TablaTipi2 extends Component {
                             <td>0</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">lunes 15 de marzo</th>
+                            <th scope="row" className="bg-danger">lunes 15 de Abril</th>
                             <td>1</td>
                             <td>1</td>
                             <td>9</td>
@@ -2685,7 +2685,7 @@ class TablaTipi2 extends Component {
                             <td>47</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">martes 16 de marzo</th>
+                            <th scope="row" className="bg-danger">martes 16 de Abril</th>
                             <td>19</td>
                             <td>8</td>
                             <td>18</td>
@@ -2695,7 +2695,7 @@ class TablaTipi2 extends Component {
                             <td>114</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">miércoles 17 de marzo</th>
+                            <th scope="row" className="bg-danger">miércoles 17 de Abril</th>
                             <td>10</td>
                             <td>14</td>
                             <td>6</td>
@@ -2705,7 +2705,7 @@ class TablaTipi2 extends Component {
                             <td>101</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">jueves 18 de marzo</th>
+                            <th scope="row" className="bg-danger">jueves 18 de Abril</th>
                             <td>3</td>
                             <td>7</td>
                             <td>8</td>
@@ -2715,7 +2715,7 @@ class TablaTipi2 extends Component {
                             <td>90</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">viernes 19 de marzo</th>
+                            <th scope="row" className="bg-danger">viernes 19 de Abril</th>
                             <td>7</td>
                             <td>7</td>
                             <td>9</td>
@@ -2725,7 +2725,7 @@ class TablaTipi2 extends Component {
                             <td>82</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">sábado 20 de marzo</th>
+                            <th scope="row" className="bg-danger">sábado 20 de Abril</th>
                             <td>5</td>
                             <td></td>
                             <td>3</td>
@@ -2735,7 +2735,7 @@ class TablaTipi2 extends Component {
                             <td>24</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">domingo 21 de marzo</th>
+                            <th scope="row" className="bg-danger">domingo 21 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -2745,7 +2745,7 @@ class TablaTipi2 extends Component {
                             <td>0</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">lunes 22 de marzo</th>
+                            <th scope="row" className="bg-danger">lunes 22 de Abril</th>
                             <td>16</td>
                             <td>17</td>
                             <td>9</td>
@@ -2755,7 +2755,7 @@ class TablaTipi2 extends Component {
                             <td>130</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">martes 23 de marzo</th>
+                            <th scope="row" className="bg-danger">martes 23 de Abril</th>
                             <td>14</td>
                             <td>18</td>
                             <td>9</td>
@@ -2765,7 +2765,7 @@ class TablaTipi2 extends Component {
                             <td>124</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">miércoles 24 de marzo</th>
+                            <th scope="row" className="bg-danger">miércoles 24 de Abril</th>
                             <td>15</td>
                             <td>20</td>
                             <td>8</td>
@@ -2775,7 +2775,7 @@ class TablaTipi2 extends Component {
                             <td>116</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">jueves 25 de marzo</th>
+                            <th scope="row" className="bg-danger">jueves 25 de Abril</th>
                             <td>19</td>
                             <td>18</td>
                             <td>13</td>
@@ -2785,7 +2785,7 @@ class TablaTipi2 extends Component {
                             <td>116</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">viernes 26 de marzo</th>
+                            <th scope="row" className="bg-danger">viernes 26 de Abril</th>
                             <td>10</td>
                             <td>11</td>
                             <td>7</td>
@@ -2795,7 +2795,7 @@ class TablaTipi2 extends Component {
                             <td>95</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">sábado 27 de marzo</th>
+                            <th scope="row" className="bg-danger">sábado 27 de Abril</th>
                             <td>2</td>
                             <td>5</td>
                             <td>5</td>
@@ -2805,7 +2805,7 @@ class TablaTipi2 extends Component {
                             <td>42</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">domingo 28 de marzo</th>
+                            <th scope="row" className="bg-danger">domingo 28 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -2815,7 +2815,7 @@ class TablaTipi2 extends Component {
                             <td>0</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">lunes 29 de marzo</th>
+                            <th scope="row" className="bg-danger">lunes 29 de Abril</th>
                             <td>19</td>
                             <td>9</td>
                             <td>14</td>
@@ -2825,7 +2825,7 @@ class TablaTipi2 extends Component {
                             <td>130</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">martes 30 de marzo</th>
+                            <th scope="row" className="bg-danger">martes 30 de Abril</th>
                             <td>16</td>
                             <td>13</td>
                             <td>12</td>
