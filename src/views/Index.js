@@ -9,9 +9,15 @@ import {
 import "../index.css";
 import logo from "../assets/img/brand/logo.png";
 import {
-  BarChart1, BarChart2, BarChart3, BarChart4, PieChart5, PieChart6,
+  //BarChart1, 
+  BarChart2, 
+  BarChart3,
+   BarChart4, 
+   PieChart5, 
+   PieChart6,
 } from "./Components/Graphics";
 import MixChar7 from "./Components/MixChart"
+import MixChartRA from "./Components/MixChartRA"
 import {
   //Tabla1,
   //Tabla2,
@@ -126,15 +132,15 @@ class Index extends Component {
                     <Row>
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Resumen Atención</span></h2>
-                        <BarChart1 />
+                        <MixChartRA />
                       </Col>
-                      <Col xs="12">
+                      {/* <Col xs="12">
                         <ul className="text-justify">
                           <li>En ausencia de think y sin tiempos de respuesta reales, los clientes re- llamaban cada semana.</li>
                           <li>Disminuyeron las ventas al no tener definido el proceso para captura de ordenes nuevas pertenecientes a clientes existentes.</li>
                           <li>AHT bajo debido a no poder atender a clientes existentes.</li>
                         </ul>
-                      </Col>
+                      </Col> */}
                     </Row>
                   </Container>
                 </div>
@@ -157,13 +163,13 @@ class Index extends Component {
                         <h2 className="border border-bottom border-danger"><span>Resumen Ventas nuevas</span></h2>
                         <BarChart2 />
                       </Col>
-                      <Col xs="12">
+                      {/* <Col xs="12">
                         <ul class="text-justify">
                           <li>Incremento de llamadas por promos nuevas. </li>
                           <li>Incremento de ventas por spots y mailing.</li>
                           <li>Disminución de AHT por cobertura sobre staff en desbordes</li>
                         </ul>
-                      </Col>
+                      </Col> */}
                     </Row>
                   </Container>
                 </div>
