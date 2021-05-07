@@ -10,11 +10,11 @@ import "../index.css";
 import logo from "../assets/img/brand/logo.png";
 import {
   //BarChart1, 
-  BarChart2, 
+  BarChart2,
   BarChart3,
-   BarChart4, 
-   PieChart5, 
-   PieChart6,
+  BarChart4,
+  PieChart5,
+  PieChart6,
 } from "./Components/Graphics";
 import MixChar7 from "./Components/MixChart"
 import MixChartRA from "./Components/MixChartRA"
@@ -37,7 +37,7 @@ import {
   TablaTipi1,
   TablaTipi2,
 } from "./Components/Tablas";
-import { Kpis,   CalidadMarzo1, CalidadMarzo2 } from "./Components/TablasUpDate"
+import { Kpis, CalidadMarzo1, CalidadMarzo2 } from "./Components/TablasUpDate"
 import { MapInteractionCSS } from 'react-map-interaction';
 import 'animate.css';
 
@@ -68,7 +68,7 @@ class Index extends Component {
           scrollingSpeed={500} /* Options here */
           anchors={[
             "kpis",
-            
+
             "CalidadMarzo1",
           ]}
           verticalCentered={false}
@@ -111,20 +111,20 @@ class Index extends Component {
                     </ReactFitText>
                   </div>
                 </div>
-               
+
                 <div className="section">
                   <Kpis />
                 </div>
 
                 <div className="section">
-                <Container>
-                         <Row>
-                             <Col xs="12">
-                                <h2 className="border border-bottom border-danger centrado-fila"><span>Resumen Atención</span></h2>
-                                <TablaI4 />
-                            </Col>
-                       </Row>
-                     </Container>
+                  <Container>
+                    <Row>
+                      <Col xs="12">
+                        <h2 className="border border-bottom border-danger centrado-fila"><span>Resumen Atención</span></h2>
+                        <TablaI4 />
+                      </Col>
+                    </Row>
+                  </Container>
                 </div>
 
                 <div className="section">
@@ -146,14 +146,14 @@ class Index extends Component {
                 </div>
 
                 <div className="section">
-                <Container>
-                         <Row>
-                             <Col xs="12">
-                                 <h2 className="border border-bottom border-danger"><span>Resumen Ventas nuevas</span></h2>
-                                 <TablaRVN5 />
-                            </Col>
-                        </Row>
-                     </Container>
+                  <Container>
+                    <Row>
+                      <Col xs="12">
+                        <h2 className="border border-bottom border-danger"><span>Resumen Ventas nuevas</span></h2>
+                        <TablaRVN5 />
+                      </Col>
+                    </Row>
+                  </Container>
                 </div>
 
                 <div className="section">
@@ -181,9 +181,11 @@ class Index extends Component {
                         <h2 className="border border-bottom border-danger"><span>Generales</span></h2>
                       </Col>
                       <Col xs="6">
+                        <p>conversión </p>
                         <BarChart3 />
                       </Col>
                       <Col xs="6">
+                        <p>conversión </p>
                         <BarChart4 />
                       </Col>
                       <Col xs="12">
@@ -248,20 +250,20 @@ class Index extends Component {
                   <Container>
                     <Row>
                       <Col xs="12">
-                        <h2 className="border border-bottom border-danger"><span>Tipificación Marzo (Encuesta atnc)</span></h2>
+                        <h2 className="border border-bottom border-danger"><span>Tipificación Abril (Encuesta atnc)</span></h2>
                       </Col>
                     </Row>
                   </Container>
                   <div style={{ width: "95%", height: "80%" }}>
-                  
-                  
-                     <MapInteractionCSS
+
+
+                    <MapInteractionCSS
                       value={this.state.value}
                       onChange={(value) => this.setState({ value })}
                       className="centrado-fila"
                     >
                       <TablaTipi1 />
-                    </MapInteractionCSS>  
+                    </MapInteractionCSS>
                   </div>
                 </div>
 
@@ -326,30 +328,30 @@ class Index extends Component {
                 </div>
 
                 <div className="section">
-                <Container>
+                  <Container>
                     <Row>
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Capacitación</span></h2>
                       </Col>
                       <Col xs="12">
-                      <Tabla7a1 />
+                        <Tabla7a1 />
                       </Col>
                     </Row>
                   </Container>
-                 
+
                 </div>
                 <div className="section">
-                <Container>
+                  <Container>
                     <Row>
                       <Col xs="12">
                         <h2 className="border border-bottom border-danger"><span>Capacitación</span></h2>
                       </Col>
                       <Col xs="12">
-                      <Tabla7a2 />
+                        <Tabla7a2 />
                       </Col>
                     </Row>
                   </Container>
-                 
+
                 </div>
 
                 <div className="section">
