@@ -1889,7 +1889,7 @@ class TablaTipi1 extends Component {
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row" className="bg-danger">lunes 1 de marzo</th>
+                            <th scope="row" className="bg-danger">lunes 1 de Abril</th>
                             <td></td>
                             <td></td>
                             <td className="align-middle">2</td>
@@ -1909,7 +1909,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">274</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">martes 2 de marzo</th>
+                            <th scope="row" className="bg-danger">martes 2 de Abril</th>
                             <td></td>
                             <td></td>
                             <td className="align-middle">3</td>
@@ -1929,7 +1929,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">234</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">miércoles 3 de marzo</th>
+                            <th scope="row" className="bg-danger">miércoles 3 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -1949,7 +1949,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">286</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">jueves 4 de marzo</th>
+                            <th scope="row" className="bg-danger">jueves 4 de Abril</th>
                             <td></td>
                             <td className="align-middle">2</td>
                             <td></td>
@@ -1969,7 +1969,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">246</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">sábado 6 de marzo</th>
+                            <th scope="row" className="bg-danger">sábado 6 de Abril</th>
                             <td></td>
                             <td></td>
                             <td className="align-middle">1</td>
@@ -1989,7 +1989,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">51</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">domingo 7 de marzo</th>
+                            <th scope="row" className="bg-danger">domingo 7 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -2009,7 +2009,7 @@ class TablaTipi1 extends Component {
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">lunes 8 de marzo</th>
+                            <th scope="row" className="bg-danger">lunes 8 de Abril</th>
                             <td></td>
                             <td></td>
                             <td className="align-middle">2</td>
@@ -2029,7 +2029,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">248</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">martes 9 de marzo</th>
+                            <th scope="row" className="bg-danger">martes 9 de Abril</th>
                             <td></td>
                             <td className="align-middle">1</td>
                             <td className="align-middle">1</td>
@@ -2049,7 +2049,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">123</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">miercoles 9 de marzo</th>
+                            <th scope="row" className="bg-danger">miercoles 9 de Abril</th>
                             <td></td>
                             <td></td>
                             <td className="align-middle">1</td>
@@ -2069,7 +2069,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">109</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">jueves 11 de marzo</th>
+                            <th scope="row" className="bg-danger">jueves 11 de Abril</th>
                             <td></td>
                             <td></td>
                             <td className="align-middle">3</td>
@@ -2089,7 +2089,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">127</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">viernes 12 de marzo</th>
+                            <th scope="row" className="bg-danger">viernes 12 de Abril</th>
                             <td></td>
                             <td></td>
                             <td className="align-middle">2</td>
@@ -2109,7 +2109,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">102</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">sábado 13 de marzo</th>
+                            <th scope="row" className="bg-danger">sábado 13 de Abril</th>
                             <td></td>
                             <td></td>
                             <td className="align-middle">1</td>
@@ -2129,7 +2129,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">31</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">domingo 14 de marzo</th>
+                            <th scope="row" className="bg-danger">domingo 14 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -2149,7 +2149,7 @@ class TablaTipi1 extends Component {
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">lunes 15 de marzo</th>
+                            <th scope="row" className="bg-danger">lunes 15 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -2169,7 +2169,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">70</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">martes 16 de marzo</th>
+                            <th scope="row" className="bg-danger">martes 16 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -2189,7 +2189,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">177</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">miercoles 17 de marzo</th>
+                            <th scope="row" className="bg-danger">miercoles 17 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -2209,7 +2209,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">122</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">jueves 18 de marzo</th>
+                            <th scope="row" className="bg-danger">jueves 18 de Abril</th>
                             <td></td>
                             <td></td>
                             <td className="align-middle">2</td>
@@ -2229,7 +2229,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">103</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">viernes 19 de marzo</th>
+                            <th scope="row" className="bg-danger">viernes 19 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -2249,7 +2249,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">94</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">sábado 20 de marzo</th>
+                            <th scope="row" className="bg-danger">sábado 20 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -2269,7 +2269,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">18</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">domingo 21 de marzo</th>
+                            <th scope="row" className="bg-danger">domingo 21 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -2289,7 +2289,7 @@ class TablaTipi1 extends Component {
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">lunes 22 de marzo</th>
+                            <th scope="row" className="bg-danger">lunes 22 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -2309,7 +2309,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">129</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">martes 23 de marzo</th>
+                            <th scope="row" className="bg-danger">martes 23 de Abril</th>
                             <td></td>
                             <td className="align-middle">1</td>
                             <td className="align-middle">4</td>
@@ -2329,7 +2329,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">102</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">miercoles 24 de marzo</th>
+                            <th scope="row" className="bg-danger">miercoles 24 de Abril</th>
                             <td></td>
                             <td></td>
                             <td className="align-middle">2</td>
@@ -2349,7 +2349,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">92</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">jueves 25 de marzo</th>
+                            <th scope="row" className="bg-danger">jueves 25 de Abril</th>
                             <td></td>
                             <td></td>
                             <td className="align-middle">2</td>
@@ -2369,7 +2369,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">124</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">viernes 26 de marzo</th>
+                            <th scope="row" className="bg-danger">viernes 26 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -2389,7 +2389,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">94</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">sábado 27 de marzo</th>
+                            <th scope="row" className="bg-danger">sábado 27 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -2409,7 +2409,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">34</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">domingo 20 de marzo</th>
+                            <th scope="row" className="bg-danger">domingo 20 de Abril</th>
                             <td></td>
                             <td></td>
                             <td></td>
@@ -2429,7 +2429,7 @@ class TablaTipi1 extends Component {
                             <td></td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">lunes 29 de marzo</th>
+                            <th scope="row" className="bg-danger">lunes 29 de Abril</th>
                             <td></td>
                             <td></td>
                             <td className="align-middle">1</td>
@@ -2449,7 +2449,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">108</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">martes 30 de marzo</th>
+                            <th scope="row" className="bg-danger">martes 30 de Abril</th>
                             <td></td>
                             <td className="align-middle">1</td>
                             <td></td>
@@ -2469,7 +2469,7 @@ class TablaTipi1 extends Component {
                             <td className="align-middle">106</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">miercoles 31 de marzo</th>
+                            <th scope="row" className="bg-danger">miercoles 31 de Abril</th>
                             <td></td>
                             <td></td>
                             <td className="align-middle">1</td>
