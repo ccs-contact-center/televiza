@@ -2838,6 +2838,7 @@ class TablaTipi2 extends Component {
                             <th scope="row" className="bg-danger">TOTAL</th>
                             <td>280</td>
                             <td>371</td>
+                            
                             <td>292</td>
                             <td>274</td>
                             <td>862</td>
