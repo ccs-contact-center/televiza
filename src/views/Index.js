@@ -11,13 +11,15 @@ import logo from "../assets/img/brand/logo.png";
 import {
   //BarChart1, 
   BarChart2,
-  BarChart3,
-  BarChart4,
+  //BarChart3,
+  //BarChart4,
   PieChart5,
   PieChart6,
 } from "./Components/Graphics";
 import MixChar7 from "./Components/MixChart"
 import MixChartRA from "./Components/MixChartRA"
+import MixChartG1 from "./Components/MixChartG1"
+import MixChartG2 from "./Components/MixChartG2"
 import {
   //Tabla1,
   //Tabla2,
@@ -181,16 +183,17 @@ class Index extends Component {
                         <h2 className="border border-bottom border-danger"><span>Generales</span></h2>
                       </Col>
                       <Col xs="6">
-                        <p>conversión </p>
-                        <BarChart3 />
+                        <p>Llamadas </p>
+                        <MixChartG1 />
                       </Col>
                       <Col xs="6">
-                        <p>conversión </p>
-                        <BarChart4 />
+                        <p>Abandono </p>
+                        <MixChartG2 />
                       </Col>
                       <Col xs="12">
                         <p>ATC: las llamadas se incrementaron ya que al mencionar que no hay sistema, los usuarios llamaban en repetidas ocasiones.
-                        Clientes Nuevos: incremento de llamadas por promos y menciones y/o spots</p>
+Clientes Nuevos: incremento de llamadas por promos y menciones y/o spots
+</p>
                       </Col>
                     </Row>
                   </Container>
