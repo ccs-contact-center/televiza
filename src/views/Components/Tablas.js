@@ -1969,8 +1969,6 @@ class Tabla10 extends Component {
                     </tbody>
                 </table>
             </div>
-
-
         )
     }
 }
@@ -2967,9 +2965,114 @@ class TablaTipi2 extends Component {
     }
 }
 
+class TablaRG extends Component {
+    render() {
+        return (
+            <div>
+                <table className="table table-bordered" >
+                    <thead>
+                        <tr>
+                            <th scope="col" className="bg-danger text-center">INDICADORES</th>
+                            <th scope="col" className="bg-danger text-center">Enero-21</th>
+                            <th scope="col" className="bg-danger text-center">Febrero-21</th>
+                            <th scope="col" className="bg-danger text-center">Marzo-21</th>
+                            <th scope="col" className="bg-danger text-center">Abril-21</th>
+                            <th scope="col" className="bg-danger text-center">Mayo-21</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th style={{ paddingTop: "7px", paddingBottom: "7px" }}>Llamadas Recibidas </th>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>5202</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>8145</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>9503</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>6076</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>4939</td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "7px", paddingBottom: "7px" }}>Llamadas atendidas</th>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>4363 </td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>7532</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>7563</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>4780</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>4317</td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "7px", paddingBottom: "7px" }}>Llamadas con peticion de venta</th>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>1735</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>1562</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>2449</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>1499</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>1312</td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "7px", paddingBottom: "7px" }}>Llamada abandonadas</th>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>839</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>613</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>1940</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>1296</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>622</td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "7px", paddingBottom: "7px" }}>Nivel de Servicio</th>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>100%</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>75%</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>58%</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>68%</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>79%</td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "7px", paddingBottom: "7px" }}>% de Abandono </th>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>15%</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>8%</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>20%</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>22%</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>12%</td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "7px", paddingBottom: "7px" }}>AHT </th>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>12:05:34</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>12:04:04</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>12:06:44</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>12:06:47</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>12:06:59</td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "7px", paddingBottom: "7px" }}>Nivel de Atención </th>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>85%</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>93%</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>81%</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>79%</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>88%</td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "7px", paddingBottom: "7px" }}>Ventas </th>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>1338</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>960</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>2169</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>1478</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>1244</td>
+                        </tr>
+                        <tr>
+                            <th style={{ paddingTop: "7px", paddingBottom: "7px" }}>Conversión  </th>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>79%</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>61%</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>75%</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>84%</td>
+                            <td style={{ paddingTop: "7px", paddingBottom: "7px" }}>83%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+
+        )
+    }
+}
+
 export {
     Tabla1, Tabla2, TablaK1, TablaK2, TablaK3, TablaK4, TablaK5,TablaK6, Tabla3, TablaI3, TablaI4,
      Tabla4, TablaRVN4, TablaRVN5, Tabla5, Tabla6, Tabla7, Tabla7a, Tabla7a1,
     Tabla7a2, Tabla8,
-    TablaCalidad8, TablaCalidad9, Tabla9, Tabla10, TablaTipi1, TablaTipi2
+    TablaCalidad8, TablaCalidad9, Tabla9, Tabla10, TablaTipi1, TablaTipi2,TablaRG
 };
