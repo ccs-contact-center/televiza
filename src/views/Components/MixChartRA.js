@@ -5,9 +5,9 @@ import { Bar } from 'react-chartjs-2';
 const data = {
 	datasets: [
 		{
-			label: 'Llamadas Recibidas Atención',
+			label: 'Llamadas Recibidas Atención %',
 			type: 'line',
-			data: [2255, 4035, 3385, 1924],
+			data: [69, 36, 48, 50, 56			],
 			fill: false,
 			borderColor: 'rgba(166, 164, 166)',
 			backgroundColor: 'rgba(166, 164, 166)',
@@ -18,9 +18,9 @@ const data = {
 			yAxisID: 'y-axis-2'
 		},
 		{
-			label: 'Llamadas Recibidas Venta Nueva',
+			label: 'Llamadas Recibidas Venta Nueva %',
 			type: 'bar',
-			data: [2255, 4035, 3385, 1924],
+			data: [69, 36, 48, 50,56],
 			fill: false,
 			backgroundColor: 'rgba(192,3,39,0.8)',
 			borderColor: 'rgba(192,3,39,0.7)',
@@ -33,25 +33,25 @@ const data = {
 
 const options = {
 	responsive: true,
-	labels: ["Ene-21","Feb-21","Mar-21","Abr-21"],
+	labels: ["Ene-21","Feb-21","Mar-21","Abr-21","May-21"],
 	tooltips: {
 		mode: 'label',
-		callbacks: {
-			label: function(tooltipItem, data) {
-			  //get the concerned dataset
-			  var dataset = data.datasets[tooltipItem.datasetIndex];
-			  //calculate the total of this data set
-			  var total = dataset.data.reduce(function(previousValue, currentValue, currentIndex, array) {
-				return previousValue + currentValue;
-			  });
-			  //get the current items value
-			  var currentValue = dataset.data[tooltipItem.index];
-			  //calculate the precentage based on the total and current item, also this does a rough rounding to give a whole number
-			  var percentage = Math.floor(((currentValue/total) * 100)+0.5);
+		// callbacks: {
+		// 	label: function(tooltipItem, data) {
+		// 	  //get the concerned dataset
+		// 	  var dataset = data.datasets[tooltipItem.datasetIndex];
+		// 	  //calculate the total of this data set
+		// 	  var total = dataset.data.reduce(function(previousValue, currentValue, currentIndex, array) {
+		// 		return previousValue + currentValue;
+		// 	  });
+		// 	  //get the current items value
+		// 	  var currentValue = dataset.data[tooltipItem.index];
+		// 	  //calculate the precentage based on the total and current item, also this does a rough rounding to give a whole number
+		// 	  var percentage = Math.floor(((currentValue/total) * 100)+0.5);
 		
-			  return percentage + "%";
-			}
-		  }
+		// 	  return percentage + "%";
+		// 	}
+		//   }
 
 	},
 	elements: {
@@ -67,7 +67,7 @@ const options = {
 					display: false
 				},
 
-				labels: ["Enero-21","Feb-21","Mar-21","Abr-21"],
+				labels: ["Enero-21","Feb-21","Mar-21","Abr-21", "May-21"],
 			}
 		],
 		yAxes: [
