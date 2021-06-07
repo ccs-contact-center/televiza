@@ -112,7 +112,7 @@ class Index extends Component {
                       <h1 className="transparent animated animate__backInUp">MENSUAL</h1>
                     </ReactFitText>
                     <ReactFitText>
-                      <h1 className="transparent animated  animate__backInRight">ENERO-ABRIL</h1>
+                      <h1 className="transparent animated  animate__backInRight">ENERO-MAYO</h1>
                     </ReactFitText>
                   </div>
                 </div>
