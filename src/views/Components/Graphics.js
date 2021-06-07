@@ -9,22 +9,7 @@ const optionsBar = {
     show:true,
     enabled: true,
     
-  callbacks: {
-    label: function(tooltipItem, data) {
-      //get the concerned dataset
-      var dataset = data.datasets[tooltipItem.datasetIndex];
-      //calculate the total of this data set
-      var total = dataset.data.reduce(function(previousValue, currentValue, currentIndex, array) {
-        return previousValue + currentValue;
-      });
-      //get the current items value
-      var currentValue = dataset.data[tooltipItem.index];
-      //calculate the precentage based on the total and current item, also this does a rough rounding to give a whole number
-      var percentage = Math.floor(((currentValue/total) * 100)+0.5);
-
-      return percentage + "%";
-    }
-  }
+  
   },
   legend: {
     display: false
@@ -691,16 +676,17 @@ class BarChart7 extends Component {
 
 class BarChart8 extends Component {
   static defaultProps = {
-    data: [94.72, 93.02]
+    data: [91.1, 93.1, 96.2]
   };
 
   getData(dataProp) {
     var data = {
-      labels: ["Enero", "Febrero"],
+      labels: ["Marzo", "Abril","Mayo"],
       datasets: [
         {
-          label: "Calidad Anual",
+          label: "QA Anual: %",
           backgroundColor: [
+            "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
           ],
@@ -718,8 +704,8 @@ class BarChart8 extends Component {
           return (
             <div className="chart-wrapper">
               <Bar
-                width={400}
-                height={350}
+               width={400}
+               height={150}
                 data={
                   isVisible ? () => this.getData(this.props.data) : []
                 }
@@ -737,15 +723,17 @@ class BarChart8 extends Component {
 class BarChart9 extends Component {
   getData(dataProp) {
     var data = {
-      labels: ["Enero", "Febrero"],
+      labels: ["Enero", "Febrero","Marzo"],
       datasets: [
         {
           label: "",
           backgroundColor: [
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
           ],
-          data: [25, 50]
+          data: [29, 71,0, 2]
         },
 
         {
@@ -754,17 +742,21 @@ class BarChart9 extends Component {
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
           ],
-          data: [75 , 42]
+          data: [58 , 42,0,3]
         },
         {
           label: "",
           backgroundColor: [
             "rgba(192,3,39,0.7)", 
             "rgba(192,3,39,0.7)", 
+            "rgba(192,3,39,0.7)", 
+            "rgba(192,3,39,0.7)",
           ],
-          data: [null, 8]
+          data: [80, 20,0,3]
         },
+        
       ]
     };
     return data;
@@ -778,7 +770,7 @@ class BarChart9 extends Component {
             <div className="chart-wrapper">
               <Bar
                  width={400}
-                 height={350}
+                 height={150}
                 data={
                   isVisible ? () => this.getData(this.props.data) : []
                 }
@@ -891,35 +883,35 @@ class BarChartDoble extends Component {
 
   getData(dataProp) {
     var data = {
-      labels: ["Enero", "Febrero", "Marzo"],
+      labels: ["Marzo", "Abril", "Mayo"],
       datasets: [
         {
-          label: "",
+          label: "Marzo: %",
           backgroundColor: [
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
           ],
-          data: [58, 54, 29]
+          data: [29, 58, 80]
         },
 
         {
-          label: "",
+          label: "Abri: %",
           backgroundColor: [
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
           ],
-          data: [42, 38, 8]
+          data: [71, 42, 20]
         },
         {
-          label: "",
+          label: "Mayo: %",
           backgroundColor: [
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
           ],
-          data: [0, 8, 0]
+          data: [0, 0, 0]
         }
       ]
     };
