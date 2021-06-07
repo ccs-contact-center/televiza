@@ -276,6 +276,97 @@ class TablaK4 extends Component {
     }
 }
 
+
+class TablaK5 extends Component {
+    render() {
+        return (
+            <div>
+                <table className="table table-bordered">
+                    <thead>
+                        <tr className="bg-danger">
+                            <th scope="col">Niveles de Servicio</th>
+                            <th scope="col" classname="bg-er">Atención a Clientes</th>
+                            <th scope="col" classname="bg-">Mayo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" className="bg-danger">SVL</th>
+                            <td>95.00%</td>
+                            <td>78%	</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">ABA</th>
+                            <td>&lt; 5%</td>
+                            <td>10%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">AHT</th>
+                            <td>00:05:30</td>
+                            <td className="text-danger"><strong>00:07:21</strong> </td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">ASA</th>
+                            <td>00:00:20 </td>
+                            <td>00:00:00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">Productividad / conversión</th>
+                            <td>50%</td>
+                            <td>56%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
+    }
+}
+
+class TablaK6 extends Component {
+    render() {
+        return (
+            <div>
+                <table className="table table-bordered">
+                    <thead>
+                        <tr  className="bg-danger">
+                            <th scope="col" >Niveles de Servicio</th>
+                            <th scope="col" classname="bg-">Ventas</th>
+                            <th scope="col" classname="bg-">Mayo</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row" className="bg-danger">SVL</th>
+                            <td>95%</td>
+                            <td>79%	</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">ABA</th>
+                            <td>&lt; 5%</td>
+                            <td>14%</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">AHT</th>
+                            <td>00:04:30</td>
+                            <td>00:06:59</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">ASA</th>
+                            <td>00:00:20</td>
+                            <td>00:00:00</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">Productividad / conversión</th>
+                            <td>90%</td>
+                            <td>109%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        )
+    }
+}
+
 class Tabla3 extends Component {
     render() {
         return (
@@ -527,6 +618,7 @@ class TablaI4 extends Component {
                             <th scope="col" >feb-21</th>
                             <th scope="col" >mar-21</th>
                             <th scope="col" >abr-21</th>
+                            <th scope="col" >may-21</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -540,6 +632,7 @@ class TablaI4 extends Component {
                             <td>4,035</td>
                             <td>3,385</td>
                             <td>1,924</td>
+                            <td>1,520</td>
                         </tr>
                         <tr>
                             <th scope="row" className="bg-danger" >Llamadas atendidas</th>
@@ -551,6 +644,7 @@ class TablaI4 extends Component {
                             <td>3,841</td>
                             <td>2,854</td>
                             <td>1,492</td>
+                            <td>1,373</td>
                         </tr>
                          <tr>
                             <th scope="row" className="bg-danger" >Llamadas atendidas de venta</th>
@@ -562,6 +656,7 @@ class TablaI4 extends Component {
                             <td>755</td>
                             <td>578</td>
                             <td>428</td>
+                            <td>360</td>
                         </tr>
                         <tr>
                             <th scope="row" className="bg-danger" >Llamada abandonadas</th>
@@ -573,6 +668,7 @@ class TablaI4 extends Component {
                             <td>194</td>
                             <td>531</td>
                             <td>432</td>
+                            <td>147</td>
                         </tr>
                         <tr>
                             <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>Nivel de Servicio</th>
@@ -584,6 +680,7 @@ class TablaI4 extends Component {
                             <td>74%</td>
                             <td>55%</td>
                             <td>65%</td>
+                            <td>78%</td>
                         </tr>
                         <tr>
                             <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>% de Abandono ATN</th>
@@ -595,6 +692,7 @@ class TablaI4 extends Component {
                             <td>5.00%</td>
                             <td>16.00%</td>
                             <td>22.00%</td>
+                            <td>10.0%</td>
                         </tr>
                         <tr>
                             <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>AHT</th>
@@ -606,6 +704,7 @@ class TablaI4 extends Component {
                             <td>00:04:04</td>
                             <td>00:06:29</td>
                             <td>00:08:33</td>
+                            <td>00:07:21</td>
                         </tr>
                          <tr>
                             <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>Nivel de Atención</th>
@@ -617,6 +716,7 @@ class TablaI4 extends Component {
                             <td>95%</td>
                             <td>84%</td>
                             <td>78%</td>
+                            <td>90%</td>
                         </tr>
                          <tr>
                             <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>Ventas</th>
@@ -628,6 +728,7 @@ class TablaI4 extends Component {
                             <td>272</td>
                             <td>279</td>
                             <td>212</td>
+                            <td>200</td>
                         </tr>
                          <tr>
                             <th scope="row" className="bg-danger" style={{ paddingTop: "5px", paddingBottom: "5px" }}>Conversión</th>
@@ -639,6 +740,7 @@ class TablaI4 extends Component {
                             <td>36%</td>
                             <td>48%</td>
                             <td>50%</td>
+                            <td>56%</td>
                         </tr>
                        
                     </tbody>
@@ -906,6 +1008,7 @@ class TablaRVN5 extends Component {
                             <th scope="col" classname="bg-">feb-21</th>
                             <th scope="col" classname="bg-">mar-21</th>
                             <th scope="col" classname="bg-">abr-21</th>
+                            <th scope="col" classname="bg-">may-21</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -919,6 +1022,7 @@ class TablaRVN5 extends Component {
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>4,110</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>6,118</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>4,152</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>3,419</td>
                         </tr>
                         <tr>
                             <th scope="row" className="bg-danger">Llamadas atendidas</th>
@@ -930,6 +1034,7 @@ class TablaRVN5 extends Component {
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>3,691</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>4,709</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>3,288</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>2,944</td>
                         </tr>
                          <tr>
                             <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Llamadas con peticion de venta</th>
@@ -941,6 +1046,7 @@ class TablaRVN5 extends Component {
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>807</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1871</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1071</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>952</td>
                         </tr>
                         <tr>
                             <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Llamada abandonadas</th>
@@ -952,6 +1058,7 @@ class TablaRVN5 extends Component {
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>419</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1409</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>864</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>475</td>
                         </tr>
                         <tr>
                             <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Nivel de Servicio</th>
@@ -963,6 +1070,7 @@ class TablaRVN5 extends Component {
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>76%</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>61%</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>70%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>79%</td>
                         </tr>
                         <tr>
                             <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">% de Abandono venta nueva</th>
@@ -974,6 +1082,7 @@ class TablaRVN5 extends Component {
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>10%</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>20%</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>21%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>14%</td>
                         </tr>
                         <tr>
                             <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">AHT</th>
@@ -985,6 +1094,7 @@ class TablaRVN5 extends Component {
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:04:06</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:06:54</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:06:47</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>00:06:59</td>
                         </tr>
                          <tr>
                             <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Nivel de Atención</th>
@@ -996,6 +1106,7 @@ class TablaRVN5 extends Component {
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>90%</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>77%</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>79%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>86%</td>
                         </tr>
                          <tr>
                             <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Ventas</th>
@@ -1007,6 +1118,7 @@ class TablaRVN5 extends Component {
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>688</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1890</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>12.66</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>1,044</td>
                         </tr>
                          <tr>
                             <th style={{ paddingTop: "5px", paddingBottom: "5px" }} scope="row" className="bg-danger">Conversión</th>
@@ -1018,6 +1130,7 @@ class TablaRVN5 extends Component {
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>85%</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>101%</td>
                             <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>118%</td>
+                            <td style={{ paddingTop: "5px", paddingBottom: "5px" }}>109%</td>
                         </tr>
                        
                     </tbody>
@@ -1225,7 +1338,7 @@ class Tabla7 extends Component {
                     <thead>
                         <tr>
                             <th scope="col" className="bg-danger align-middle">PROMEDIO DNC</th>
-                            <th scope="col" className="align-middle text-center text-white">97.00</th>
+                            <th scope="col" className="align-middle text-center text-white">96</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -1243,17 +1356,13 @@ class Tabla7 extends Component {
                                     href="#" id="tooltip1"
                                 />
                                 <UncontrolledTooltip placement="right" target="tooltip1" >
-                                    <span><p className="text-left">-Captura</p></span>
-                                    <span><p className="text-left">-Autopautaje</p></span>
-                                    <span ><p className="text-left">-Tipificación</p></span>
-                                    <span ><p className="text-left">-Políticas</p></span>
+                                    <span><p className="text-left">-Clientes difíciles</p></span>
+                                    <span><p className="text-left">-Ventas</p></span>
+                                   
                                 </UncontrolledTooltip>
                                 <UncontrolledTooltip placement="left" target="tooltip1" >
-                                    <span><p className="text-left">-Procesos de capura</p></span>
-                                    <span><p className="text-left">-Gestión de venta</p></span>
-                                    <span ><p className="text-left"> -Sondeo y apego a proceso</p></span>
-                                    <span ><p className="text-left">-Uso de tecnicismo</p></span>
-                                    <span><p className="text-left">-Etiqueta telefonica</p></span>
+                                <span ><p className="text-left">-Gestión</p></span>
+                                    <span ><p className="text-left">-Neuroventas</p></span>
                                 </UncontrolledTooltip>
                             </td>
                         </tr>
@@ -1669,6 +1778,7 @@ class Tabla8 extends Component {
                             <th scope="col" className="bg-danger">Calidad ABC</th>
                             <th scope="col" className="bg-danger">Enero</th>
                             <th scope="col" className="bg-danger">Febrero</th>
+                            <th scope="col" className="bg-danger">Febrero</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -1758,6 +1868,7 @@ class TablaCalidad9 extends Component {
                             <th scope="col" className="bg-danger">Febrero-21</th>
                             <th scope="col" className="bg-danger">Marzo-21</th>
                             <th scope="col" className="bg-danger">Abril-21</th>
+                            <th scope="col" className="bg-danger">Mayo-21</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -1767,6 +1878,7 @@ class TablaCalidad9 extends Component {
                             <td>54%</td>
                             <td>29%</td>
                             <td>58%</td>
+                            <td>80%</td>
                         </tr>
                         <tr>
                             <th scope="row" className="bg-danger">B</th>
@@ -1774,6 +1886,7 @@ class TablaCalidad9 extends Component {
                             <td>38%</td>
                             <td>71%</td>
                             <td>42%</td>
+                            <td>20%</td>
                         </tr>
                         <tr>
                             <th scope="row" className="bg-danger">C</th>
@@ -1781,9 +1894,11 @@ class TablaCalidad9 extends Component {
                             <td>8%</td>
                             <td>0%</td>
                             <td>0%</td>
+                            <td>0%</td>
                         </tr>
                         <tr>
                             <th scope="row" className="bg-danger">Total</th>
+                            <td>100%</td>
                             <td>100%</td>
                             <td>100%</td>
                             <td>100%</td>
@@ -2853,7 +2968,7 @@ class TablaTipi2 extends Component {
 }
 
 export {
-    Tabla1, Tabla2, TablaK1, TablaK2, TablaK3, TablaK4, Tabla3, TablaI3, TablaI4,
+    Tabla1, Tabla2, TablaK1, TablaK2, TablaK3, TablaK4, TablaK5,TablaK6, Tabla3, TablaI3, TablaI4,
      Tabla4, TablaRVN4, TablaRVN5, Tabla5, Tabla6, Tabla7, Tabla7a, Tabla7a1,
     Tabla7a2, Tabla8,
     TablaCalidad8, TablaCalidad9, Tabla9, Tabla10, TablaTipi1, TablaTipi2
