@@ -204,16 +204,17 @@ class BarChart1 extends Component {
 
 class BarChart2 extends Component {
   static defaultProps = {
-    data: [1338, 960, 2169, 1478, ]
+    data: [89, 85, 101, 118, 109 ]
   };
 
   getData(dataProp) {
     var data = {
-      labels: ["Ene-21","Feb-21","Mar-21","Abr-21"],
+      labels: ["Ene-21","Feb-21","Mar-21","Abr-21","May-21"],
       datasets: [
         {
-          label: "Ventas",
+          label: "Ventas %",
           backgroundColor: [
+            "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
             "rgba(192,3,39,0.7)",
@@ -347,26 +348,26 @@ class BarChart4 extends Component {
 
 class PieChart5 extends Component {
   static defaultProps = {
-    data: [19, 19, 22, 25, 35, 78, 84, 97, 101, 176, 598, 689, 912, 986,]
+    data: [78,19,19,176,25,35,986,22,97,689,101,912,598,84]
   };
 
   getData(dataProp) {
     var data = {
       labels: [
+        "APLICACIÓN DE PAGO",
         "CAMBIO DE REVISTA",
         "CAMBIO O CORRECCIÓN DE DATOS",
-        "INVESTIGACIÓN CORREO",
-        "TRANSFERENCIA INTERNA",
+        "CANCELACIONES",
         "DEVOLUCIÓN",
         "FACTURACIÓN",
-        "APLICACIÓN DE PAGO",
-        "VENTA CRUZADA",
-        "NO VENTA",
-        "REPOSICIÓN",
-        "CANCELACIONES",
-        "OTROS",
-        "SUSCRIPCIONES",
         "INFORMACIÓN",
+        "INVESTIGACIÓN CORREO",
+        "NO VENTA",
+        "OTROS",
+        "REPOSICIÓN",
+        "SUSCRIPCIONES",
+        "TRANSFERENCIA INTERNA",
+        "VENTA CRUZADA", 
       ],
       datasets: [
         {
@@ -495,26 +496,26 @@ class PieChart5 extends Component {
 
 class PieChart6 extends Component {
   static defaultProps = {
-    data: [4, 5, 8, 9, 10, 17, 28, 43, 53, 287, 358, 476, 488, 554,]
+    data: [53,9,28,358,8,17,554,4, 5,476,287,488,43,10]
   };
 
   getData(dataProp) {
     var data = {
       labels: [
+        "APLICACIÓN DE PAGO",
+        "CAMBIO DE REVISTA",
+        "CAMBIO O CORRECCIÓN DE DATOS",
+        "CANCELACIONES",
+        "DEVOLUCIÓN",
+        "FACTURACIÓN",
+        "INFORMACIÓN",
         "INVESTIGACIÓN CORREO",
         "NO VENTA",
-        "DEVOLUCIÓN",
-        "CAMBIO DE REVISTA",
-        "VENTA CRUZADA",
-        "FACTURACIÓN",
-        "CAMBIO O CORRECCIÓN DE DATOS",
-        "TRANSFERENCIA INTERNA",
-        "APLICACIÓN DE PAGO",
-        "REPOSICIÓN",
-        "CANCELACIONES",
         "OTROS",
+        "REPOSICIÓN",
         "SUSCRIPCIONES",
-        "INFORMACIÓN",
+        "TRANSFERENCIA INTERNA",
+        "VENTA CRUZADA", 
       ],
       datasets: [
         {
