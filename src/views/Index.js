@@ -29,6 +29,7 @@ import {
   //Tabla4,
   // Tabla5,
   // Tabla6,
+  TablaRG,
 
   TablaRVN5,
   Tabla7,
@@ -116,6 +117,17 @@ class Index extends Component {
                     </ReactFitText>
                   </div>
                 </div>
+
+                <div className="section">
+                  <Container>
+                    <Row>
+                      <Col xs="12">
+                        <h2 className="border border-bottom border-danger"><span>Resumen General</span></h2>
+                        <TablaRG />
+                      </Col>
+                    </Row>
+                  </Container>
+                </div>
                
 
                 <div className="section">
@@ -179,6 +191,8 @@ class Index extends Component {
                     </Row>
                   </Container>
                 </div>
+
+                aqio
 
                 <div className="section">
                   <Container>
@@ -262,8 +276,6 @@ class Index extends Component {
                     </Row>
                   </Container>
                   <div style={{ width: "95%", height: "80%" }}>
-
-
                     <MapInteractionCSS
                       value={this.state.value}
                       onChange={(value) => this.setState({ value })}
