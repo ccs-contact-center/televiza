@@ -7,7 +7,7 @@ const data = {
 		{
 			label: 'Sales',
 			type: 'line',
-			data: [90, 90, 100, 90, 100, 100, 100, 100],
+			data: [90, 90, 90, 90, 100, 100, 100, 100,100],
 			fill: false,
 			borderColor: 'rgba(166, 164, 166)',
 			backgroundColor: 'rgba(166, 164, 166)',
@@ -20,7 +20,7 @@ const data = {
 		{
 			label: 'Visitor',
 			type: 'bar',
-			data: [90, 90, 100, 90, 100, 100, 100, 100],
+			data: [90, 90, 90, 90, 100, 100, 100, 100,100],
 			fill: false,
 			backgroundColor: 'rgba(192,3,39,0.8)',
 			borderColor: 'rgba(192,3,39,0.7)',
@@ -33,27 +33,12 @@ const data = {
 
 const options = {
 	responsive: true,
-	labels: ["JOSE EDUARDO  CRUZ  GARCIA", "LUIS DANIEL  MALDONADO  GALVAN", "ARTURO ADAN ALCANTARA GUZMAN", 
-  "DIANA LAURA  GOYRE GARCIA ", "MARIANA  FLORES  HERNANDEZ", "PATRICIA  JIMENEZ  JUAREZ", "LAURA GISELLE ROBLES  MEJIA",
-   "TERESA  TOVAR TREJO"],
+	labels: ["JOSE EDUARDO  CRUZ  GARCIA", "MARIA DEL ROSARIO LESLIE TAGLE CISNEROS","LAURA JUNUEL SALDAÑA RIVERO",
+	"JESUS ADRIAN RODRIGUEZ CASTAÑEDA", "DANIELA CARRASCO SILVA ","MARIA FLORES HERNANDEZ ", "TERESA TOVAR TREJO",
+	"PATRICIA JIMENEZ JUAREZ","LAURA GISELLE ROBLES MEJIA ",],
 	tooltips: {
 		mode: 'label',
-		callbacks: {
-			label: function(tooltipItem, data) {
-			  //get the concerned dataset
-			  var dataset = data.datasets[tooltipItem.datasetIndex];
-			  //calculate the total of this data set
-			  var total = dataset.data.reduce(function(previousValue, currentValue, currentIndex, array) {
-				return previousValue + currentValue;
-			  });
-			  //get the current items value
-			  var currentValue = dataset.data[tooltipItem.index];
-			  //calculate the precentage based on the total and current item, also this does a rough rounding to give a whole number
-			  var percentage = Math.floor(((currentValue/total) * 100)+0.5);
 		
-			  return percentage + "%";
-			}
-		  }
 
 	},
 	elements: {
@@ -69,9 +54,11 @@ const options = {
 					display: false
 				},
 
-				labels: ["JOSE EDUARDO  CRUZ  GARCIA", "LUIS DANIEL  MALDONADO  GALVAN", "ARTURO ADAN ALCANTARA GUZMAN", 
-        "DIANA LAURA  GOYRE GARCIA ", "MARIANA  FLORES  HERNANDEZ", "PATRICIA  JIMENEZ  JUAREZ", 
-        "LAURA GISELLE ROBLES  MEJIA", "TERESA  TOVAR TREJO"]
+				labels: [
+					"JOSE EDUARDO  CRUZ  GARCIA", "MARIA DEL ROSARIO LESLIE TAGLE CISNEROS","LAURA JUNUEL SALDAÑA RIVERO",
+					"JESUS ADRIAN RODRIGUEZ CASTAÑEDA", "DANIELA CARRASCO SILVA ","MARIA FLORES HERNANDEZ ", "TERESA TOVAR TREJO",
+					"PATRICIA JIMENEZ JUAREZ","LAURA GISELLE ROBLES MEJIA ",
+				]
 			}
 		],
 		yAxes: [
@@ -112,7 +99,7 @@ const plugins = [
 	}
 ];
 
-class MixChar7 extends Component {
+class MixCharVW1 extends Component {
 	render() {
 		return (
 			<div className="flex flex-col items-center w-full max-w-md">
@@ -122,4 +109,4 @@ class MixChar7 extends Component {
 	}
 }
 
-export default MixChar7;
+export default MixCharVW1;
