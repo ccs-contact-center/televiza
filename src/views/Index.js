@@ -15,6 +15,8 @@ import {
   //BarChart4,
   PieChart5,
   PieChart6,
+  BarChart8,
+  BarChartDoble,
 } from "./Components/Graphics";
 import MixChar7 from "./Components/MixChart"
 import MixChartRA from "./Components/MixChartRA"
@@ -27,19 +29,20 @@ import {
   //Tabla4,
   // Tabla5,
   // Tabla6,
+
   TablaRVN5,
   Tabla7,
   Tabla7a,
   Tabla7a1,
   Tabla7a2,
-  //Tabla8,
+  TablaCalidad9,
   TablaI4,
   Tabla9,
   Tabla10,
   TablaTipi1,
   TablaTipi2,
 } from "./Components/Tablas";
-import { Kpis, CalidadMarzo1, CalidadMarzo2 } from "./Components/TablasUpDate"
+import { Kpis, } from "./Components/TablasUpDate"
 import { MapInteractionCSS } from 'react-map-interaction';
 import 'animate.css';
 
@@ -113,6 +116,7 @@ class Index extends Component {
                     </ReactFitText>
                   </div>
                 </div>
+               
 
                 <div className="section">
                   <Kpis />
@@ -192,7 +196,7 @@ class Index extends Component {
                       </Col>
                       <Col xs="12">
                         <p>ATC: las llamadas se incrementaron ya que al mencionar que no hay sistema, los usuarios llamaban en repetidas ocasiones.
-Clientes Nuevos: incremento de llamadas por promos y menciones y/o spots
+                        Clientes Nuevos: incremento de llamadas por promos y menciones y/o spots
 </p>
                       </Col>
                     </Row>
@@ -358,11 +362,72 @@ Clientes Nuevos: incremento de llamadas por promos y menciones y/o spots
                 </div>
 
                 <div className="section">
-                  <CalidadMarzo1 />
+                  <Container>
+                    <Row>
+                      <Col xs="12">
+                        <h2 className="border border-bottom border-danger"><span>Calidad</span></h2>
+                      </Col>
+                      <Col xs="12">
+                        <TablaCalidad9 />
+                      </Col>
+                    </Row>
+                  </Container>
                 </div>
 
                 <div className="section">
-                  <CalidadMarzo2 />
+                  <Container>
+                    <Row>
+                      <Col xs="12">
+                        <h2 className="border border-bottom border-danger"><span>Calidad</span></h2>
+                      </Col>
+                      <Col xs="12">
+                        <BarChart8 />
+                      </Col>
+                      <Col xs="12">
+                        <p>Las principales Áreas de oportunidad detectadas son:<br />
+                          <strong>Manejo de objeciones</strong> : Agente no debate las objeciones ante las negativas que
+                      presenta el cliente.<br />
+                          <strong>Tipificación correcta</strong>: Agente tipifica la llamada de manera incorrecta seleccionando una
+                        opción distinta a lo sucedido en la interacción.</p>
+                      </Col>
+                    </Row>
+                  </Container>
+                </div>
+                <div className="section">
+                  <Container>
+                    <Row>
+                      <Col xs="12">
+                        <h2 className="border border-bottom border-danger"><span>Calidad</span></h2>
+                      </Col>
+                      <Col xs="12">
+                        <BarChartDoble />
+                      </Col>
+                    </Row>
+                    <Row>
+                      <Col xs="4" className="text-left">
+                        <p>Con un promedio ABC de:<br />
+                          <ul>
+                            <li>96.02%</li>
+                          </ul>
+                                    Clasificando en nivel:<br />
+                          <ul>
+                            <li>A</li>
+                          </ul>
+                        </p>
+                      </Col>
+                      <Col xs="8" className="text-justify">
+                        <p>
+                          Acciones:<br />
+                          Se lleva acabo un reforzamiento sobre la importancia que tiene el tipificar las interacciones
+                          de forma correcta, seleccionando la opción que corresponde a cada interacción .<br/>
+                          Clínica enfocada al manejo para debatir las negativas del cliente y poder colocar una venta 
+                          cruzada aprovechando el contacto, reforzando la venta generada con beneficios y no solo 
+                          haciendo una labor informativa.
+
+                        </p>
+                      </Col>
+                    </Row>
+                  </Container>
                 </div>
 
 
