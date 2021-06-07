@@ -1067,6 +1067,51 @@ class BarChartDoble2 extends Component {
 //     );
 //   }
 // }
+
+
+class BarChartCapa extends Component {
+  static defaultProps = {
+    data: [90,90,90,90,100,100,100,100]
+  };
+
+  getData(dataProp) {
+    var data = {
+      labels: [ "JOSE EDUARDO CRUZ GARCIA", "Marzo ", " Febrero",],
+      datasets: [
+        {
+          label: "QA Anual           ",
+          backgroundColor: [
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+            "rgba(192,3,39,0.7)",
+          ],
+          data: dataProp
+        }
+      ]
+    };
+    return data;
+  }
+
+  render() {
+    return (
+      <VisibilitySensor>
+        {({ isVisible }) => {
+          return (
+            <div className="chart-wrapper">
+              <Bar
+                width={400}
+                data={
+                  isVisible ? () => this.getData(this.props.data) : []
+                }
+                options={optionsBar}
+              />
+            </div>
+          );
+        }}
+      </VisibilitySensor>
+    );
+  }
+}
 export { BarChart1, BarChart2, BarChart3, BarChart4, PieChart5, PieChart6, BarChart7, BarChart8, 
    BarChart9, BarChartMar9,  BarChartMar10,
-  BarChartDoble, BarChartDoble2 };
+  BarChartDoble, BarChartDoble2, BarChartCapa };
