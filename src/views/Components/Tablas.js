@@ -2813,167 +2813,167 @@ class TablaTipi2 extends Component {
                             <td>78</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">domingo 14 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">lunes 15 de Abril</th>
-                            <td>1</td>
-                            <td>1</td>
+                            <th scope="row" className="bg-danger">viernes 14 de mayo</th>
                             <td>9</td>
-                            <td>3</td>
-                            <td>1</td>
-                            <td>32</td>
-                            <td>47</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">martes 16 de Abril</th>
-                            <td>19</td>
-                            <td>8</td>
-                            <td>18</td>
-                            <td>11</td>
-                            <td>2</td>
-                            <td>56</td>
-                            <td>114</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">miércoles 17 de Abril</th>
-                            <td>10</td>
-                            <td>14</td>
                             <td>6</td>
-                            <td>8</td>
-                            <td></td>
-                            <td>63</td>
-                            <td>101</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">jueves 18 de Abril</th>
+                            <td>7</td>
                             <td>3</td>
-                            <td>7</td>
-                            <td>8</td>
-                            <td>10</td>
-                            <td>1</td>
-                            <td>61</td>
-                            <td>90</td>
+                            <td></td>
+                            <td>30</td>
+                            <td>55</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">viernes 19 de Abril</th>
-                            <td>7</td>
-                            <td>7</td>
-                            <td>9</td>
-                            <td>11</td>
-                            <td>1</td>
-                            <td>47</td>
-                            <td>82</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">sábado 20 de Abril</th>
+                            <th scope="row" className="bg-danger">sábado 15 de mayo</th>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>4</td>
                             <td>5</td>
                             <td></td>
+                            <td>13</td>
+                            <td>27</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">domingo 16 de mayo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">lunes 17 de mayo</th>
+                            <td>15</td>
+                            <td>4</td>
+                            <td>3</td>
                             <td>3</td>
                             <td></td>
-                            <td></td>
-                            <td>16</td>
-                            <td>24</td>
+                            <td>33</td>
+                            <td>58</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">domingo 21 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">lunes 22 de Abril</th>
-                            <td>16</td>
-                            <td>17</td>
-                            <td>9</td>
-                            <td>15</td>
-                            <td></td>
-                            <td>73</td>
-                            <td>130</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">martes 23 de Abril</th>
+                            <th scope="row" className="bg-danger">martes 18 de mayo</th>
                             <td>14</td>
-                            <td>18</td>
-                            <td>9</td>
-                            <td>8</td>
-                            <td></td>
-                            <td>75</td>
-                            <td>124</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">miércoles 24 de Abril</th>
-                            <td>15</td>
                             <td>20</td>
-                            <td>8</td>
-                            <td>7</td>
+                            <td>12</td>
+                            <td>5</td>
                             <td></td>
-                            <td>66</td>
-                            <td>116</td>
+                            <td>38</td>
+                            <td>89</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">jueves 25 de Abril</th>
-                            <td>19</td>
-                            <td>18</td>
+                            <th scope="row" className="bg-danger">miércoles 19 de mayo</th>
+                            <td>7</td>
+                            <td>27</td>
+                            <td>6</td>
+                            <td>6</td>
+                            <td></td>
+                            <td>25</td>
+                            <td>71</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">jueves 20 de mayo</th>
                             <td>13</td>
                             <td>9</td>
-                            <td></td>
-                            <td>57</td>
-                            <td>116</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">viernes 26 de Abril</th>
                             <td>10</td>
-                            <td>11</td>
-                            <td>7</td>
-                            <td>5</td>
+                            <td>8</td>
                             <td></td>
-                            <td>62</td>
-                            <td>95</td>
+                            <td>45</td>
+                            <td>85</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">sábado 27 de Abril</th>
+                            <th scope="row" className="bg-danger">viernes 21 de mayo</th>
+                            <td>13</td>
+                            <td>21</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td></td>
+                            <td>29</td>
+                            <td>71</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">sábado 22 de mayo</th>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>1</td>
+                            <td></td>
+                            <td></td>
+                            <td>12</td>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">domingo 23 de mayo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">lunes 24 de mayo</th>
+                            <td>1</td>
+                            <td>20</td>
+                            <td>5</td>
+                            <td>13</td>
+                            <td></td>
+                            <td>24</td>
+                            <td>63</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">martes 25 de mayo</th>
+                            <td>1</td>
+                            <td>8</td>
                             <td>2</td>
                             <td>5</td>
+                            <td></td>
+                            <td>32</td>
+                            <td>58</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">miércoles 26 de mayo</th>
+                            <td>16</td>
+                            <td>26</td>
+                            <td>7</td>
+                            <td>12</td>
+                            <td></td>
+                            <td>37</td>
+                            <td>98</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">jueves 27 de mayo</th>
+                            <td>10</td>
+                            <td>8</td>
                             <td>5</td>
-                            <td>10</td>
-                            <td></td>
-                            <td>20</td>
-                            <td>42</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">domingo 28 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td>0</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">lunes 29 de Abril</th>
-                            <td>19</td>
                             <td>9</td>
-                            <td>14</td>
-                            <td>10</td>
                             <td></td>
-                            <td>78</td>
-                            <td>130</td>
+                            <td>43</td>
+                            <td>75</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">martes 30 de Abril</th>
+                            <th scope="row" className="bg-danger">viernes 28 de mayo</th>
+                            <td>2</td>
+                            <td>16</td>
+                            <td>6</td>
+                            <td>5</td>
+                            <td></td>
+                            <td>26</td>
+                            <td>55</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">sábado 29 de mayo</th>
+                            <td></td>
+                            <td>3</td>
+                            <td></td>
+                            <td>3</td>
+                            <td></td>
+                            <td>6</td>
+                            <td>12</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">domingo 30 de mayo</th>
                             <td>16</td>
                             <td>13</td>
                             <td>12</td>
@@ -2984,14 +2984,14 @@ class TablaTipi2 extends Component {
                         </tr>
                         <tr>
                             <th scope="row" className="bg-danger">TOTAL</th>
-                            <td>280</td>
-                            <td>371</td>
+                            <td>136</td>
+                            <td>266</td>
                             
-                            <td>292</td>
-                            <td>274</td>
-                            <td>862</td>
-                            <td>1,341</td>
-                            <td className="align-middle text-danger" style={{ fontSize: "20px", }}><strong>3,420</strong></td>
+                            <td>140</td>
+                            <td>185</td>
+                            <td>2</td>
+                            <td>708</td>
+                            <td className="align-middle text-danger" style={{ fontSize: "20px", }}><strong>1,960</strong></td>
                         </tr>
                     </tbody>
                 </table>
