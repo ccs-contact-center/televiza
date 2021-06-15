@@ -34,8 +34,6 @@ import {
   TablaRVN5,
   Tabla7,
   Tabla7a,
-  Tabla7a1,
-  Tabla7a2,
   TablaCalidad9,
   TablaI4,
   Tabla9,
@@ -271,7 +269,7 @@ class Index extends Component {
                   <Container>
                     <Row>
                       <Col xs="12">
-                        <h2 className="border border-bottom border-danger"><span>Tipificación Mayo (Encuesta atnc)</span></h2>
+                        <h2 className="border border-bottom border-danger"><span>tipificacion atencion a cliente</span></h2>
                       </Col>
                     </Row>
                   </Container>
@@ -290,7 +288,7 @@ class Index extends Component {
                   <Container>
                     <Row>
                       <Col xs="12">
-                        <h2 className="border border-bottom border-danger"><span>Tipificación Mayo (Encuesta Televisión)</span></h2>
+                        <h2 className="border border-bottom border-danger"><span>Tipificacion clientes nuevos </span></h2>
                       </Col>
                     </Row>
                   </Container>
@@ -346,11 +344,11 @@ class Index extends Component {
                   </Container>
                 </div>
 
-                <div className="section">
+                {/* <div className="section">
                   <Container>
                     <Row>
                       <Col xs="12">
-                        <h2 className="border border-bottom border-danger"><span>Capacitación</span></h2>
+                        <h2 className="border border-bottom border-danger"><span>Capacitación2</span></h2>
                       </Col>
                       <Col xs="12">
                         <Tabla7a1 />
@@ -363,7 +361,7 @@ class Index extends Component {
                   <Container>
                     <Row>
                       <Col xs="12">
-                        <h2 className="border border-bottom border-danger"><span>Capacitación</span></h2>
+                        <h2 className="border border-bottom border-danger"><span>Capacitación3</span></h2>
                       </Col>
                       <Col xs="12">
                         <Tabla7a2 />
@@ -371,7 +369,7 @@ class Index extends Component {
                     </Row>
                   </Container>
 
-                </div>
+                </div> */}
 
                 <div className="section">
                   <Container>
