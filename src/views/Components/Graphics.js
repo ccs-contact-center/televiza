@@ -333,26 +333,28 @@ class BarChart4 extends Component {
 
 class PieChart5 extends Component {
   static defaultProps = {
-    data: [78,19,19,176,25,35,986,22,97,689,101,912,598,84]
+    data: [33,3,21,124,7,6,1024,0,250,109,120,23,728,117,13,27,]
   };
 
   getData(dataProp) {
     var data = {
       labels: [
-        "APLICACIÓN DE PAGO",
-        "CAMBIO DE REVISTA",
-        "CAMBIO O CORRECCIÓN DE DATOS",
-        "CANCELACIONES",
-        "DEVOLUCIÓN",
-        "FACTURACIÓN",
-        "INFORMACIÓN",
-        "INVESTIGACIÓN CORREO",
-        "NO VENTA",
-        "OTROS",
-        "REPOSICIÓN",
-        "SUSCRIPCIONES",
-        "TRANSFERENCIA INTERNA",
-        "VENTA CRUZADA", 
+        "Aplicación de pago",
+        "Cambio de revista",
+        "Cambio o corrección de datos",
+        "Cancelaciones",
+        "Devolución",
+        "Facturación",
+        "Información",
+        "Investigación correo",
+        "No relacionadas",
+        "No venta",
+        "Renovación",
+        "Renovación con revista adicional",
+        "Reposición",
+        "Suscripción nueva",
+        "Suscripción nueva con rev adicional",
+        "Transferencia interna", 
       ],
       datasets: [
         {
@@ -372,8 +374,12 @@ class PieChart5 extends Component {
             "#e84545",
             "#424642",
             "#40394a",
+            "#424642",
+            "#40394a",
           ],
           hoverBackgroundColor: [
+            "rgba(192,3,39,0.4)",
+            "rgba(192,3,39,0.4)",
             "rgba(192,3,39,0.4)",
             "rgba(192,3,39,0.4)",
             "rgba(192,3,39,0.4)",
@@ -481,26 +487,18 @@ class PieChart5 extends Component {
 
 class PieChart6 extends Component {
   static defaultProps = {
-    data: [53,9,28,358,8,17,554,4, 5,476,287,488,43,10]
+    data: [136,266,140,185,2,708,]
   };
 
   getData(dataProp) {
     var data = {
       labels: [
-        "APLICACIÓN DE PAGO",
-        "CAMBIO DE REVISTA",
-        "CAMBIO O CORRECCIÓN DE DATOS",
-        "CANCELACIONES",
-        "DEVOLUCIÓN",
-        "FACTURACIÓN",
-        "INFORMACIÓN",
-        "INVESTIGACIÓN CORREO",
-        "NO VENTA",
-        "OTROS",
-        "REPOSICIÓN",
-        "SUSCRIPCIONES",
-        "TRANSFERENCIA INTERNA",
-        "VENTA CRUZADA", 
+        "Atención a Clientes",
+        "No relacionadas",
+        "No Venta",
+        "Suscripción nueva con rev adicional",
+        "Transferencia interna",
+        "Suscripción nueva", 
       ],
       datasets: [
         {
