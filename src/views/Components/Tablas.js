@@ -2002,624 +2002,659 @@ class TablaTipi1 extends Component {
                     </thead>
                     <tbody>
                         <tr>
-                            <th scope="row" className="bg-danger">lunes 1 de Abril</th>
+                            <th scope="row" className="bg-danger">sabado 1 de Mayo</th>
                             <td></td>
                             <td></td>
+                            <td className="align-middle"></td>
+                            <td className="align-middle"></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle"></td>
+                            <td></td>
+                            <td className="align-middle"></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle"></td>
+                            <td className="align-middle"></td>
+                            <td className="align-middle"></td>
+                            <td className="align-middle"></td>
+                            <td className="align-middle"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">domingo 2 de Mayo</th>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle"></td>
+                            <td className="align-middle"></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle"></td>
+                            <td></td>
+                            <td className="align-middle"></td>
+                            <td className="align-middle"></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle"></td>
+                            <td className="align-middle"></td>
+                            <td className="align-middle"></td>
+                            <td className="align-middle"></td>
+                            <td className="align-middle"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">lunes 3 de Mayo</th>
                             <td className="align-middle">2</td>
+                            <td></td>
+                            <td></td>
                             <td className="align-middle">12</td>
                             <td></td>
                             <td></td>
-                            <td className="align-middle">205</td>
+                            <td className="align-middle">54</td>
                             <td></td>
-                            <td className="align-middle">9</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">24</td>
-                            <td className="align-middle">5</td>
-                            <td className="align-middle">2</td>
-                            <td className="align-middle">15</td>
-                            <td className="align-middle">274</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">martes 2 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">3</td>
-                            <td className="align-middle">8</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">181</td>
-                            <td></td>
-                            <td className="align-middle">6</td>
+                            <td className="align-middle">18</td>
+                            <td className="align-middle">7</td>
+                            <td className="align-middle">10</td>
                             <td className="align-middle">1</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">19</td>
-                            <td className="align-middle">7</td>
-                            <td className="align-middle">2</td>
-                            <td className="align-middle">7</td>
-                            <td className="align-middle">234</td>
+                            <td className="align-middle">71</td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">6</td>
+                            <td className="align-middle">185</td>
+                            
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">miércoles 3 de Abril</th>
-                            <td></td>
+                            <th scope="row" className="bg-danger">martes 4 de Mayo</th>
+                            <td className="align-middle">2</td>
                             <td></td>
                             <td></td>
                             <td className="align-middle">10</td>
                             <td></td>
-                            <td className="align-middle">2</td>
-                            <td className="align-middle">225</td>
                             <td></td>
-                            <td className="align-middle">8</td>
-                            <td className="align-middle">2</td>
+                            <td className="align-middle">56</td>
                             <td></td>
-                            <td></td>
-                            <td className="align-middle">13</td>
-                            <td className="align-middle">10</td>
-                            <td className="align-middle">5</td>
-                            <td className="align-middle">11</td>
-                            <td className="align-middle">286</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">jueves 4 de Abril</th>
-                            <td></td>
-                            <td className="align-middle">2</td>
-                            <td></td>
-                            <td className="align-middle">7</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">181</td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">17</td>
-                            <td className="align-middle">1</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">16</td>
-                            <td className="align-middle">12</td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">8</td>
-                            <td className="align-middle">246</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">sábado 6 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">3</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">38</td>
-                            <td></td>
-                            <td className="align-middle">4</td>
-                            <td className="align-middle">1</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">4</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">51</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">domingo 7 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">lunes 8 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">2</td>
-                            <td className="align-middle">4</td>
-                            <td></td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">188</td>
-                            <td></td>
-                            <td className="align-middle">12</td>
-                            <td className="align-middle">2</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">13</td>
-                            <td className="align-middle">7</td>
-                            <td className="align-middle">2</td>
-                            <td className="align-middle">17</td>
-                            <td className="align-middle">248</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">martes 9 de Abril</th>
-                            <td></td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">1</td>
                             <td className="align-middle">9</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">9</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">39</td>
+                            <td className="align-middle">5</td>
+                            <td className="align-middle">0</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">136</td>
+                            
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">miercoles 5 de Mayo</th>
+                            <td className="align-middle">1</td>
                             <td></td>
-                            <td></td>
-                            <td className="align-middle">58</td>
-                            <td></td>
+                            <td className="align-middle">1</td>
                             <td className="align-middle">6</td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">28</td>
-                            <td className="align-middle">17</td>
                             <td className="align-middle">1</td>
-                            <td className="align-middle">2</td>
-                            <td className="align-middle">123</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">miercoles 9 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">12</td>
-                            <td></td>
-                            <td></td>
+
                             <td className="align-middle">48</td>
                             <td></td>
-                            <td className="align-middle">9</td>
+                            <td className="align-middle">6</td>
+                            <td className="align-middle">6</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">33</td>
+                            <td className="align-middle">7</td>
+                            <td className="align-middle">1</td>
                             <td className="align-middle">3</td>
+                            <td className="align-middle">116</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">Juevez 6 de Mayo</th>
+                            <td className="align-middle">4</td>
                             <td></td>
+                            <td></td>
+                            <td className="align-middle">11</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">55</td>
+                            <td></td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">42</td>
+                            <td className="align-middle">6</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">131</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">viernes 7 de Mayo</th>
+                            <td>1</td>
+                            <td></td>
+                            <td></td>
+                            <td>5</td>
+                            <td></td>
+                            <td></td>
+                            <td>63</td>
+                            <td></td>
+                            <td>6</td>
+                            <td>6</td>
+                            <td>6</td>
+                            <td></td>
+                            <td>26</td>
+                            <td>6</td>
+                            <td>1</td>
+                            <td>5</td>
+                            <td>125</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">sábado 8 de Mayo</th>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">14</td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">4</td>
+                            <td className="align-middle">1</td>
                             <td></td>
                             <td className="align-middle">19</td>
-                            <td className="align-middle">13</td>
-                            <td className="align-middle">3</td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">109</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">jueves 11 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">3</td>
-                            <td className="align-middle">5</td>
-                            <td></td>
-                            <td className="align-middle">2</td>
-                            <td className="align-middle">63</td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">6</td>
-                            <td className="align-middle">5</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">17</td>
-                            <td className="align-middle">20</td>
-                            <td className="align-middle">5</td>
-                            <td></td>
-                            <td className="align-middle">127</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">viernes 12 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">2</td>
                             <td className="align-middle">8</td>
                             <td></td>
-                            <td></td>
-                            <td className="align-middle">54</td>
-                            <td></td>
-                            <td className="align-middle">3</td>
-                            <td></td>
-                            <td></td>
                             <td className="align-middle">2</td>
-                            <td className="align-middle">20</td>
-                            <td className="align-middle">10</td>
-                            <td className="align-middle">2</td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">102</td>
+                            <td className="align-middle">52</td>
+                           
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">sábado 13 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">5</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">21</td>
-                            <td></td>
-                            <td className="align-middle">2</td>
+                            <th scope="row" className="bg-danger">Domingo 9 de Mayo</th>
                             <td></td>
                             <td></td>
                             <td></td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">1</td>
                             <td></td>
                             <td></td>
-                            <td className="align-middle">31</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">domingo 14 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">lunes 15 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">1</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">61</td>
-                            <td></td>
-                            <td className="align-middle">5</td>
+                            <th scope="row" className="bg-danger">Lunes 10 de Mayo</th>
                             <td></td>
                             <td></td>
                             <td></td>
                             <td className="align-middle">2</td>
-                            <td className="align-middle">1</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">70</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">martes 16 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">6</td>
-                            <td></td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">148</td>
-                            <td></td>
-                            <td className="align-middle">6</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">9</td>
-                            <td className="align-middle">6</td>
-                            <td className="align-middle">1</td>
-                            <td></td>
-                            <td className="align-middle">177</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">miercoles 17 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">5</td>
-                            <td></td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">76</td>
-                            <td></td>
-                            <td className="align-middle">3</td>
-                            <td className="align-middle">1</td>
-                            <td></td>
-                            <td className="align-middle">3</td>
-                            <td className="align-middle">16</td>
-                            <td className="align-middle">12</td>
-                            <td className="align-middle">4</td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">122</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">jueves 18 de Abril</th>
-                            <td></td>
                             <td></td>
                             <td className="align-middle">2</td>
-                            <td className="align-middle">1</td>
+                            <td className="align-middle">43</td>
                             <td></td>
-                            <td></td>
-                            <td className="align-middle">57</td>
-                            <td></td>
-                            <td className="align-middle">14</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">11</td>
                             <td className="align-middle">15</td>
-                            <td className="align-middle">2</td>
-                            <td></td>
-                            <td className="align-middle">103</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">viernes 19 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">11</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">54</td>
-                            <td></td>
-                            <td className="align-middle">9</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">9</td>
-                            <td className="align-middle">7</td>
-                            <td className="align-middle">3</td>
-                            <td></td>
-                            <td className="align-middle">94</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">sábado 20 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">14</td>
-                            <td></td>
-                            <td className="align-middle">3</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">1</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">18</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">domingo 21 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">lunes 22 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">9</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">69</td>
-                            <td></td>
-                            <td className="align-middle">18</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">16</td>
-                            <td className="align-middle">13</td>
-                            <td className="align-middle">2</td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">129</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">martes 23 de Abril</th>
-                            <td></td>
-                            <td className="align-middle">1</td>
+                            <td className="align-middle">5</td>
                             <td className="align-middle">4</td>
-                            <td className="align-middle">7</td>
                             <td className="align-middle">1</td>
-                            <td></td>
-                            <td className="align-middle">49</td>
-                            <td></td>
-                            <td className="align-middle">7</td>
-                            <td className="align-middle">3</td>
-                            <td></td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">14</td>
-                            <td className="align-middle">13</td>
-                            <td className="align-middle">2</td>
-                            <td></td>
-                            <td className="align-middle">102</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">miercoles 24 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">2</td>
-                            <td className="align-middle">10</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">47</td>
-                            <td></td>
+                            <td className="align-middle">21</td>
                             <td className="align-middle">4</td>
-                            <td className="align-middle">2</td>
                             <td></td>
-                            <td></td>
-                            <td className="align-middle">14</td>
-                            <td className="align-middle">11</td>
-                            <td className="align-middle">2</td>
-                            <td></td>
-                            <td className="align-middle">92</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">98</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">jueves 25 de Abril</th>
-                            <td></td>
-                            <td></td>
+                            <th scope="row" className="bg-danger">martes 11 de Mayo</th>
                             <td className="align-middle">2</td>
-                            <td className="align-middle">12</td>
                             <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">5</td>
+                            <td className="align-middle">1</td>
                             <td></td>
-                            <td className="align-middle">62</td>
-                            <td></td>
-                            <td className="align-middle">12</td>
-                            <td className="align-middle">3</td>
-                            <td></td>
-                            <td className="align-middle">3</td>
-                            <td className="align-middle">16</td>
-                            <td className="align-middle">11</td>
-                            <td className="align-middle">3</td>
-                            <td></td>
-                            <td className="align-middle">124</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">viernes 26 de Abril</th>
-                            <td></td>
-                            <td></td>
+                            <td className="align-middle">40</td>
                             <td></td>
                             <td className="align-middle">8</td>
-                            <td className="align-middle">1</td>
-                            <td></td>
-                            <td className="align-middle">50</td>
-                            <td></td>
-                            <td className="align-middle">8</td>
-                            <td className="align-middle">1</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">13</td>
                             <td className="align-middle">11</td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">94</td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">sábado 27 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">4</td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">22</td>
-                            <td></td>
-                            <td className="align-middle">2</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">2</td>
-                            <td className="align-middle">3</td>
+                            <td className="align-middle">6</td>
                             <td></td>
                             <td className="align-middle">34</td>
+                            <td className="align-middle">4</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">114</td>
+                            
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">domingo 20 de Abril</th>
+                            <th scope="row" className="bg-danger">miércoles 12 de mayo</th>
                             <td></td>
                             <td></td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">4</td>
                             <td></td>
                             <td></td>
+                            <td className="align-middle">53</td>
                             <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <th scope="row" className="bg-danger">lunes 29 de Abril</th>
-                            <td></td>
-                            <td></td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">5</td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">3</td>
-                            <td className="align-middle">58</td>
-                            <td></td>
-                            <td className="align-middle">7</td>
-                            <td className="align-middle">7</td>
-                            <td></td>
-                            <td className="align-middle">1</td>
-                            <td className="align-middle">12</td>
                             <td className="align-middle">10</td>
+                            <td className="align-middle">7</td>
+                            <td className="align-middle">10</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">36</td>
+                            <td className="align-middle">8</td>
+                            <td className="align-middle">2</td>
                             <td className="align-middle">3</td>
+                            <td className="align-middle">136</td>
+                           
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">jueves 13 de mayo</th>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">42</td>
+                            <td></td>
+                            <td className="align-middle">9</td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">7</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">35</td>
+                            <td className="align-middle">5</td>
+                            <td></td>
                             <td></td>
                             <td className="align-middle">108</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">martes 30 de Abril</th>
-                            <td></td>
+                            <th scope="row" className="bg-danger">viernes 14 de mayo</th>
                             <td className="align-middle">1</td>
                             <td></td>
-                            <td className="align-middle">9</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">4</td>
                             <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">38</td>
                             <td></td>
-                            <td className="align-middle">57</td>
-                            <td></td>
-                            <td className="align-middle">15</td>
+                            <td className="align-middle">12</td>
+                            <td className="align-middle">4</td>
                             <td className="align-middle">5</td>
-                            <td></td>
                             <td className="align-middle">2</td>
-                            <td className="align-middle">9</td>
-                            <td className="align-middle">8</td>
+                            <td className="align-middle">34</td>
+                            <td className="align-middle">5</td>
+                            <td className="align-middle">1</td>
                             <td></td>
-                            <td></td>
-                            <td className="align-middle">106</td>
+                            <td className="align-middle">108</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">miercoles 31 de Abril</th>
+                            <th scope="row" className="bg-danger">sábado 15 de mayo</th>
+                            <td></td>
                             <td></td>
                             <td></td>
                             <td className="align-middle">1</td>
-                            <td className="align-middle">9</td>
                             <td></td>
                             <td></td>
-                            <td className="align-middle">34</td>
-                            <td></td>
-                            <td className="align-middle">7</td>
-                            <td className="align-middle">9</td>
+                            <td className="align-middle">13</td>
                             <td></td>
                             <td className="align-middle">3</td>
-                            <td className="align-middle">17</td>
-                            <td className="align-middle">19</td>
+                            <td></td>
+                            <td className="align-middle">6</td>
+                            <td></td>
                             <td className="align-middle">5</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td className="align-middle">30</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">domingo 16 de mayo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">lunes 17 de mayo</th>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">42</td>
+                            <td></td>
+                            <td className="align-middle">13</td>
+                            <td className="align-middle">5</td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">34</td>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">107</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">martes 18 de mayo</th>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td className="align-middle">4</td>
+                            <td className="align-middle">6</td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">54</td>
+                            <td></td>
+                            <td className="align-middle">8</td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">4</td>
+                            <td></td>
+                            <td className="align-middle">29</td>
+                            <td className="align-middle">5</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">117</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">miércoles 19 de mayo</th>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">52</td>
+                            <td></td>
+                            <td className="align-middle">16</td>
+                            <td className="align-middle">4</td>
+                            <td className="align-middle">5</td>
+                            <td className="align-middle">4</td>
+                            <td className="align-middle">32</td>
+                            <td className="align-middle">2</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">118</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">jueves 20 de mayo</th>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">4</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td className="align-middle">42</td>
+                            <td></td>
+                            <td className="align-middle">13</td>
+                            <td className="align-middle">4</td>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td className="align-middle">30</td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">2</td>
                             <td></td>
                             <td className="align-middle">104</td>
                         </tr>
                         <tr>
-                            <th scope="row" className="bg-danger">TOTAL</th>
+                            <th scope="row" className="bg-danger">viernes 21 de mayo</th>
+                            <td className="align-middle">1</td>
                             <td></td>
-                            <td className="align-middle">6</td>
-                            <td className="align-middle">28</td>
-                            <td className="align-middle">189</td>
-                            <td className="align-middle">3</td>
-                            <td className="align-middle">10</td>
-                            <td className="align-middle">2,276</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">5</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">32</td>
+                            <td></td>
+                            <td className="align-middle">12</td>
+                            <td className="align-middle">1</td>
                             <td className="align-middle">4</td>
-                            <td className="align-middle">212</td>
+                            <td></td>
+                            <td className="align-middle">26</td>
+                            <td className="align-middle">4</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">86</td>
+                        </tr>
+                       
+                        <tr>
+                            <th scope="row" className="bg-danger">sábado 22 de mayo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">7</td>
+                            <td></td>
+                            <td className="align-middle"> 2</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">5</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">15</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">domingo 23 de mayo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle"></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">lunes 24 de mayo</th>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">11</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">52</td>
+                            <td></td>
+                            <td className="align-middle">23</td>
+                            <td className="align-middle">6</td>
+                            <td className="align-middle">7</td>
+                            <td></td>
+                            <td className="align-middle">32</td>
+                            <td className="align-middle">6</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td className="align-middle">142</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">martes 25 de mayo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">8</td>
+                            <td className="align-middle">2</td>
+                            <td></td>
+                            <td className="align-middle">56</td>
+                            <td></td>
+                            <td className="align-middle">9</td>
+                            <td className="align-middle">9</td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">30</td>
+                            <td className="align-middle">5</td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">125</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">miércoles 26 de mayo</th>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">7</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td className="align-middle">40</td>
+                            <td></td>
+                            <td className="align-middle">15</td>
+                            <td className="align-middle">10</td>
+                            <td className="align-middle">9</td>
+                            <td></td>
+                            <td className="align-middle">31</td>
+                            <td className="align-middle">7</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">124</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">jueves 27 de mayo</th>
+                            <td className="align-middle">2</td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
                             <td className="align-middle">46</td>
                             <td></td>
+                            <td className="align-middle">9</td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">8</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">34</td>
+                            <td className="align-middle">7</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">117</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">viernes 28 de mayo</th>
+                            <td className="align-middle">2</td>
+                            <td></td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">32</td>
+                            <td></td>
+                            <td className="align-middle">12</td>
+                            <td className="align-middle">4</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">19</td>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">80</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">sábado 29 de mayo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">12</td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td></td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">1</td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">24</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">domingo 30 de mayo</th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <th scope="row" className="bg-danger">lunes 31 de mayo</th>
+                            <td className="align-middle">3</td>
+                            <td></td>
+                            <td className="align-middle">2</td>
+                            <td className="align-middle">6</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td className="align-middle">56</td>
+                            <td></td>
+                            <td className="align-middle">15</td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">1</td>
+                            <td></td>
+                            <td className="align-middle">29</td>
+                            <td className="align-middle">9</td>
+                            <td></td>
+                            <td></td>
+                            <td className="align-middle">129</td>
+                        </tr>
+                       
+                       
+                       
+                        
+                       
+                        <tr>
+                            <th scope="row" className="bg-danger">TOTAL</th>
+                            <td></td>
+                            <td className="align-middle">33</td>
+                            <td className="align-middle">3</td>
+                            <td className="align-middle">21</td>
+                            <td className="align-middle">124</td>
+                            <td className="align-middle">7</td>
+                            <td className="align-middle">6</td>
+                            <td className="align-middle">1,042</td>
+                            <td className="align-middle"></td>
+                            <td className="align-middle">250</td>
+                            <td className="align-middle">109</td>
                             <td className="align-middle">18</td>
-                            <td className="align-middle">347</td>
-                            <td className="align-middle">255</td>
-                            <td className="align-middle">54</td>
-                            <td className="align-middle">72 </td>
-                            <td className="align-middle text-danger" style={{ fontSize: "20px", }}><strong>3,520</strong></td>
+                            <td className="align-middle">120</td>
+                            <td className="align-middle">23</td>
+                            <td className="align-middle">0</td>
+                            <td className="align-middle">117 </td>
+                            <td className="align-middle">13 </td>
+                            <td className="align-middle">27 </td>
+                            <td className="align-middle text-danger" style={{ fontSize: "20px", }}><strong>2,623</strong></td>
                         </tr>
                     </tbody>
                 </table>
